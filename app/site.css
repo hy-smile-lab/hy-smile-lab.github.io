@@ -99,14 +99,15 @@ nav:hover .nav-group:not(:hover) .dropdown{opacity:0;visibility:hidden}
 .hero-band:before{content:'';position:absolute;inset:0;pointer-events:none;background-image:linear-gradient(#ffffff0d 1px,transparent 1px),linear-gradient(90deg,#ffffff0d 1px,transparent 1px);background-size:56px 56px;-webkit-mask-image:radial-gradient(ellipse at 70% 40%,#000,transparent 72%);mask-image:radial-gradient(ellipse at 70% 40%,#000,transparent 72%)}
 .hero{display:grid;grid-template-columns:1.05fr 1fr;gap:56px;align-items:center;padding-block:72px 84px;position:relative}
 .hero .eyebrow{color:var(--green);margin-bottom:26px}
-.slogan{font-size:var(--t-display);line-height:1.12;font-weight:800;color:#fff;letter-spacing:-.035em;font-style:italic;margin-bottom:40px}
+.slogan{font-size:var(--t-h1);line-height:1.2;font-weight:800;color:#e6eef5;letter-spacing:-.025em;font-style:italic;margin-bottom:40px}
 .slogan span{display:block;white-space:nowrap}
 .slogan mark{background:linear-gradient(transparent 62%,var(--green) 62%,var(--green) 92%,transparent 92%);color:#fff;padding:0 .08em}
 .slogan em{color:var(--orange);font-style:italic;position:relative}
 .slogan em:after{content:'';position:absolute;left:2%;right:8%;bottom:-.34em;height:.42em;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 30' preserveAspectRatio='none'%3E%3Cpath d='M6 8 Q14 4 18 10 Q60 40 102 10 Q106 4 114 8' fill='none' stroke='%23F7931E' stroke-width='6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") no-repeat center/100% 100%}
-.lab-id{border-left:3px solid var(--green);padding-left:18px;margin-bottom:36px}
-.lab-name{font-size:var(--t-h3);font-weight:500;color:#dbe6ef}
-.lab-name strong{color:#fff;font-weight:800;margin-right:8px}
+.lab-id{border-left:4px solid var(--green);padding-left:22px;margin-bottom:34px}
+.lab-name{display:grid;gap:6px;color:#fff;line-height:1.1}
+.lab-name strong{font-size:var(--t-display);font-weight:800;letter-spacing:-.03em}
+.lab-name span{font-size:var(--t-h1);font-weight:700;color:#dbe6ef;letter-spacing:-.02em}
 .lab-en{font-size:var(--t-small);color:#a9bccd;margin-top:4px}
 .lab-en b{color:var(--green)}
 .hero-art{border-radius:24px;overflow:hidden;box-shadow:0 0 0 1px #ffffff26,0 50px 90px -40px #000c;background:#f6faec}
@@ -457,7 +458,7 @@ footer{background:var(--blue-deep);color:#c9d6e2}
   .book{grid-template-columns:1fr;justify-items:center;padding:40px 24px}
 }
 @media(max-width:640px){
-  .slogan{font-size:clamp(28px,8.6vw,40px)}
+  .slogan{font-size:clamp(22px,6.4vw,30px)}
   .stat-number{font-size:clamp(38px,11vw,52px)}
   .stat-tile .stat-label{font-size:var(--t-body)}
   .stat-tile{padding:28px 12px 24px}

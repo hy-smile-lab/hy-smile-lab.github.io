@@ -48,14 +48,14 @@ function Home({navigate}: {navigate: (p: string) => void}) {
         <section className="hero wrap">
           <div className="hero-copy">
             <p className="eyebrow">HANYANG UNIVERSITY · ERICA</p>
-            <h1 className="slogan" aria-label="Remember HY-SMILE every time you smile!">
-              <span>Remember <mark>HY-SMILE</mark></span>
-              <span>every time you <em>smile!</em></span>
-            </h1>
             <div className="lab-id">
-              <p className="lab-name"><strong>HY-SMILE</strong> 스마트 모빌리티 안전 연구실</p>
+              <h1 className="lab-name"><strong>HY-SMILE</strong><span>스마트 모빌리티 안전 연구실</span></h1>
               <p className="lab-en"><b>H</b>anyang <b>S</b>mart &amp; Safe <b>M</b>obility <b>I</b>nnovation <b>L</b>aboratory at <b>E</b>RICA</p>
             </div>
+            <p className="slogan" aria-label="Remember HY-SMILE every time you smile!">
+              <span>Remember <mark>HY-SMILE</mark></span>
+              <span>every time you <em>smile!</em></span>
+            </p>
             <button className="btn light" onClick={() => navigate('연구 분야')}>우리의 연구 살펴보기 ↗</button>
           </div>
           <div className="hero-art"><Network /></div>
