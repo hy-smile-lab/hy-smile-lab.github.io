@@ -1,0 +1,33 @@
+{
+  "note": "exclude: 홈페이지에서 숨길 실적 제목. add: 엑셀에 아직 없는 실적을 직접 추가(엑셀에 같은 제목이 생기면 엑셀 내용이 우선).",
+  "exclude": [
+    "2024 KOTAA Travel Grant Award",
+    "2023 Best young researcher paper award road user measurement and evaluation"
+  ],
+  "add": [
+    {
+      "id": "achievement-0-154",
+      "kind": "국내논문",
+      "title": "심리적 안전마진(Psychological Safety Margin) 기반 혼합교통류 비신호교차로 자율주행전략 설계 연구",
+      "date": "2026.08",
+      "year": "2026",
+      "authors": "이채원, 이호윤, 최원명, 오철",
+      "venue": "한국ITS학회논문지",
+      "fields": [
+        {
+          "label": "APA 서지정보",
+          "value": "Lee, C., Lee, H., Cui, Y., & Oh, C. (2026). Design of Autonomous Driving Strategies at Unsignalized Intersections in Mixed Traffic Based on Psychological Safety Margin. The Journal of The Korea Institute of Intelligent Transport Systems, 25(4). https://doi.org/10.12815/kits.2026.25.4.1"
+        }
+      ],
+      "source": {
+        "sheet": "1-1. 논문(국내)",
+        "rows": [],
+        "range": "수동 추가"
+      },
+      "paperLink": {
+        "url": "https://doi.org/10.12815/kits.2026.25.4.1",
+        "type": "doi"
+      }
+    }
+  ]
+}

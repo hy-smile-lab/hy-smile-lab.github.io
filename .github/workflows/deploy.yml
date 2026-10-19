@@ -1,19 +1,23 @@
-# main 브랜치에 변경이 올라오면 자동으로 빌드해 GitHub Pages에 배포
+# 홈페이지 자동 배포
+# - main에 변경이 올라올 때, 6시간마다, 또는 Actions 탭에서 수동 실행 시
+# - 공유드라이브(실적 엑셀·사진 앨범)를 먼저 동기화하고, 바뀐 자료가 있으면 저장소에 기록한 뒤 빌드·배포
 name: Deploy to GitHub Pages
 
 on:
   push:
     branches: [main]
+  schedule:
+    - cron: '0 */6 * * *'
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -24,12 +28,25 @@ jobs:
         with:
           node-version: 22
           cache: npm
+      - run: npm ci
+      - name: 공유드라이브 동기화
+        env:
+          GDRIVE_SA_KEY: ${{ secrets.GDRIVE_SA_KEY }}
+          DRIVE_FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
+        run: node scripts/sync-drive.mjs
+      - name: 바뀐 자료 저장소에 기록
+        run: |
+          if [ -n "$(git status --porcelain public)" ]; then
+            git config user.name "HY-SMILE 자동 동기화"
+            git config user.email "noreply@hanyang.ac.kr"
+            git add public
+            git commit -m "공유드라이브 자료 자동 반영"
+            git push
+          fi
       - name: 배포 경로 결정
         run: |
           REPO="${GITHUB_REPOSITORY#*/}"
-          # 개인 도메인(public/CNAME) 또는 <계정>.github.io 저장소면 루트, 아니면 /저장소이름
           if [ -f public/CNAME ] || [[ "$REPO" == *.github.io ]]; then echo "NEXT_PUBLIC_BASE_PATH=" >> $GITHUB_ENV; else echo "NEXT_PUBLIC_BASE_PATH=/$REPO" >> $GITHUB_ENV; fi
-      - run: npm ci
       - run: npm run build
         env:
           NEXT_TELEMETRY_DISABLED: 1
