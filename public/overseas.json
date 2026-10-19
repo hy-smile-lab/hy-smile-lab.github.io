@@ -1,0 +1,476 @@
+{
+  "note": "국외 학술대회 참가(conference)·해외 기관 교류(exchange) 지도 데이터. photo(또는 album: albums.json 앨범 id)가 있으면 사진 카드로 표시. 카드 자리(20개)를 넘으면 최근 연도부터 표시.",
+  "places": [
+    {
+      "id": "istanbul",
+      "city": "Istanbul",
+      "country": "TR",
+      "lon": 28.98,
+      "lat": 41.01,
+      "type": "conference",
+      "events": [
+        {
+          "name": "ITS European Congress",
+          "year": "2026"
+        }
+      ],
+      "photo": "/assets/conferences/istanbul-2026.webp"
+    },
+    {
+      "id": "dc",
+      "city": "Washington, D.C.",
+      "country": "US",
+      "lon": -77.04,
+      "lat": 38.9,
+      "type": "conference",
+      "events": [
+        {
+          "name": "TRB Annual Meeting",
+          "year": "2007–2026"
+        }
+      ],
+      "album": "legacy-album-186",
+      "photo": "/assets/conferences/trb-2026.webp"
+    },
+    {
+      "id": "anchorage",
+      "city": "Anchorage, Alaska",
+      "country": "US",
+      "lon": -149.9,
+      "lat": 61.2,
+      "type": "conference",
+      "events": [
+        {
+          "name": "IEEE Intelligent Vehicles Symposium",
+          "year": "2023"
+        }
+      ],
+      "album": "legacy-album-168"
+    },
+    {
+      "id": "la",
+      "city": "Los Angeles",
+      "country": "US",
+      "lon": -118.24,
+      "lat": 34.05,
+      "type": "conference",
+      "events": [
+        {
+          "name": "ITS World Congress",
+          "year": "2022"
+        }
+      ],
+      "album": "legacy-album-156"
+    },
+    {
+      "id": "vegas",
+      "city": "Las Vegas",
+      "country": "US",
+      "lon": -115.14,
+      "lat": 36.17,
+      "type": "conference",
+      "events": [
+        {
+          "name": "CES",
+          "year": "2020"
+        }
+      ],
+      "album": "legacy-album-131"
+    },
+    {
+      "id": "sandiego",
+      "city": "San Diego",
+      "country": "US",
+      "lon": -117.16,
+      "lat": 32.72,
+      "type": "conference",
+      "events": [
+        {
+          "name": "TRB ARTS",
+          "year": "2024"
+        }
+      ],
+      "album": "legacy-album-181"
+    },
+    {
+      "id": "sf",
+      "city": "San Francisco",
+      "country": "US",
+      "lon": -122.42,
+      "lat": 37.77,
+      "type": "conference",
+      "events": [
+        {
+          "name": "Automated Vehicles Symposium",
+          "year": "2017"
+        }
+      ]
+    },
+    {
+      "id": "montreal",
+      "city": "Montréal",
+      "country": "CA",
+      "lon": -73.57,
+      "lat": 45.5,
+      "type": "conference",
+      "events": [
+        {
+          "name": "ITS World Congress",
+          "year": "2017"
+        }
+      ],
+      "album": "legacy-album-99"
+    },
+    {
+      "id": "chicago",
+      "city": "Illinois",
+      "country": "US",
+      "lon": -87.63,
+      "lat": 41.88,
+      "type": "conference",
+      "events": [
+        {
+          "name": "US-Korea Conference (UKC)",
+          "year": "2019"
+        }
+      ],
+      "album": "legacy-album-119"
+    },
+    {
+      "id": "detroit",
+      "city": "Detroit",
+      "country": "US",
+      "lon": -83.05,
+      "lat": 42.33,
+      "type": "conference",
+      "events": [
+        {
+          "name": "ITS World Congress",
+          "year": "2014"
+        }
+      ]
+    },
+    {
+      "id": "njit",
+      "city": "Newark, New Jersey",
+      "country": "US",
+      "lon": -74.17,
+      "lat": 40.74,
+      "type": "exchange",
+      "events": [
+        {
+          "name": "New Jersey Institute of Technology",
+          "year": "2024"
+        }
+      ],
+      "album": "legacy-album-176"
+    },
+    {
+      "id": "wmu",
+      "city": "Kalamazoo, Michigan",
+      "country": "US",
+      "lon": -85.59,
+      "lat": 42.29,
+      "type": "exchange",
+      "events": [
+        {
+          "name": "Western Michigan University",
+          "year": "2014"
+        }
+      ]
+    },
+    {
+      "id": "quito",
+      "city": "Ecuador",
+      "country": "EC",
+      "lon": -78.47,
+      "lat": -0.18,
+      "type": "exchange",
+      "events": [
+        {
+          "name": "에콰도르 기관 교류",
+          "year": "2019"
+        }
+      ]
+    },
+    {
+      "id": "reykjavik",
+      "city": "Reykjavík",
+      "country": "IS",
+      "lon": -21.94,
+      "lat": 64.15,
+      "type": "exchange",
+      "events": [
+        {
+          "name": "University of Iceland",
+          "year": "2018"
+        }
+      ]
+    },
+    {
+      "id": "bordeaux",
+      "city": "Bordeaux",
+      "country": "FR",
+      "lon": -0.58,
+      "lat": 44.84,
+      "type": "conference",
+      "events": [
+        {
+          "name": "ITS World Congress",
+          "year": "2015"
+        }
+      ],
+      "album": "legacy-album-85"
+    },
+    {
+      "id": "amsterdam",
+      "city": "Amsterdam",
+      "country": "NL",
+      "lon": 4.9,
+      "lat": 52.37,
+      "type": "conference",
+      "events": [
+        {
+          "name": "Intertraffic Amsterdam",
+          "year": "2016"
+        }
+      ],
+      "album": "legacy-album-91"
+    },
+    {
+      "id": "copenhagen",
+      "city": "Copenhagen",
+      "country": "DK",
+      "lon": 12.57,
+      "lat": 55.68,
+      "type": "conference",
+      "events": [
+        {
+          "name": "ITS World Congress",
+          "year": "2018"
+        }
+      ],
+      "album": "legacy-album-110"
+    },
+    {
+      "id": "vienna",
+      "city": "Vienna",
+      "country": "AT",
+      "lon": 16.37,
+      "lat": 48.21,
+      "type": "conference",
+      "events": [
+        {
+          "name": "Transport Research Arena",
+          "year": "2018"
+        }
+      ],
+      "album": "legacy-album-106"
+    },
+    {
+      "id": "cluj",
+      "city": "Cluj-Napoca",
+      "country": "RO",
+      "lon": 23.6,
+      "lat": 46.77,
+      "type": "conference",
+      "events": [
+        {
+          "name": "IEEE Intelligent Vehicles Symposium",
+          "year": "2025"
+        }
+      ],
+      "photo": "/assets/conferences/iv-2025.webp"
+    },
+    {
+      "id": "athens",
+      "city": "Athens",
+      "country": "GR",
+      "lon": 23.73,
+      "lat": 37.98,
+      "type": "conference",
+      "events": [
+        {
+          "name": "AATT Conference",
+          "year": "2008"
+        }
+      ]
+    },
+    {
+      "id": "dubai",
+      "city": "Dubai",
+      "country": "AE",
+      "lon": 55.27,
+      "lat": 25.2,
+      "type": "conference",
+      "events": [
+        {
+          "name": "ITS World Congress",
+          "year": "2024"
+        }
+      ],
+      "album": "legacy-album-182"
+    },
+    {
+      "id": "tashkent",
+      "city": "Tashkent",
+      "country": "UZ",
+      "lon": 69.24,
+      "lat": 41.3,
+      "type": "exchange",
+      "events": [
+        {
+          "name": "Tashkent Institute of Automotive Roads",
+          "year": "2019"
+        }
+      ],
+      "album": "legacy-album-121"
+    },
+    {
+      "id": "singapore",
+      "city": "Singapore",
+      "country": "SG",
+      "lon": 103.82,
+      "lat": 1.35,
+      "type": "conference",
+      "events": [
+        {
+          "name": "ITS World Congress",
+          "year": "2019"
+        }
+      ],
+      "album": "legacy-album-120"
+    },
+    {
+      "id": "hcmc",
+      "city": "Ho Chi Minh City",
+      "country": "VN",
+      "lon": 106.63,
+      "lat": 10.82,
+      "type": "conference",
+      "events": [
+        {
+          "name": "EASTS Conference",
+          "year": "2017"
+        }
+      ],
+      "album": "legacy-album-98"
+    },
+    {
+      "id": "bandung",
+      "city": "Bandung",
+      "country": "ID",
+      "lon": 107.6,
+      "lat": -6.9,
+      "type": "exchange",
+      "events": [
+        {
+          "name": "Road Research Institute",
+          "year": "2015"
+        }
+      ]
+    },
+    {
+      "id": "cebu",
+      "city": "Cebu",
+      "country": "PH",
+      "lon": 123.89,
+      "lat": 10.32,
+      "type": "conference",
+      "events": [
+        {
+          "name": "EASTS Conference",
+          "year": "2015"
+        }
+      ]
+    },
+    {
+      "id": "taipei",
+      "city": "Taipei",
+      "country": "TW",
+      "lon": 121.56,
+      "lat": 25.03,
+      "type": "conference",
+      "events": [
+        {
+          "name": "EASTS Conference",
+          "year": "2013"
+        }
+      ],
+      "album": "legacy-album-60"
+    },
+    {
+      "id": "shanghai",
+      "city": "Shanghai",
+      "country": "CN",
+      "lon": 121.47,
+      "lat": 31.23,
+      "type": "conference",
+      "events": [
+        {
+          "name": "WCTR",
+          "year": "2016"
+        }
+      ]
+    },
+    {
+      "id": "tokyo",
+      "city": "Tokyo",
+      "country": "JP",
+      "lon": 139.7,
+      "lat": 35.7,
+      "type": "conference",
+      "events": [
+        {
+          "name": "ITS World Congress",
+          "year": "2013"
+        }
+      ],
+      "album": "legacy-album-48"
+    },
+    {
+      "id": "sapporo",
+      "city": "Sapporo",
+      "country": "JP",
+      "lon": 141.35,
+      "lat": 43.06,
+      "type": "exchange",
+      "events": [
+        {
+          "name": "Hokkaido University",
+          "year": "2014"
+        }
+      ]
+    },
+    {
+      "id": "melbourne",
+      "city": "Melbourne",
+      "country": "AU",
+      "lon": 144.96,
+      "lat": -37.8,
+      "type": "conference",
+      "events": [
+        {
+          "name": "ITS World Congress",
+          "year": "2016"
+        }
+      ],
+      "album": "legacy-album-92"
+    },
+    {
+      "id": "goldcoast",
+      "city": "Gold Coast",
+      "country": "AU",
+      "lon": 153.43,
+      "lat": -28.0,
+      "type": "conference",
+      "events": [
+        {
+          "name": "IEEE ITSC",
+          "year": "2025"
+        }
+      ],
+      "photo": "/assets/conferences/itsc-2025.webp"
+    }
+  ]
+}

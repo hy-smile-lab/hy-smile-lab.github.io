@@ -1,0 +1,61 @@
+{
+  "intro": "HY-SMILE은 교통안전, C-ITS, 교통운영, 자율주행 네 분야에서 사람 중심의 안전한 교통·물류시스템을 연구합니다.",
+  "areas": [
+    {
+      "id": "traffic-safety",
+      "title": "교통안전",
+      "english": "Traffic Safety",
+      "tone": "blue",
+      "items": [
+        "교통안전실태조사·도로안전진단",
+        "교통안전 효과분석, 안전성 평가기술",
+        "교통사고분석, 교통사고모형 개발",
+        "교통안전평가 지표개발",
+        "수단별 안전성 평가(보행자 등)",
+        "위험운전이벤트 검지기술"
+      ]
+    },
+    {
+      "id": "c-its",
+      "title": "C-ITS",
+      "english": "Cooperative-Intelligent Transport Systems",
+      "tone": "orange",
+      "items": [
+        "교통정보 통합 모니터링",
+        "경고정보 설계 및 제공방안",
+        "교통정보서비스 개발 및 평가",
+        "교통데이터 품질평가 방안",
+        "스마트톨링 설계·적용방안",
+        "C-ITS 시뮬레이션 체계 설계"
+      ]
+    },
+    {
+      "id": "traffic-management",
+      "title": "교통운영",
+      "english": "Traffic Management",
+      "tone": "green",
+      "items": [
+        "교통류관리전략 개발",
+        "교통약자·교통정온화기법",
+        "공사구간 교통제어 기술",
+        "스마트기반 혼잡관리",
+        "교통시설·교통운영 개선방안",
+        "이상기후 시 교통특성 분석"
+      ]
+    },
+    {
+      "id": "automated-driving",
+      "title": "자율주행",
+      "english": "Automated Driving Systems",
+      "tone": "gold",
+      "items": [
+        "자율협력주행 교통분석기술",
+        "첨단차 안전성 평가기술",
+        "자율주행 효과평가 지표개발",
+        "자율주행 제어·도로시스템 설계",
+        "첨단차·첨단안전장치 효과분석",
+        "자율주행 기반 대중교통 평가지표"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,405 @@
+{
+  "updated": "2026-10-15",
+  "organizations": [
+    {
+      "id": "hanyang",
+      "name": "한양대학교",
+      "url": "https://www.hanyang.ac.kr/home",
+      "logo": "/organizations/hanyang.png",
+      "logoSource": "https://www.hanyang.ac.kr/documents/20124/227675532/new_logo_ko_sub.png",
+      "dark": false,
+      "wordmark": "한양대학교",
+      "category": "대학",
+      "matches": [
+        "한양대학교"
+      ],
+      "featured": true,
+      "logoWordmark": "",
+      "monochrome": false,
+      "searched": "한양대학교 로고",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "kict",
+      "name": "한국건설기술연구원",
+      "url": "https://www.kict.re.kr/",
+      "logo": "/organizations/kict-ci-color.svg",
+      "logoSource": "https://www.kict.re.kr/boardDownload.es?bid=link&list_no=10762&seq=1",
+      "dark": false,
+      "wordmark": "한국건설기술연구원",
+      "category": "연구·공공",
+      "matches": [
+        "한국건설기술연구원"
+      ],
+      "featured": true,
+      "logoWordmark": "",
+      "monochrome": false,
+      "searched": "한국건설기술연구원 로고",
+      "verified": "2026-10-15",
+      "processing": "공식 CI AI 원본의 컬러 가로형을 SVG로 변환. 원본 도형·색상 유지, 투명 배경."
+    },
+    {
+      "id": "kotsa",
+      "name": "한국교통안전공단",
+      "url": "https://main.kotsa.or.kr/main.do",
+      "logo": "/organizations/kotsa-official.svg",
+      "logoSource": "https://main.kotsa.or.kr/web/images/common/logo.svg",
+      "dark": false,
+      "wordmark": "TS 한국교통안전공단",
+      "category": "연구·공공",
+      "matches": [
+        "한국교통안전공단"
+      ],
+      "featured": false,
+      "logoWordmark": "",
+      "monochrome": false,
+      "searched": "한국교통안전공단 로고",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "koti",
+      "name": "한국교통연구원",
+      "url": "https://www.koti.re.kr/index.do",
+      "logo": "/organizations/koti.png",
+      "logoSource": "https://www.koti.re.kr/res/img/logo_b.png",
+      "dark": false,
+      "wordmark": "한국교통연구원",
+      "category": "연구·공공",
+      "matches": [
+        "한국교통연구원"
+      ],
+      "featured": true,
+      "logoWordmark": "",
+      "monochrome": false,
+      "searched": "한국교통연구원 로고",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "krri",
+      "name": "한국철도기술연구원",
+      "url": "https://www.krri.re.kr/web/main/index.do",
+      "logo": "/organizations/krri-official.png",
+      "logoSource": "https://www.krri.re.kr/cubersc/templete/web/src/img/common/logo_on.png",
+      "dark": false,
+      "wordmark": "한국철도기술연구원",
+      "category": "연구·공공",
+      "matches": [
+        "한국철도기술연구원"
+      ],
+      "featured": false,
+      "logoWordmark": "",
+      "monochrome": false,
+      "searched": "한국철도기술연구원 로고",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "koroad",
+      "name": "한국도로교통공단",
+      "url": "https://www.koroad.or.kr/",
+      "logo": "/organizations/koroad.png",
+      "logoSource": "https://www.koroad.or.kr/static/img/main/landing_logo.png",
+      "dark": false,
+      "wordmark": "한국도로교통공단",
+      "category": "연구·공공",
+      "matches": [
+        "한국도로교통공단"
+      ],
+      "featured": true,
+      "logoWordmark": "",
+      "monochrome": false,
+      "searched": "한국도로교통공단 로고",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "ex",
+      "name": "한국도로공사 도로교통연구원",
+      "url": "https://www.ex.co.kr/",
+      "logo": "/organizations/ex.png",
+      "logoSource": "https://www.ex.co.kr/images/site/new_portal/logo_black.png",
+      "dark": false,
+      "wordmark": "한국도로공사 도로교통연구원",
+      "category": "연구·공공",
+      "matches": [
+        "한국도로공사"
+      ],
+      "featured": false,
+      "logoWordmark": "",
+      "monochrome": false,
+      "searched": "한국도로공사 도로교통연구원 로고",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "samsung",
+      "name": "삼성화재",
+      "url": "https://www.samsungfire.com/",
+      "logo": "/organizations/samsung-official.svg",
+      "logoSource": "https://www.samsungfire.com/v2/resources/images/common/logo-text.svg",
+      "dark": false,
+      "wordmark": "삼성화재",
+      "category": "기업·산업",
+      "matches": [
+        "삼성화재"
+      ],
+      "featured": true,
+      "logoWordmark": "",
+      "monochrome": false,
+      "searched": "삼성화재 로고",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "chungbuk",
+      "name": "충북대학교",
+      "url": "https://www.cbnu.ac.kr/www/index.do",
+      "logo": "/organizations/chungbuk.png",
+      "logoSource": "https://www.cbnu.ac.kr/common/images/layout/logo.png",
+      "dark": false,
+      "wordmark": "충북대학교",
+      "category": "대학",
+      "matches": [
+        "충북대학교"
+      ],
+      "featured": false,
+      "logoWordmark": "",
+      "monochrome": false,
+      "searched": "충북대학교 로고",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "lotte",
+      "name": "롯데렌탈",
+      "url": "https://www.lotterental.com/homepage/html/web/index/index.html",
+      "logo": "/organizations/lotte.gif",
+      "logoSource": "https://www.lotterental.com/homepage/resource/images/web/common/foot_logo.gif",
+      "dark": false,
+      "wordmark": "롯데렌탈",
+      "category": "기업·산업",
+      "matches": [
+        "롯데렌탈"
+      ],
+      "featured": false,
+      "logoWordmark": "",
+      "monochrome": false,
+      "searched": "롯데렌탈 로고",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "calepa",
+      "name": "California Environmental Protection Agency",
+      "url": "https://calepa.ca.gov/",
+      "logo": "/organizations/calepa-official.svg",
+      "logoSource": "https://upload.wikimedia.org/wikipedia/commons/c/c0/California_EPA_Logo.svg",
+      "dark": false,
+      "wordmark": "CalEPA",
+      "category": "연구·공공",
+      "matches": [
+        "California Environmental Protection Agency"
+      ],
+      "featured": false,
+      "logoWordmark": "",
+      "monochrome": false,
+      "searched": "California Environmental Protection Agency 로고",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "sk",
+      "name": "SK AX (구 SK C&C)",
+      "url": "https://www.skax.co.kr/",
+      "logo": "/organizations/sk.svg",
+      "logoSource": "https://www.skax.co.kr/wp-content/uploads/logo-1.svg",
+      "dark": false,
+      "wordmark": "SK AX",
+      "category": "기업·산업",
+      "matches": [
+        "SK CNC",
+        "SK C&C",
+        "SK AX"
+      ],
+      "featured": false,
+      "logoWordmark": "",
+      "monochrome": false,
+      "searched": "SK AX (구 SK C&C) 로고",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "cheri",
+      "name": "청주시정연구원",
+      "url": "https://www.cheri.re.kr/home/main.php",
+      "logo": "/organizations/cheri-top.png",
+      "logoSource": "https://www.cheri.re.kr/home/imgs/contents/ci_logo3.png",
+      "dark": false,
+      "wordmark": "청주시정연구원",
+      "category": "연구·공공",
+      "matches": [
+        "청주시정연구원"
+      ],
+      "featured": false,
+      "logoWordmark": "",
+      "monochrome": false,
+      "searched": "청주시정연구원 로고",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "hi",
+      "name": "화성시연구원",
+      "url": "https://hi.re.kr/",
+      "logo": "/organizations/hi-official.png",
+      "logoSource": "https://hi.re.kr/assets/logo-D8Z3U0hJ.png",
+      "dark": false,
+      "wordmark": "화성시연구원",
+      "category": "연구·공공",
+      "matches": [
+        "화성시연구원"
+      ],
+      "featured": false,
+      "logoWordmark": "",
+      "monochrome": false,
+      "searched": "화성시연구원 로고",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "kcl",
+      "name": "한국건설생활환경시험연구원",
+      "url": "https://www.kcl.re.kr/site/main/index001.do",
+      "logo": "/organizations/kcl.svg",
+      "logoSource": "https://www.kcl.re.kr/resources/default/images/common/logo_2026.svg",
+      "dark": false,
+      "wordmark": "한국건설생활환경시험연구원",
+      "category": "연구·공공",
+      "matches": [
+        "한국건설생활환경시험연구원"
+      ],
+      "featured": false,
+      "logoWordmark": "",
+      "monochrome": false,
+      "searched": "한국건설생활환경시험연구원 로고",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "si",
+      "name": "서울연구원",
+      "url": "https://www.si.re.kr/index.do",
+      "logo": "/organizations/si.png",
+      "logoSource": "https://www.si.re.kr/resource/www/img/layout/logo.png",
+      "dark": false,
+      "wordmark": "서울연구원",
+      "category": "연구·공공",
+      "matches": [
+        "서울연구원"
+      ],
+      "featured": false,
+      "logoWordmark": "",
+      "monochrome": false,
+      "searched": "서울연구원 로고",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "kriti",
+      "name": "한국운수산업연구원",
+      "url": "https://www.kriti.re.kr/main/main.php",
+      "logo": "/organizations/kriti.svg",
+      "logoSource": "https://www.kriti.re.kr/images/inc/logo.svg",
+      "dark": false,
+      "wordmark": "한국운수산업연구원",
+      "category": "연구·공공",
+      "matches": [
+        "한국운수산업연구원"
+      ],
+      "featured": false,
+      "logoWordmark": "",
+      "monochrome": false,
+      "searched": "한국운수산업연구원 로고",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "lg",
+      "name": "LG전자",
+      "url": "https://www.lge.co.kr/home",
+      "logo": "/organizations/lg.png",
+      "logoSource": "https://www.lge.co.kr/kr/images/nextjs/lg_logo_213x56.png",
+      "dark": false,
+      "wordmark": "LG전자",
+      "category": "기업·산업",
+      "matches": [
+        "LG전자"
+      ],
+      "featured": true,
+      "logoWordmark": "",
+      "monochrome": false,
+      "searched": "LG전자 로고",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "hyst",
+      "name": "하이스트시스템매틱스",
+      "url": "http://hystsystems.com/",
+      "logo": "/organizations/hyst-dark.png",
+      "logoSource": "http://hystsystems.com/wp-content/uploads/2024/08/cropped-%EA%B7%B8%EB%A6%BC4-142x36.png",
+      "dark": false,
+      "wordmark": "하이스트시스템매틱스",
+      "category": "기업·산업",
+      "matches": [
+        "하이스트시스템매틱스"
+      ],
+      "featured": false,
+      "logoWordmark": "",
+      "monochrome": true,
+      "searched": "하이스트시스템매틱스 로고",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "kunhwa",
+      "name": "건화",
+      "url": "https://www.kunhwaeng.co.kr/",
+      "logo": "/organizations/kunhwa.png",
+      "logoSource": "https://www.kunhwaeng.co.kr/wp-content/uploads/2021/05/logo-kunhwa-header-gray-en-2.png",
+      "dark": false,
+      "wordmark": "건화",
+      "category": "기업·산업",
+      "matches": [
+        "건화"
+      ],
+      "featured": false,
+      "logoWordmark": "",
+      "monochrome": false,
+      "searched": "건화 로고",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "aict",
+      "name": "차세대융합기술연구원",
+      "url": "https://aict.snu.ac.kr/kor.do",
+      "logo": "/organizations/aict.svg",
+      "logoSource": "https://aict.snu.ac.kr/images/kor/common/logo.svg",
+      "dark": false,
+      "wordmark": "차세대융합기술연구원",
+      "category": "연구·공공",
+      "matches": [
+        "차세대융합기술연구원"
+      ],
+      "featured": true,
+      "logoWordmark": "",
+      "monochrome": false,
+      "searched": "차세대융합기술연구원 로고",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "atela",
+      "name": "아텔라(주)",
+      "url": "https://www.atelalabs.com/",
+      "logo": "/organizations/atela-transparent.svg",
+      "logoSource": "https://www.atelalabs.com/icon.svg?icon.0d613784.svg",
+      "dark": false,
+      "wordmark": "ATELA LABS",
+      "category": "기업·산업",
+      "matches": [
+        "아텔라"
+      ],
+      "featured": true,
+      "logoWordmark": "",
+      "monochrome": false,
+      "searched": "아텔라(주) 로고",
+      "verified": "2026-10-15",
+      "processing": "공식 SVG 아이콘의 배경 사각형 제거, 글자 도형을 브랜드 남색으로 표시"
+    }
+  ]
+}

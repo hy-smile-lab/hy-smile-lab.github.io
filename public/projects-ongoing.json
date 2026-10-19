@@ -1,0 +1,79 @@
+{
+  "note": "수행 중인 과제. scene: 연구 장면 애니메이션 번호(0 공유차, 1 도로 인프라, 2 운전능력 평가, 3 협력주행). replaces: 완료 목록에서 제외할 기존 실적 id",
+  "items": [
+    {
+      "id": "ongoing-car-sharing",
+      "title": "자율주행 Lv.4/4+ 공유차(Car-Sharing) 서비스 기술 개발",
+      "org": "국토교통과학기술진흥원",
+      "fund": "정부지원연구",
+      "type": "RND",
+      "start": "2026.01",
+      "scene": 0,
+      "english": "Shared Autonomous Mobility",
+      "summary": "이용자가 느끼는 자율주행 스트레스를 이해하고, 더 편안하고 안전한 공유차 서비스를 연구합니다.",
+      "tags": [
+        "공유 자율주행차",
+        "이용자 경험",
+        "스트레스 예측"
+      ]
+    },
+    {
+      "id": "ongoing-road-infra",
+      "title": "자율협력주행을 위한 도로 인프라 안전성 평가 기술 개발",
+      "subtitle": "본: 자율협력주행을 위한 미래도로 설계 및 실증 기술 개발",
+      "org": "국토교통과학기술진흥원",
+      "fund": "정부지원연구",
+      "type": "RND",
+      "start": "2026.01",
+      "scene": 1,
+      "english": "Next-generation Road Infrastructure",
+      "summary": "자율주행차가 도로를 안전하게 이해하고 주행할 수 있도록 도로 인프라의 안전성을 평가합니다.",
+      "tags": [
+        "도로 인프라",
+        "ODD",
+        "안전성 평가"
+      ]
+    },
+    {
+      "id": "ongoing-driving-ability",
+      "title": "실도로 기반 Lv.4 자율주행차량 운전능력 평가기술 개발",
+      "org": "도로교통공단",
+      "fund": "정부지원연구",
+      "type": "RND",
+      "start": "2026.01",
+      "scene": 2,
+      "english": "Autonomous Driving Performance",
+      "summary": "차량의 주행 성능과 탑승자의 반응을 함께 살펴, 사람 중심의 자율주행 운전 능력을 평가합니다.",
+      "tags": [
+        "휴먼팩터",
+        "주행 시뮬레이션",
+        "운전 능력"
+      ]
+    },
+    {
+      "id": "ongoing-cooperative",
+      "title": "자율차-인프라 협력주행 방법론 연구용역",
+      "org": "한국도로공사 스마트도로연구단",
+      "fund": "정부지원연구",
+      "type": "용역",
+      "start": "2026.01",
+      "scene": 3,
+      "english": "Cooperative Driving Services",
+      "summary": "차량과 도로 인프라가 정보를 주고받는 협력주행 방법론을 연구하고, 새로운 안전 서비스를 모색합니다.",
+      "tags": [
+        "차량–인프라 협력",
+        "연결형 교통",
+        "안전 서비스"
+      ],
+      "replaces": "achievement-2-142"
+    },
+    {
+      "id": "ongoing-traffic-culture",
+      "title": "2026년 교통문화지수 실태조사 및 개선연구 용역",
+      "org": "한국교통안전공단",
+      "fund": "정부지원연구",
+      "type": "용역",
+      "start": "2026.01"
+    }
+  ]
+}

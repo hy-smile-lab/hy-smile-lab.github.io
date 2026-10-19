@@ -1,0 +1,674 @@
+{
+  "version": 1,
+  "updated": "2026-10-15",
+  "note": "공식 출판사·발행 학회 공개 자료 기반. 지표연도 미표시는 확인일과 구분하며, 현행 값은 논문 발표연도 당시 값이 아닙니다.",
+  "journals": [
+    {
+      "name": "Sustainability",
+      "aliases": [],
+      "indexes": [
+        "SCIE",
+        "SSCI"
+      ],
+      "impactFactor": 4.1,
+      "metricYear": 2025,
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "label": "출판사 저널 정보",
+          "url": "https://www.mdpi.com/journal/sustainability/imprint"
+        },
+        {
+          "label": "출판사 색인 안내",
+          "url": "https://www.mdpi.com/journal/sustainability/special_issue_flyer_pdf_v2/transition_online"
+        },
+        {
+          "label": "JCR 2025 색인 목록 (UEFISCDI 공개·2026년 6월판)",
+          "url": "https://uefiscdi.gov.ro/resource-832705-AIS.JCR2025.iunie2026.xlsx"
+        }
+      ],
+      "note": "색인 구분은 2026년 6월 공개된 JCR 2025 목록 기준입니다. 실시간 Master Journal List의 상태와 다를 수 있습니다.",
+      "indexNote": "",
+      "indexYear": 2025
+    },
+    {
+      "name": "Applied Sciences",
+      "aliases": [],
+      "indexes": [
+        "SCIE"
+      ],
+      "impactFactor": 2.9,
+      "metricYear": 2025,
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "label": "출판사 저널 정보",
+          "url": "https://www.mdpi.com/journal/applsci/imprint"
+        }
+      ],
+      "note": "",
+      "indexNote": "색인 미확인"
+    },
+    {
+      "name": "Computers, Materials and Continua",
+      "aliases": [],
+      "indexes": [
+        "SCIE"
+      ],
+      "impactFactor": 2.4,
+      "metricYear": 2025,
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "label": "출판사 저널 정보",
+          "url": "https://www.techscience.com/cmc/info/journal_overview"
+        },
+        {
+          "label": "출판사 색인 목록",
+          "url": "https://www.techscience.com/journals"
+        }
+      ],
+      "note": "",
+      "indexNote": "색인 미확인"
+    },
+    {
+      "name": "IET Intelligent Transport Systems",
+      "aliases": [],
+      "indexes": [
+        "SCIE"
+      ],
+      "impactFactor": 2.7,
+      "metricYear": null,
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "label": "출판사 저널 정보",
+          "url": "https://onlinelibrary.wiley.com/journal/17519578"
+        },
+        {
+          "label": "출판사 색인 안내",
+          "url": "https://ietresearch.onlinelibrary.wiley.com/hub/journal/17519578/homepage/productinformation.html"
+        },
+        {
+          "label": "JCR 2025 색인 목록 (UEFISCDI 공개·2026년 6월판)",
+          "url": "https://uefiscdi.gov.ro/resource-832705-AIS.JCR2025.iunie2026.xlsx"
+        }
+      ],
+      "note": "IF 지표연도는 출판사 공개 페이지에 미표시되어 있습니다. 색인 구분은 2026년 6월 공개된 JCR 2025 목록 기준입니다. 실시간 Master Journal List의 상태와 다를 수 있습니다.",
+      "indexNote": "",
+      "indexYear": 2025
+    },
+    {
+      "name": "Journal of Advanced Transportation",
+      "aliases": [],
+      "indexes": [
+        "SCIE"
+      ],
+      "impactFactor": 2.2,
+      "metricYear": null,
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "label": "출판사 저널 정보",
+          "url": "https://onlinelibrary.wiley.com/journal/1409"
+        },
+        {
+          "label": "출판사 색인 안내",
+          "url": "https://onlinelibrary.wiley.com/page/journal/1409/homepage/productinformation.html"
+        },
+        {
+          "label": "JCR 2025 색인 목록 (UEFISCDI 공개·2026년 6월판)",
+          "url": "https://uefiscdi.gov.ro/resource-832705-AIS.JCR2025.iunie2026.xlsx"
+        }
+      ],
+      "note": "IF 지표연도는 출판사 공개 페이지에 미표시되어 있습니다. 색인 구분은 2026년 6월 공개된 JCR 2025 목록 기준입니다. 실시간 Master Journal List의 상태와 다를 수 있습니다.",
+      "indexNote": "",
+      "indexYear": 2025
+    },
+    {
+      "name": "Journal of Transportation Safety & Security",
+      "aliases": [],
+      "indexes": [
+        "SSCI"
+      ],
+      "impactFactor": 2.8,
+      "metricYear": 2025,
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "label": "출판사 저널 정보",
+          "url": "https://www.tandfonline.com/journals/utss20/about-this-journal"
+        },
+        {
+          "label": "JCR 2025 색인 목록 (UEFISCDI 공개·2026년 6월판)",
+          "url": "https://uefiscdi.gov.ro/resource-832705-AIS.JCR2025.iunie2026.xlsx"
+        }
+      ],
+      "note": "색인 구분은 2026년 6월 공개된 JCR 2025 목록 기준입니다. 실시간 Master Journal List의 상태와 다를 수 있습니다.",
+      "indexNote": "",
+      "indexYear": 2025
+    },
+    {
+      "name": "Journal of Intelligent Transportation Systems",
+      "aliases": [],
+      "indexes": [
+        "SCIE",
+        "SSCI"
+      ],
+      "impactFactor": 3.9,
+      "metricYear": 2025,
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "label": "출판사 저널 정보",
+          "url": "https://www.tandfonline.com/action/journalInformation?journalCode=GITS&show=aimsScope"
+        },
+        {
+          "label": "JCR 2025 색인 목록 (UEFISCDI 공개·2026년 6월판)",
+          "url": "https://uefiscdi.gov.ro/resource-832705-AIS.JCR2025.iunie2026.xlsx"
+        }
+      ],
+      "note": "색인 구분은 2026년 6월 공개된 JCR 2025 목록 기준입니다. 실시간 Master Journal List의 상태와 다를 수 있습니다.",
+      "indexNote": "",
+      "indexYear": 2025
+    },
+    {
+      "name": "Transportation Research Record",
+      "aliases": [],
+      "indexes": [
+        "SCIE"
+      ],
+      "impactFactor": 2.2,
+      "metricYear": null,
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "label": "출판사 저널 정보",
+          "url": "https://services.sagepub.com/journal/transportation-research-record-2/"
+        },
+        {
+          "label": "출판사 색인 안내",
+          "url": "https://in.sagepub.com/en-in/ind/transportation-research-record/journal203503"
+        },
+        {
+          "label": "JCR 2025 색인 목록 (UEFISCDI 공개·2026년 6월판)",
+          "url": "https://uefiscdi.gov.ro/resource-832705-AIS.JCR2025.iunie2026.xlsx"
+        }
+      ],
+      "note": "IF 지표연도는 출판사 공개 페이지에 미표시되어 있습니다. 색인 구분은 2026년 6월 공개된 JCR 2025 목록 기준입니다. 실시간 Master Journal List의 상태와 다를 수 있습니다.",
+      "indexNote": "",
+      "indexYear": 2025
+    },
+    {
+      "name": "IEEE Transactions on Intelligent Transportation Systems",
+      "aliases": [],
+      "indexes": [
+        "SCIE"
+      ],
+      "impactFactor": 9.1,
+      "metricYear": 2025,
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "label": "학회 공식 IF 안내",
+          "url": "https://ieee-itss.org/pub/t-its/"
+        },
+        {
+          "label": "IEEE 색인 목록 (2024)",
+          "url": "https://open.ieee.org/wp-content/uploads/IEEE-Title-List-May-2024.pdf"
+        },
+        {
+          "label": "JCR 2025 색인 목록 (UEFISCDI 공개·2026년 6월판)",
+          "url": "https://uefiscdi.gov.ro/resource-832705-AIS.JCR2025.iunie2026.xlsx"
+        }
+      ],
+      "note": "색인 구분은 2026년 6월 공개된 JCR 2025 목록 기준입니다. 실시간 Master Journal List의 상태와 다를 수 있습니다.",
+      "indexNote": "",
+      "indexYear": 2025
+    },
+    {
+      "name": "KSCE Journal of Civil Engineering",
+      "aliases": [],
+      "indexes": [
+        "SCIE"
+      ],
+      "impactFactor": 2.0,
+      "metricYear": 2024,
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "label": "발행 학회 공식 정보",
+          "url": "https://www.ksce.or.kr/peri/thesis_en.asp"
+        },
+        {
+          "label": "JCR 2025 색인 목록 (UEFISCDI 공개·2026년 6월판)",
+          "url": "https://uefiscdi.gov.ro/resource-832705-AIS.JCR2025.iunie2026.xlsx"
+        }
+      ],
+      "note": "색인 구분은 2026년 6월 공개된 JCR 2025 목록 기준입니다. 실시간 Master Journal List의 상태와 다를 수 있습니다.",
+      "indexNote": "",
+      "indexYear": 2025
+    },
+    {
+      "name": "International Journal of Automotive Technology",
+      "aliases": [],
+      "indexes": [
+        "SCIE"
+      ],
+      "impactFactor": 2.1,
+      "metricYear": 2025,
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "label": "출판사 저널 정보",
+          "url": "https://link.springer.com/journal/12239"
+        },
+        {
+          "label": "JCR 2025 색인 목록 (UEFISCDI 공개·2026년 6월판)",
+          "url": "https://uefiscdi.gov.ro/resource-832705-AIS.JCR2025.iunie2026.xlsx"
+        }
+      ],
+      "note": "색인 구분은 2026년 6월 공개된 JCR 2025 목록 기준입니다. 실시간 Master Journal List의 상태와 다를 수 있습니다.",
+      "indexNote": "",
+      "indexYear": 2025
+    },
+    {
+      "name": "International Journal of Sustainable Transportation",
+      "aliases": [],
+      "indexes": [
+        "SSCI"
+      ],
+      "impactFactor": 3.1,
+      "metricYear": 2025,
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "label": "출판사 저널 정보",
+          "url": "https://www.tandfonline.com/journals/ujst20/about-this-journal"
+        },
+        {
+          "label": "JCR 2025 색인 목록 (UEFISCDI 공개·2026년 6월판)",
+          "url": "https://uefiscdi.gov.ro/resource-832705-AIS.JCR2025.iunie2026.xlsx"
+        }
+      ],
+      "note": "색인 구분은 2026년 6월 공개된 JCR 2025 목록 기준입니다. 실시간 Master Journal List의 상태와 다를 수 있습니다.",
+      "indexNote": "",
+      "indexYear": 2025
+    },
+    {
+      "name": "Traffic Injury Prevention",
+      "aliases": [],
+      "indexes": [
+        "SCIE",
+        "SSCI"
+      ],
+      "impactFactor": 2.1,
+      "metricYear": 2025,
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "label": "출판사 저널 정보",
+          "url": "https://www.tandfonline.com/journals/gcpi20/about-this-journal"
+        },
+        {
+          "label": "JCR 2025 색인 목록 (UEFISCDI 공개·2026년 6월판)",
+          "url": "https://uefiscdi.gov.ro/resource-832705-AIS.JCR2025.iunie2026.xlsx"
+        }
+      ],
+      "note": "색인 구분은 2026년 6월 공개된 JCR 2025 목록 기준입니다. 실시간 Master Journal List의 상태와 다를 수 있습니다.",
+      "indexNote": "",
+      "indexYear": 2025
+    },
+    {
+      "name": "Applied Spatial Analysis and Policy",
+      "aliases": [],
+      "indexes": [
+        "SSCI"
+      ],
+      "impactFactor": 3.1,
+      "metricYear": 2025,
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "label": "출판사 저널 정보",
+          "url": "https://link.springer.com/journal/12061"
+        },
+        {
+          "label": "편집장 색인 안내",
+          "url": "https://www.linkedin.com/posts/xinyue-ye-225406151_applied-spatial-analysis-and-policy-activity-7348899459461767170-5JE6"
+        },
+        {
+          "label": "JCR 2025 색인 목록 (UEFISCDI 공개·2026년 6월판)",
+          "url": "https://uefiscdi.gov.ro/resource-832705-AIS.JCR2025.iunie2026.xlsx"
+        }
+      ],
+      "note": "색인 구분은 2026년 6월 공개된 JCR 2025 목록 기준입니다. 실시간 Master Journal List의 상태와 다를 수 있습니다.",
+      "indexNote": "",
+      "indexYear": 2025
+    },
+    {
+      "name": "Proceedings of the Institution of Civil Engineers-Municipal Engineer",
+      "aliases": [],
+      "indexes": [
+        "SCIE"
+      ],
+      "impactFactor": 0.8,
+      "metricYear": 2025,
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "label": "출판사 저널 정보",
+          "url": "https://www.emeraldgrouppublishing.com/journal/jmuen"
+        },
+        {
+          "label": "JCR 2025 색인 목록 (UEFISCDI 공개·2026년 6월판)",
+          "url": "https://uefiscdi.gov.ro/resource-832705-AIS.JCR2025.iunie2026.xlsx"
+        }
+      ],
+      "note": "색인 구분은 2026년 6월 공개된 JCR 2025 목록 기준입니다. 실시간 Master Journal List의 상태와 다를 수 있습니다.",
+      "indexNote": "",
+      "indexYear": 2025
+    },
+    {
+      "name": "Electronic Research Archive",
+      "aliases": [],
+      "indexes": [
+        "SCIE"
+      ],
+      "impactFactor": 1.2,
+      "metricYear": null,
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "label": "출판사 저널 정보",
+          "url": "https://www.aimspress.com/era/news/solo-detail/journalstatistics"
+        },
+        {
+          "label": "JCR 2025 색인 목록 (UEFISCDI 공개·2026년 6월판)",
+          "url": "https://uefiscdi.gov.ro/resource-832705-AIS.JCR2025.iunie2026.xlsx"
+        }
+      ],
+      "note": "IF 지표연도는 출판사 공개 페이지에 미표시되어 있습니다. 색인 구분은 2026년 6월 공개된 JCR 2025 목록 기준입니다. 실시간 Master Journal List의 상태와 다를 수 있습니다.",
+      "indexNote": "",
+      "indexYear": 2025
+    },
+    {
+      "name": "Accident Analysis and Prevention",
+      "aliases": [],
+      "indexes": [
+        "SSCI"
+      ],
+      "impactFactor": 6.2,
+      "metricYear": null,
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "label": "출판사 저널 정보",
+          "url": "https://www.sciencedirect.com/journal/accident-analysis-and-prevention/vol/43/issue/1"
+        },
+        {
+          "label": "JCR 2025 색인 목록 (UEFISCDI 공개·2026년 6월판)",
+          "url": "https://uefiscdi.gov.ro/resource-832705-AIS.JCR2025.iunie2026.xlsx"
+        }
+      ],
+      "note": "IF 지표연도는 출판사 공개 페이지에 미표시되어 있습니다. 색인 구분은 2026년 6월 공개된 JCR 2025 목록 기준입니다. 실시간 Master Journal List의 상태와 다를 수 있습니다.",
+      "indexNote": "",
+      "indexYear": 2025
+    },
+    {
+      "name": "Transport Policy",
+      "aliases": [],
+      "indexes": [
+        "SSCI"
+      ],
+      "impactFactor": 5.3,
+      "metricYear": null,
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "label": "출판사 저널 정보",
+          "url": "https://www.sciencedirect.com/journal/transport-policy/vol/183/suppl/C"
+        },
+        {
+          "label": "JCR 2025 색인 목록 (UEFISCDI 공개·2026년 6월판)",
+          "url": "https://uefiscdi.gov.ro/resource-832705-AIS.JCR2025.iunie2026.xlsx"
+        }
+      ],
+      "note": "IF 지표연도는 출판사 공개 페이지에 미표시되어 있습니다. 색인 구분은 2026년 6월 공개된 JCR 2025 목록 기준입니다. 실시간 Master Journal List의 상태와 다를 수 있습니다.",
+      "indexNote": "",
+      "indexYear": 2025
+    },
+    {
+      "name": "Transportation Research Part A-Policy and Practice",
+      "aliases": [],
+      "indexes": [
+        "SCIE",
+        "SSCI"
+      ],
+      "impactFactor": 6.8,
+      "metricYear": null,
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "label": "출판사 저널 정보",
+          "url": "https://www.sciencedirect.com/journal/transportation-research-part-a-policy-and-practice/vol/71/suppl/C"
+        },
+        {
+          "label": "JCR 2025 색인 목록 (UEFISCDI 공개·2026년 6월판)",
+          "url": "https://uefiscdi.gov.ro/resource-832705-AIS.JCR2025.iunie2026.xlsx"
+        }
+      ],
+      "note": "IF 지표연도는 출판사 공개 페이지에 미표시되어 있습니다. 색인 구분은 2026년 6월 공개된 JCR 2025 목록 기준입니다. 실시간 Master Journal List의 상태와 다를 수 있습니다.",
+      "indexNote": "",
+      "indexYear": 2025
+    },
+    {
+      "name": "Transportation Research Part C-Emerging Technologies",
+      "aliases": [],
+      "indexes": [
+        "SCIE"
+      ],
+      "impactFactor": 7.9,
+      "metricYear": null,
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "label": "출판사 저널 정보",
+          "url": "https://www.sciencedirect.com/journal/transportation-research-part-c-emerging-technologies/vol/22"
+        },
+        {
+          "label": "JCR 2025 색인 목록 (UEFISCDI 공개·2026년 6월판)",
+          "url": "https://uefiscdi.gov.ro/resource-832705-AIS.JCR2025.iunie2026.xlsx"
+        }
+      ],
+      "note": "IF 지표연도는 출판사 공개 페이지에 미표시되어 있습니다. 색인 구분은 2026년 6월 공개된 JCR 2025 목록 기준입니다. 실시간 Master Journal List의 상태와 다를 수 있습니다.",
+      "indexNote": "",
+      "indexYear": 2025
+    },
+    {
+      "name": "Transportation Research Part D-Transport and Environment",
+      "aliases": [],
+      "indexes": [
+        "SCIE",
+        "SSCI"
+      ],
+      "impactFactor": 7.7,
+      "metricYear": null,
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "label": "출판사 저널 정보",
+          "url": "https://www.sciencedirect.com/journal/transportation-research-part-d-transport-and-environment/about/news"
+        },
+        {
+          "label": "JCR 2025 색인 목록 (UEFISCDI 공개·2026년 6월판)",
+          "url": "https://uefiscdi.gov.ro/resource-832705-AIS.JCR2025.iunie2026.xlsx"
+        }
+      ],
+      "note": "IF 지표연도는 출판사 공개 페이지에 미표시되어 있습니다. 색인 구분은 2026년 6월 공개된 JCR 2025 목록 기준입니다. 실시간 Master Journal List의 상태와 다를 수 있습니다.",
+      "indexNote": "",
+      "indexYear": 2025
+    },
+    {
+      "name": "Transportation Research Part F-Traffic Psychology and Behaviour",
+      "aliases": [],
+      "indexes": [
+        "SSCI"
+      ],
+      "impactFactor": 5.0,
+      "metricYear": null,
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "label": "출판사 저널 정보",
+          "url": "https://www.sciencedirect.com/browse/calls-for-papers?dgcid=STMJ_1687166064_STMJIN_OTR"
+        },
+        {
+          "label": "JCR 2025 색인 목록 (UEFISCDI 공개·2026년 6월판)",
+          "url": "https://uefiscdi.gov.ro/resource-832705-AIS.JCR2025.iunie2026.xlsx"
+        }
+      ],
+      "note": "IF 지표연도는 출판사 공개 페이지에 미표시되어 있습니다. 색인 구분은 2026년 6월 공개된 JCR 2025 목록 기준입니다. 실시간 Master Journal List의 상태와 다를 수 있습니다.",
+      "indexNote": "",
+      "indexYear": 2025
+    },
+    {
+      "name": "Journal of Safety Research",
+      "aliases": [],
+      "indexes": [
+        "SSCI"
+      ],
+      "impactFactor": 4.4,
+      "metricYear": null,
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "label": "출판사 저널 정보",
+          "url": "https://www.sciencedirect.com/journal/journal-of-safety-research/articles-in-press?page=2"
+        },
+        {
+          "label": "JCR 2025 색인 목록 (UEFISCDI 공개·2026년 6월판)",
+          "url": "https://uefiscdi.gov.ro/resource-832705-AIS.JCR2025.iunie2026.xlsx"
+        }
+      ],
+      "note": "IF 지표연도는 출판사 공개 페이지에 미표시되어 있습니다. 색인 구분은 2026년 6월 공개된 JCR 2025 목록 기준입니다. 실시간 Master Journal List의 상태와 다를 수 있습니다.",
+      "indexNote": "",
+      "indexYear": 2025
+    },
+    {
+      "name": "Pattern Recognition Letters",
+      "aliases": [],
+      "indexes": [
+        "SCIE"
+      ],
+      "impactFactor": 3.5,
+      "metricYear": null,
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "label": "출판사 저널 정보",
+          "url": "https://www.sciencedirect.com/browse/calls-for-papers?subject=%24"
+        },
+        {
+          "label": "JCR 2025 색인 목록 (UEFISCDI 공개·2026년 6월판)",
+          "url": "https://uefiscdi.gov.ro/resource-832705-AIS.JCR2025.iunie2026.xlsx"
+        }
+      ],
+      "note": "IF 지표연도는 출판사 공개 페이지에 미표시되어 있습니다. 색인 구분은 2026년 6월 공개된 JCR 2025 목록 기준입니다. 실시간 Master Journal List의 상태와 다를 수 있습니다.",
+      "indexNote": "",
+      "indexYear": 2025
+    },
+    {
+      "name": "International Journal of Environmental Research and Public Health",
+      "aliases": [],
+      "indexes": [],
+      "impactFactor": null,
+      "metricYear": null,
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "label": "출판사 편집장 안내 (2025)",
+          "url": "https://www.mdpi.com/1660-4601/22/9/1376"
+        },
+        {
+          "label": "현재 출판사 색인 안내",
+          "url": "https://www.mdpi.com/journal/ijerph/indexing"
+        }
+      ],
+      "note": "2025년 편집장 공지는 2023년 Web of Science 등재 제외 및 재신청 사실을 설명합니다. 원자료의 과거 SCIE/SSCI를 현재 등재로 표시하지 않았으며, 현재 IF는 확인되지 않았습니다.",
+      "indexNote": "WoS 등재 제외 이력 · 현재 상태 미확인"
+    },
+    {
+      "name": "Heliyon",
+      "aliases": [],
+      "indexes": [],
+      "impactFactor": null,
+      "metricYear": null,
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "label": "출판사 저널 정보",
+          "url": "https://www.cell.com/heliyon/home"
+        },
+        {
+          "label": "JCR 색인 목록 (2024년 6월판, CNFIS 공개)",
+          "url": "https://www.cnfis.ro/wp-content/uploads/2025/04/clasament_2023_JIF_AIS.pdf"
+        }
+      ],
+      "note": "현재 공식 등재 상태와 IF를 공개된 1차 자료에서 확정하지 못했습니다. 원자료의 SCI-E는 현재 검증값으로 사용하지 않았습니다. 2024년 6월 공개 목록의 색인은 참고로 구분해 표시합니다.",
+      "indexNote": "SCIE (2024 자료)",
+      "referenceIndexes": [
+        "SCIE"
+      ],
+      "indexReferenceYear": 2024
+    },
+    {
+      "name": "Journal of the Eastern Asia Society for Transportation Studies",
+      "aliases": [],
+      "indexes": [],
+      "impactFactor": null,
+      "metricYear": null,
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "label": "학회 공식 저널 안내",
+          "url": "https://easts.info/on-line/journal_06.htm"
+        }
+      ],
+      "note": "공식 학회 자료에서 JIF와 SCI·SCIE·SSCI 등재를 확인하지 못했습니다. 미확인은 IF 0을 의미하지 않습니다.",
+      "indexNote": "색인 미확인"
+    },
+    {
+      "name": "International Journal of Sustainable Building Technology and Urban Development",
+      "aliases": [],
+      "indexes": [],
+      "impactFactor": null,
+      "metricYear": null,
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "label": "출판사 저널 정보",
+          "url": "https://www.sbt-durabi.org/journal-information/instructions-for-authors/"
+        }
+      ],
+      "note": "현 출판기관 공개 안내에서 JIF와 SCI·SCIE·SSCI 등재를 확인하지 못했습니다.",
+      "indexNote": "색인 미확인"
+    },
+    {
+      "name": "Journal of Transportation Engineering-ASCE",
+      "aliases": [],
+      "indexes": [],
+      "impactFactor": null,
+      "metricYear": null,
+      "checked": "2026-10-15",
+      "sources": [
+        {
+          "label": "ASCE 공식 저널",
+          "url": "https://ascelibrary.org/journal/jtepbs"
+        }
+      ],
+      "note": "원자료의 과거 Journal of Transportation Engineering과 현행 Part A/Part B를 구분하기 위해 후속 저널의 IF를 과거 저널에 임의로 적용하지 않았습니다.",
+      "indexNote": "색인 미확인"
+    }
+  ]
+}

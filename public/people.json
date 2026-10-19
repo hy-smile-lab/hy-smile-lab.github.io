@@ -1,0 +1,559 @@
+{
+  "version": 1,
+  "updated": "2026-10-15",
+  "sourceNote": "기존 홈페이지 자료와 연구실에서 전달한 변경 사항을 반영했습니다. 구예서·오민수의 소속은 연구실 제공 정보이며, 나머지 소속·직급은 기존 홈페이지 게시 내용 기준입니다.",
+  "sources": [
+    "https://tris.hanyang.ac.kr/introduction/01_02.php",
+    "https://tris.hanyang.ac.kr/members/list_hi.php",
+    "https://tris.hanyang.ac.kr/alumni/list_hi.php"
+  ],
+  "professor": [
+    {
+      "id": "professor-oh",
+      "name": "오 철",
+      "role": "교수",
+      "affiliation": "한양대학교 교통물류공학과",
+      "research": "",
+      "email": "",
+      "photo": "/people/professor-oh.webp",
+      "sections": [
+        {
+          "title": "학력",
+          "items": [
+            "1999. 9 - 2003. 12 University of California, Irvine 토목환경공학과공학박사 (교통시스템공학 전공)",
+            "1995. 8 - 1997. 8 한양대학교 대학원 교통공학과 공학석사",
+            "1989. 3 - 1993. 2 한양대학교 교통공학과 공학사"
+          ]
+        },
+        {
+          "title": "학회 및 대외위원회 위원",
+          "items": [
+            "대한교통학회 행정 부회장",
+            "대한교통학회 상임이사/편집위원/편집부위원장",
+            "ITS학회 상임이사/재무이사/편집위원",
+            "자동차안전학회 이사/편집위원",
+            "대한토목학회/한국도로학회/자동차공학회 회원",
+            "Associate Editor, Journal of Traffic and Transportation Engineering",
+            "Editorial Board, Accident Analysis and Prevention",
+            "Editorila Board, International Journal of Transportation",
+            "Transportation Research Board, IEEE (ITSS: Intelligent Transportation Systems Society), EASTS (ISC: International Scientific Committee)"
+          ]
+        },
+        {
+          "title": "상훈",
+          "items": [
+            "2026. 대한교통학회 학술상",
+            "2022. 한국도로학회 학술상",
+            "2020. 대한교통학회 학술상",
+            "2018. HYU 학술상",
+            "2018. 대한교통학회 학술상",
+            "2017. 한국공학한림원 100대 기술 주역 선정"
+          ]
+        },
+        {
+          "title": "경력",
+          "items": [
+            "2006.03.01 ~ 현재 한양대학교 · 교수",
+            "2004.04.06 ~ 2006.02.28 한국교통연구원 · 책임연구원",
+            "2004.01.01 ~ 2004.03.31 Institue of Transportation Studies · Post Doctorate Research Associate",
+            "1999.09.01 ~ 2003.12.30 UC-Irvine · 박사과정",
+            "1998.08.01 ~ 1999.08.31 한국건설기술연구원 · 연구원",
+            "1993.03.01 ~ 1995.06.30 대한민국 육군 · 소대장(ROTC31기)"
+          ]
+        },
+        {
+          "title": "특허",
+          "items": [
+            "2026. 자율주행 운전능력 평가 시스템 및 방법(10-2966483)",
+            "2025. 배달 이륜차의 위험상황 검지 시스템 및 방법(10-2800896)",
+            "2022. 주행안전성 통합평가 지표 생성 방법 및 주행안전성 통합평가 지표(10-2482165)",
+            "2021. 교통수단 추정 장치 및 교통수단 추정 방법(10-2464174)",
+            "2015. 도로노면표시 설계방법 및 장치(10-1523839)",
+            "2014. 자전거 주행환경 평가 장치 및 방법(10-1406440)",
+            "2013. 차량의 사행운전 검지 및 제어방법(10-1305099)",
+            "2012. 차량의 통행시간 산출방법(10-1116922)",
+            "2011. 루프검지기를 이용한 위험운전 검지방법 및 시스템(10-1069134)",
+            "2011. 지능형교통정보시스템 및 이에 있어서 경고정보 제공방법(10-1061059)"
+          ]
+        }
+      ],
+      "website": "https://scholar.google.co.kr/citations?user=rgwiy4YAAAAJ&hl=ko&oi=ao"
+    }
+  ],
+  "members": [
+    {
+      "id": "members-5",
+      "name": "김민경",
+      "role": "박사후연구원",
+      "affiliation": "한양대학교 ERICA",
+      "research": "자율주행 위험구간 및 평가체계 연구",
+      "email": "alsrud587@hanyang.ac.kr",
+      "photo": "/people/members-5-white-v1.webp",
+      "sections": [],
+      "publicationNames": [
+        "Minkyung Kim",
+        "Kim Minkyung"
+      ],
+      "publicationNameSources": [
+        "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003238547"
+      ]
+    },
+    {
+      "id": "members-1",
+      "name": "손나영",
+      "role": "박사과정 · 파트타임",
+      "affiliation": "한양대학교 ERICA",
+      "research": "교통안전 교통류 분석",
+      "email": "sonny@kotsa.or.kr",
+      "photo": "/people/members-1-white-v1.webp",
+      "sections": [],
+      "originalPhoto": "/people/members-1.jpg",
+      "photoNote": "AI 해상도 보정본. 원본 별도 보관."
+    },
+    {
+      "id": "members-2",
+      "name": "손슬기",
+      "role": "박사과정 · 파트타임",
+      "affiliation": "경기연구원",
+      "research": "교통안전성 분석 / 자율주행 연구",
+      "email": "ssgi0208@gri.re.kr",
+      "photo": "/people/members-2-white-v1.webp",
+      "sections": [
+        {
+          "title": "재직 정보",
+          "items": [
+            "경기연구원 재직 · 파트타임 박사과정"
+          ]
+        }
+      ],
+      "website": "https://gri.re.kr/web/main/index.do"
+    },
+    {
+      "id": "members-4",
+      "name": "지정훈",
+      "role": "박사과정",
+      "affiliation": "한양대학교 ERICA",
+      "research": "자율주행 공유차 주행 경로 지원 전략 개발",
+      "email": "jee9908@hanyang.ac.kr",
+      "photo": "/people/members-4-white-v1.webp",
+      "sections": [],
+      "publicationNames": [
+        "Jeonghoon Jee",
+        "Jee Jeonghoon"
+      ],
+      "publicationNameSources": [
+        "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003132444"
+      ]
+    },
+    {
+      "id": "members-6",
+      "name": "최원명",
+      "role": "박사과정",
+      "affiliation": "한양대학교 ERICA",
+      "research": "교통 안전성 평가 및 교통류 관리 전략",
+      "email": "wonmyeong@hanyang.ac.kr",
+      "photo": "/people/members-6-white-v1.webp",
+      "sections": []
+    },
+    {
+      "id": "members-7",
+      "name": "조창현",
+      "role": "석사과정",
+      "affiliation": "한양대학교 ERICA",
+      "research": "사고 데이터 기반 자율주행 특성 분석",
+      "email": "chang5479@hanyang.ac.kr",
+      "photo": "/people/members-7-white-v1.webp",
+      "sections": []
+    },
+    {
+      "id": "members-8",
+      "name": "김승운",
+      "role": "석사과정",
+      "affiliation": "한양대학교 ERICA",
+      "research": "페달오조작 특성 분석 연구",
+      "email": "whfqk0827@hanyang.ac.kr",
+      "photo": "/people/members-8-white-v1.webp",
+      "sections": []
+    },
+    {
+      "id": "members-9",
+      "name": "이채원",
+      "role": "석사과정",
+      "affiliation": "한양대학교 ERICA",
+      "research": "혼합교통류 자율주행차 주행안전성 평가",
+      "email": "noweahceel@hanyang.ac.kr",
+      "photo": "/people/members-9-white-v1.webp",
+      "sections": []
+    },
+    {
+      "id": "members-undergrad-choi",
+      "name": "최유빈",
+      "research": "자율주행차 사고자료 기반 사고특성 분석",
+      "email": "yubin512@hanyang.ac.kr",
+      "photo": "/people/members-undergrad-choi-white-v1.webp",
+      "role": "학부연구생",
+      "affiliation": "한양대학교 ERICA",
+      "sections": []
+    },
+    {
+      "id": "members-undergrad-jeong",
+      "name": "정유진",
+      "research": "교통안전성 분석 및 평가",
+      "email": "anica02@hanyang.ac.kr",
+      "photo": "/people/members-undergrad-jeong-white-v1.webp",
+      "role": "학부연구생",
+      "affiliation": "한양대학교 ERICA",
+      "sections": []
+    }
+  ],
+  "alumni": [
+    {
+      "id": "alumni-11",
+      "name": "김미정",
+      "role": "연구원",
+      "affiliation": "한국교통연구원",
+      "research": "",
+      "email": "mijeong1@koti.re.kr",
+      "photo": "/people/alumni-11-silver-cutout-v2.webp",
+      "sections": []
+    },
+    {
+      "id": "alumni-15",
+      "name": "김정미",
+      "role": "연구원",
+      "affiliation": "한국교통안전공단",
+      "research": "",
+      "email": "kokoko_v@naver.com",
+      "photo": "",
+      "sections": []
+    },
+    {
+      "id": "alumni-1",
+      "name": "김준형",
+      "role": "책임",
+      "affiliation": "롯데렌탈 ESG팀",
+      "research": "",
+      "email": "joonhyung_kim@lotte.net",
+      "photo": "",
+      "sections": []
+    },
+    {
+      "id": "alumni-5",
+      "name": "김태진",
+      "role": "ERP Divisin/Senior Manager",
+      "affiliation": "SK CNC",
+      "research": "",
+      "email": "rxw8566@nate.com",
+      "photo": "/people/alumni-5-silver-cutout-v2.webp",
+      "sections": []
+    },
+    {
+      "id": "alumni-4",
+      "name": "박준영",
+      "role": "교수",
+      "affiliation": "한양대학교",
+      "research": "",
+      "email": "juneyoung@hanyang.ac.kr",
+      "photo": "/people/alumni-4-silver-cutout-v2.webp",
+      "sections": [],
+      "originalPhoto": "/people/alumni-4.png",
+      "photoNote": "AI 해상도 보정본. 원본 별도 보관."
+    },
+    {
+      "id": "alumni-3",
+      "name": "박준형",
+      "role": "Air Resources Engineer",
+      "affiliation": "California Environmental Protection Agency",
+      "research": "",
+      "email": "junhyeong.park@arb.ca.gov",
+      "photo": "/people/alumni-3-silver-cutout-v2.webp",
+      "sections": []
+    },
+    {
+      "id": "alumni-12",
+      "name": "박찬",
+      "role": "책임연구원",
+      "affiliation": "한국건설생활환경시험연구원",
+      "research": "",
+      "email": "mjmandoo@kcl.re.kr",
+      "photo": "/people/alumni-12-silver-cutout-v2.webp",
+      "sections": []
+    },
+    {
+      "id": "alumni-2",
+      "name": "송태진",
+      "role": "조교수",
+      "affiliation": "충북대학교",
+      "research": "",
+      "email": "tj@chungbuk.ac.kr",
+      "photo": "/people/alumni-2-silver-cutout-v2.webp",
+      "sections": []
+    },
+    {
+      "id": "alumni-13",
+      "name": "윤석민",
+      "role": "",
+      "affiliation": "",
+      "research": "",
+      "email": "you921@hanyang.ac.kr",
+      "photo": "/people/alumni-13-silver-cutout-v2.webp",
+      "sections": [],
+      "originalPhoto": "/people/alumni-13.png",
+      "photoNote": "AI 해상도 보정본. 원본 별도 보관."
+    },
+    {
+      "id": "alumni-6",
+      "name": "임희섭",
+      "role": "연구위원",
+      "affiliation": "청주시정연구원",
+      "research": "",
+      "email": "hrim@cheri.re.kr",
+      "photo": "",
+      "sections": []
+    },
+    {
+      "id": "alumni-10",
+      "name": "정은비",
+      "role": "실원",
+      "affiliation": "한국철도기술연구원",
+      "research": "",
+      "email": "jeb0120@krri.re.kr",
+      "photo": "/people/alumni-10-silver-cutout-v2.webp",
+      "sections": []
+    },
+    {
+      "id": "alumni-9",
+      "name": "주신혜",
+      "role": "책임연구원",
+      "affiliation": "한국교통안전공단",
+      "research": "",
+      "email": "shinhye0401@kotsa.or.kr",
+      "photo": "/people/alumni-9-silver-cutout-v2.webp",
+      "sections": []
+    },
+    {
+      "id": "alumni-8",
+      "name": "최새로나",
+      "role": "과장",
+      "affiliation": "한국교통안전공단",
+      "research": "",
+      "email": "saerona@kotsa.or.kr",
+      "photo": "/people/alumni-8-silver-cutout-v2.webp",
+      "sections": []
+    },
+    {
+      "id": "alumni-7",
+      "name": "홍성민",
+      "role": "연구위원",
+      "affiliation": "화성시연구원",
+      "research": "",
+      "email": "sungminhong507@hi.re.kr",
+      "photo": "/people/alumni-7-silver-cutout-v2.webp",
+      "sections": []
+    },
+    {
+      "id": "alumni-14",
+      "name": "박현진",
+      "role": "책임연구원",
+      "affiliation": "한국도로공사 도로교통연구원",
+      "research": "",
+      "email": "snowboard@ex.co.kr",
+      "photo": "/people/alumni-14-silver-cutout-v2.webp",
+      "sections": [],
+      "originalPhoto": "/people/alumni-14.PNG",
+      "photoNote": "AI 해상도 보정본. 원본 별도 보관."
+    },
+    {
+      "id": "alumni-16",
+      "name": "오민수",
+      "role": "",
+      "affiliation": "삼성화재",
+      "research": "",
+      "email": "",
+      "photo": "/people/alumni-16-silver-cutout-v2.webp",
+      "sections": [
+        {
+          "title": "이전 연락처",
+          "items": [
+            "minsoo.oh.ctr@dot.gov (이전 직장 주소 · 현재 사용 여부 미확인)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alumni-18",
+      "name": "장메이친",
+      "role": "석사",
+      "affiliation": "",
+      "research": "",
+      "email": "zhmq19921203@hotmail.com",
+      "photo": "/people/alumni-18-silver-cutout-v2.webp",
+      "sections": []
+    },
+    {
+      "id": "alumni-19",
+      "name": "왕주엔",
+      "role": "석사",
+      "affiliation": "",
+      "research": "",
+      "email": "wangzhuyuanava@hotmail.com",
+      "photo": "/people/alumni-19-silver-cutout-v2.webp",
+      "sections": []
+    },
+    {
+      "id": "alumni-17",
+      "name": "이설영",
+      "role": "연구위원",
+      "affiliation": "서울연구원",
+      "research": "",
+      "email": "lsy0717@si.re.kr",
+      "photo": "/people/alumni-17-silver-cutout-v2.webp",
+      "sections": []
+    },
+    {
+      "id": "alumni-20",
+      "name": "박재홍",
+      "role": "수석연구원",
+      "affiliation": "한국건설기술연구원",
+      "research": "",
+      "email": "jhpark@kict.re.kr",
+      "photo": "/people/alumni-20-silver-cutout-v2.webp",
+      "sections": [],
+      "originalPhoto": "/people/alumni-20.png",
+      "photoNote": "AI 해상도 보정본. 원본 별도 보관."
+    },
+    {
+      "id": "alumni-21",
+      "name": "장지용",
+      "role": "전임연구원",
+      "affiliation": "한국건설기술연구원",
+      "research": "",
+      "email": "jyjang@kict.re.kr",
+      "photo": "/people/alumni-21-silver-cutout-v2.webp",
+      "sections": []
+    },
+    {
+      "id": "alumni-22",
+      "name": "박수빈",
+      "role": "책임연구원",
+      "affiliation": "한국운수산업연구원",
+      "research": "",
+      "email": "psb@kriti.re.kr",
+      "photo": "/people/alumni-22-silver-cutout-v2.webp",
+      "sections": []
+    },
+    {
+      "id": "alumni-23",
+      "name": "김윤종",
+      "role": "선임연구원",
+      "affiliation": "LG전자 CTO부문 ICT기술센터 C&M 표준연구소",
+      "research": "",
+      "email": "yunjong.kim@lge.com",
+      "photo": "/people/alumni-23-silver-cutout-v2.webp",
+      "sections": [],
+      "originalPhoto": "/people/alumni-23.jpg",
+      "photoNote": "AI 해상도 보정본. 원본 별도 보관."
+    },
+    {
+      "id": "alumni-24",
+      "name": "조영",
+      "role": "수석연구원",
+      "affiliation": "한국건설기술연구원",
+      "research": "",
+      "email": "yjo@kict.re.kr",
+      "photo": "/people/alumni-24-silver-cutout-v2.webp",
+      "sections": []
+    },
+    {
+      "id": "alumni-25",
+      "name": "박지원",
+      "role": "책임연구원",
+      "affiliation": "한국도로교통공단",
+      "research": "",
+      "email": "pjiwon@koroad.or.kr",
+      "photo": "/people/alumni-25-silver-cutout-v2.webp",
+      "sections": []
+    },
+    {
+      "id": "alumni-26",
+      "name": "고지은",
+      "role": "대표이사",
+      "affiliation": "하이스트시스템매틱스",
+      "research": "",
+      "email": "jeko@hystsystems.com",
+      "photo": "/people/alumni-26-silver-cutout-v2.webp",
+      "sections": []
+    },
+    {
+      "id": "alumni-27",
+      "name": "조은솔",
+      "role": "책임연구원",
+      "affiliation": "하이스트시스템매틱스",
+      "research": "",
+      "email": "eunsol@hystsystems.com",
+      "photo": "/people/alumni-27-silver-cutout-v2.webp",
+      "sections": [],
+      "originalPhoto": "/people/alumni-27.png",
+      "photoNote": "AI 해상도 보정본. 원본 별도 보관."
+    },
+    {
+      "id": "alumni-28",
+      "name": "정아람",
+      "role": "프로",
+      "affiliation": "삼성화재",
+      "research": "",
+      "email": "aram.jung@samsung.com",
+      "photo": "/people/alumni-28-silver-cutout-v2.webp",
+      "sections": []
+    },
+    {
+      "id": "alumni-29",
+      "name": "진현석",
+      "role": "사원",
+      "affiliation": "(주)건화",
+      "research": "",
+      "email": "jhs@kunhwaeng.co.kr",
+      "photo": "/people/alumni-29-silver-cutout-v2.webp",
+      "sections": []
+    },
+    {
+      "id": "alumni-30",
+      "name": "김호선",
+      "role": "선임연구원",
+      "affiliation": "차세대융합기술연구원",
+      "research": "",
+      "email": "hoseon94@snu.ac.kr",
+      "photo": "/people/alumni-30-silver-cutout-v2.webp",
+      "sections": []
+    },
+    {
+      "id": "alumni-31",
+      "name": "이호윤",
+      "role": "석사후연구원",
+      "affiliation": "한국건설기술연구원",
+      "research": "",
+      "email": "hylee@kict.re.kr",
+      "photo": "/people/alumni-31-silver-cutout-v2.webp",
+      "sections": []
+    },
+    {
+      "id": "members-3",
+      "name": "구예서",
+      "role": "CAIO",
+      "affiliation": "아텔라(주)",
+      "research": "",
+      "email": "notte@atela.ai",
+      "photo": "/people/members-3-silver-cutout-v2.webp",
+      "sections": [
+        {
+          "title": "학위",
+          "items": [
+            "박사 졸업"
+          ]
+        }
+      ],
+      "degree": "박사",
+      "website": "https://atelalabs.com"
+    }
+  ]
+}

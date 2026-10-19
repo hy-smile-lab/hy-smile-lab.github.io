@@ -1,0 +1,1754 @@
+{
+  "version": 1,
+  "status": "imported",
+  "checkedDate": "2026-10-15",
+  "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/list_hi.php",
+  "categories": [
+    "졸업",
+    "연구실 행사",
+    "국내 행사",
+    "국제 행사"
+  ],
+  "scope": "기존 홈페이지 공개 사진 앨범의 최신 글부터 가장 오래된 글까지 이전글 링크를 따라 확인한 63건. 새 홈페이지에는 미반영.",
+  "imageCountNote": "사진 원본을 내려받아 파일 형식과 크기를 검증했습니다. 원본 사진은 편집하지 않고 보관합니다.",
+  "items": [
+    {
+      "id": "legacy-album-193",
+      "sourceId": "193",
+      "category": "국내 행사",
+      "title": "2025년 ITS 춘계학술발표회 참석",
+      "eventYear": "2025",
+      "postedDate": "2025-04-29",
+      "listedImageCount": 4,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=193",
+      "note": "",
+      "description": "2025 ITS 춘계학술발표회에 참석하였습니다.\n참석자: 오철 교수님, 김호선, 김민경, 진현석, 이호윤",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-193-01.webp",
+          "caption": "",
+          "width": 1400,
+          "height": 1050,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/ITS학회_단체사진.jpg",
+          "sha256": "0e72fccc399114e548e36da0908db922e1f92f5751b2ddc47fbce91df9451ff1",
+          "bytes": 623890
+        },
+        {
+          "path": "/album-photos/legacy-album-193-02.webp",
+          "caption": "",
+          "width": 1600,
+          "height": 901,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/ITS학회_김호선발표ㅕ.jpg",
+          "sha256": "4fa3ac5b90b1b4fcd450f2835107b638431a6479280dcd8e5aabe95451e16ac3",
+          "bytes": 382935
+        },
+        {
+          "path": "/album-photos/legacy-album-193-03.webp",
+          "caption": "",
+          "width": 1600,
+          "height": 901,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/ITS학회_김민경발표.jpg",
+          "sha256": "99fc39f946beb8da638d99bc80621b0d82a235c8c223eb7f32e4ed809f16536c",
+          "bytes": 460103
+        },
+        {
+          "path": "/album-photos/legacy-album-193-04.webp",
+          "caption": "",
+          "width": 1600,
+          "height": 901,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/ITS학회_진현석발표.jpg",
+          "sha256": "e1a4f28b9ae49ddad0a251bced9035dfc24c56c21fa353b89dfa960dc23f5c1a",
+          "bytes": 467810
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-192",
+      "sourceId": "192",
+      "category": "국내 행사",
+      "title": "2025년 한국도로학회 봄학술발표회 참석",
+      "eventYear": "2025",
+      "postedDate": "2025-04-29",
+      "listedImageCount": 2,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=192",
+      "note": "",
+      "description": "2025 한국도로학회 봄학술발표회에 참석하였습니다.\n참석자: 진현석, 최원명",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-192-01.webp",
+          "caption": "",
+          "width": 1440,
+          "height": 1081,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/도로학회_진현석발표.jpg",
+          "sha256": "62d5597dff5d33e53a33512f484ca3c820c0a70d68e10824447eb859f4be9ef1",
+          "bytes": 411928
+        },
+        {
+          "path": "/album-photos/legacy-album-192-02.webp",
+          "caption": "",
+          "width": 1600,
+          "height": 901,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/도로학회_최원명발표.jpg",
+          "sha256": "aca24796278a095a6fa3341b6c15d391afefd717dd56b89587a7a70880e75ec8",
+          "bytes": 418909
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-191",
+      "sourceId": "191",
+      "category": "국내 행사",
+      "title": "2025년 대한교통학회 춘계학술대회 참석",
+      "eventYear": "2025",
+      "postedDate": "2025-04-29",
+      "listedImageCount": 4,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=191",
+      "note": "",
+      "description": "2025 대한교통학회 제92회 학술발표회에 참석하였습니다.\n참석자: 지정훈, 이호윤, 오철 교수님",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-191-01.webp",
+          "caption": "",
+          "width": 1081,
+          "height": 1440,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/대한교통학회_지정훈발표.jpg",
+          "sha256": "c87872aef8e697b510b70780ed918cb4517f0b9eaa8f2271301dda6f6429969f",
+          "bytes": 362021
+        },
+        {
+          "path": "/album-photos/legacy-album-191-02.webp",
+          "caption": "",
+          "width": 1440,
+          "height": 1080,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/대한교통학회_이호윤발표.jpg",
+          "sha256": "958675015d42a696cce0f6bbd4ab203682ae4f78a031afdf6f4756a99bc56fd7",
+          "bytes": 431232
+        },
+        {
+          "path": "/album-photos/legacy-album-191-03.webp",
+          "caption": "",
+          "width": 4000,
+          "height": 3000,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/대한교통학회_이호윤수상.jpg",
+          "sha256": "0f8911c253504007b8ef877fb93872fa4899cb46b07c99bf74b4a90433d2187c",
+          "bytes": 3307135
+        },
+        {
+          "path": "/album-photos/legacy-album-191-04.webp",
+          "caption": "",
+          "width": 4000,
+          "height": 3000,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/대한교통학회.jpg",
+          "sha256": "4fba14041a955d98d76670ccf59c42187db1941a0f16a8dace68a0e02ae581a1",
+          "bytes": 2179026
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-186",
+      "sourceId": "186",
+      "category": "국제 행사",
+      "title": "2025 TRB 참석",
+      "eventYear": "2025",
+      "postedDate": "2025-03-09",
+      "listedImageCount": 5,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=186",
+      "note": "",
+      "description": "오철 교수님과 조은솔 박사, 정아람 박사, 지정훈 석사과정은 2025년 TRB학회에 참석하였습니다.\n조은솔 박사는 \"Characterizing the Riding Behavior of Food Delivery Motor Scooters Based on Sensor Data Mining\" 라는 주제로 포스터 발표를 진행하였습니다.\n정아람 박사는\n\"Derivation of Promising Simulated Driving Behavior Indicators for Road Safety Assessment\" 라는 주제로 구두 발표를 진행하였습니다.\n정아람 박사는 \"Driving and Traffic Simulation Analysis of High-Speed Driving Behavior and Its Impact on Traffic Flow Safety Performance\" 라는 주제로 포스터 발표를 진행하였습니다.\n지정훈 석사과정은 \"Ensemble-Based Machine Learning Approach to Prioritize Driving Safety Indicators Using Connected Vehicle System Data for Proactive Safety Analytics\"라는 주제로 포스터 발표를 진행하였습니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-186-01.webp",
+          "caption": "",
+          "width": 4000,
+          "height": 3000,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/2025TRB(2).jpg",
+          "sha256": "194b5118a11c273715aef0434576bbb485db51a5fa9fc28423de3cd373368681",
+          "bytes": 4626181
+        },
+        {
+          "path": "/album-photos/legacy-album-186-02.webp",
+          "caption": "",
+          "width": 4000,
+          "height": 3000,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/2025TRB(5).jpg",
+          "sha256": "85d2eec78a72f0d361deb1eca8966d1bccf245b8bcb3da7d119ec8edaf1412e3",
+          "bytes": 2344811
+        },
+        {
+          "path": "/album-photos/legacy-album-186-03.webp",
+          "caption": "",
+          "width": 4000,
+          "height": 3000,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/2025TRB(4).jpg",
+          "sha256": "0d0c333b98985822fd229b73178b1aaccb2d98bb50d3b266dc214bb6657967c5",
+          "bytes": 4156705
+        },
+        {
+          "path": "/album-photos/legacy-album-186-04.webp",
+          "caption": "",
+          "width": 4000,
+          "height": 3000,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/2025TRB(1).jpg",
+          "sha256": "4fe6dbf7e7192c1b0aca6bce7d431abf623622d50ed1f8216ded67c0756f1df1",
+          "bytes": 3296578
+        },
+        {
+          "path": "/album-photos/legacy-album-186-05.webp",
+          "caption": "",
+          "width": 4000,
+          "height": 3000,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/2025TRB(3).jpg",
+          "sha256": "30bdd3dee2f8a35959e27e6648778e86338987956dc105fec27617cde58fa1d6",
+          "bytes": 5147141
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-183",
+      "sourceId": "183",
+      "category": "졸업",
+      "title": "♣축졸업♣ 2024년 8월 정아람 박사 졸업",
+      "eventYear": "2024",
+      "postedDate": "2024-11-25",
+      "listedImageCount": 1,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=183",
+      "note": "",
+      "description": "♣축졸업♣ 2024년 8월 정아람 박사 졸업 기념 사진입니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-183-01.webp",
+          "caption": "",
+          "width": 3344,
+          "height": 5016,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/정아람 박사님 졸업사진 +.jpg",
+          "sha256": "10060a5f642aedf52eed7bb656c5e5e43c412f10d9b4e7dc4c9a034cfdc4a73d",
+          "bytes": 3160028
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-182",
+      "sourceId": "182",
+      "category": "국제 행사",
+      "title": "Dubai ITS World Congress 참석",
+      "eventYear": "2024",
+      "postedDate": "2024-11-25",
+      "listedImageCount": 4,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=182",
+      "note": "",
+      "description": "2024년 9월 Dubai ITS World Congress 참석하였습니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-182-01.webp",
+          "caption": "",
+          "width": 4000,
+          "height": 3000,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/3-3. 단체 사진.jpg",
+          "sha256": "95930764b10c0f00b406d23a0d377564d63d580ba306c615743f6ed4513f2bc8",
+          "bytes": 1796727
+        },
+        {
+          "path": "/album-photos/legacy-album-182-02.webp",
+          "caption": "",
+          "width": 4000,
+          "height": 3000,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/3-2. 고지은 박사님 발표사진.jpg",
+          "sha256": "20fcd8377be4ac489e8b076e06ade3b410739ca213540277d3aa3b73aeb6a459",
+          "bytes": 1979427
+        },
+        {
+          "path": "/album-photos/legacy-album-182-03.webp",
+          "caption": "",
+          "width": 4000,
+          "height": 3000,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/3-1. 오철 교수님 발표사진.jpg",
+          "sha256": "7d2a72826dca8340feedc7bc7e5ad6dde3e9869c510f6ddbdc2fc5d1ae66fcca",
+          "bytes": 2126812
+        },
+        {
+          "path": "/album-photos/legacy-album-182-04.webp",
+          "caption": "",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/두바이 발표사진 (정아람).jpg",
+          "sha256": "12f6e4021700430df55a77b42f7630539cf6e3556b8b0114146e38addd0e17b4",
+          "bytes": 272084
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-181",
+      "sourceId": "181",
+      "category": "국제 행사",
+      "title": "The 2024 TRB Annual Automated Road Transportation Symposium 참석",
+      "eventYear": "2024",
+      "postedDate": "2024-11-25",
+      "listedImageCount": 2,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=181",
+      "note": "",
+      "description": "The 2024 TRB Annual Automated Road Transportation Symposium에 참석하였습니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-181-01.webp",
+          "caption": "",
+          "width": 1440,
+          "height": 811,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/1-2. 학회참석사진.jpg",
+          "sha256": "f83c6c87fa640db6ea84fac45a491437c4883f46e406f67cd40d25c8f720f71a",
+          "bytes": 386538
+        },
+        {
+          "path": "/album-photos/legacy-album-181-02.webp",
+          "caption": "",
+          "width": 1600,
+          "height": 901,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/샌디에고 사진.jpg",
+          "sha256": "00157bac942fa6fd9213b09ab6eed64c8202f04688365829fa5a89a95dc8e1d2",
+          "bytes": 508138
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-179",
+      "sourceId": "179",
+      "category": "졸업",
+      "title": "♣축졸업♣ 2024년 2월 조은솔 박사 졸업",
+      "eventYear": "2024",
+      "postedDate": "2024-03-27",
+      "listedImageCount": 1,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=179",
+      "note": "",
+      "description": "♣축졸업♣ 2024년 2월 조은솔 박사 졸업 기념 사진입니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-179-01.webp",
+          "caption": "",
+          "width": 1050,
+          "height": 1400,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/조은솔박사님 졸업사진.png",
+          "sha256": "097730f8108cad8a4c613ae791d7967d2de28a3c4de0bbedacb755ab9b643218",
+          "bytes": 2496061
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-178",
+      "sourceId": "178",
+      "category": "졸업",
+      "title": "♣축졸업♣ 2024년 2월 고지은 박사 졸업",
+      "eventYear": "2024",
+      "postedDate": "2024-03-27",
+      "listedImageCount": 1,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=178",
+      "note": "",
+      "description": "♣축졸업♣ 2024년 2월 고지은 박사 졸업 기념 사진입니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-178-01.webp",
+          "caption": "",
+          "width": 539,
+          "height": 611,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/졸업사진.jpg",
+          "sha256": "780a1017f0dfaf594d67aac1b1ad5a27401fa9d77c2579ac7d58c4e0f4004bd3",
+          "bytes": 134139
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-177",
+      "sourceId": "177",
+      "category": "졸업",
+      "title": "♣축졸업♣ 2024년 2월 박지원 박사 졸업",
+      "eventYear": "2024",
+      "postedDate": "2024-03-27",
+      "listedImageCount": 1,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=177",
+      "note": "",
+      "description": "♣축졸업♣ 2024년 2월 박지원 박사 졸업 기념 사진입니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-177-01.webp",
+          "caption": "",
+          "width": 1080,
+          "height": 1440,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/사진2.jpg",
+          "sha256": "5470b00547e0c6a6ba942b8dcdb4bfa16f9a5759ae448000d42813350865070c",
+          "bytes": 424591
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-176",
+      "sourceId": "176",
+      "category": "국제 행사",
+      "title": "New Jersey Institute of Technology (뉴저지공과대학교), NJIT 연수",
+      "eventYear": null,
+      "postedDate": "2024-01-30",
+      "listedImageCount": 3,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=176",
+      "note": "해외 대학 공동연구·연수이므로 국제 행사로 제안. 행사 연도는 제목·본문에서 확인되지 않아 미기재.",
+      "description": "김호선 박사과정과 지정훈 석사과정은 뉴저지공과대학에서 이조영 교수님과 공동 연구를 수행하였습니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-176-01.webp",
+          "caption": "",
+          "width": 1000,
+          "height": 750,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/뉴저지1.jpg",
+          "sha256": "046817738b160fc75d5bec69da71c45ea58f1677781ed40111567fb5706165a0",
+          "bytes": 242249
+        },
+        {
+          "path": "/album-photos/legacy-album-176-02.webp",
+          "caption": "",
+          "width": 1000,
+          "height": 750,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/뉴저지2.jpg",
+          "sha256": "1aac603c1543bce6ee679342e829bf5e1b8a8dfaf7d0a12f7a930c1fb5ef3b03",
+          "bytes": 254162
+        },
+        {
+          "path": "/album-photos/legacy-album-176-03.webp",
+          "caption": "",
+          "width": 750,
+          "height": 1000,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/뉴저지3.jpg",
+          "sha256": "3bedbfa3f561f9b070b63ecfd2d084c8db08265cb92910682909da4b26034be5",
+          "bytes": 213091
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-175",
+      "sourceId": "175",
+      "category": "국제 행사",
+      "title": "2024 TRB 참석",
+      "eventYear": "2024",
+      "postedDate": "2024-01-30",
+      "listedImageCount": 2,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=175",
+      "note": "",
+      "description": "오철 교수님과 김호선 박사과정, 김민경 석사과정, 지정훈 석사과정은 2024년 TRB학회에 참석하였습니다.\n김호선 박사과정은 \"Evaluating Driving Safety using Real-World Autonomous Vehicle Data in Seoul Autonomous Mobility Testbed\" 라는 주제로 포스터 발표를 진행하였습니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-175-01.webp",
+          "caption": "",
+          "width": 1000,
+          "height": 563,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/2024trb 사진1.jpg",
+          "sha256": "16dae692bf70e36b8e1ae1c8eb96a7dd6632fa1e8260e5816855aa9ede3c68b0",
+          "bytes": 181121
+        },
+        {
+          "path": "/album-photos/legacy-album-175-02.webp",
+          "caption": "",
+          "width": 1000,
+          "height": 750,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/2024trb사진2.jpg",
+          "sha256": "7e9d33b94d6e47a1f68a3f63acc589ce9b8aba4ad11f3d5cbccacc5b764da234",
+          "bytes": 206035
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-171",
+      "sourceId": "171",
+      "category": "연구실 행사",
+      "title": "2023 연구실 송년회",
+      "eventYear": "2023",
+      "postedDate": "2023-12-20",
+      "listedImageCount": 3,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=171",
+      "note": "",
+      "description": "2023년도 연구실 송년회를 진행하였습니다.\n오철교수님과 연구실 인원들이 참석하였고,\n한국건설생활환경시험연구원 박찬 박사님, 충북대학교 송태진 교수님, 화성시연구원 홍성민 박사님, 도로교통연구원 박현진 박사님,\n한국건설기술연구원 박재홍 박사님, 한국건설기술연구원 박수빈 박사님이 참석해주시어 자리를 빛내주셨습니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-171-01.webp",
+          "caption": "",
+          "width": 1440,
+          "height": 666,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/KakaoTalk_20231204_140733541_08.jpg",
+          "sha256": "ada499102fd32b3ede26db1f014cc45e18ab8af9f688b17cdcc73177526dde68",
+          "bytes": 373004
+        },
+        {
+          "path": "/album-photos/legacy-album-171-02.webp",
+          "caption": "",
+          "width": 4000,
+          "height": 2252,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/KakaoTalk_20231204_135641606_02.jpg",
+          "sha256": "0a5fb94a55377b53da710e5c72e2999b70687f1aebff45224873dfdf402ad20d",
+          "bytes": 1830944
+        },
+        {
+          "path": "/album-photos/legacy-album-171-03.webp",
+          "caption": "",
+          "width": 1440,
+          "height": 1081,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/KakaoTalk_20231204_140733541_04.jpg",
+          "sha256": "7c0ce3a7b399b13502bad8cd512fe946dced4d58638dd6f1add611e00d6e900e",
+          "bytes": 418349
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-170",
+      "sourceId": "170",
+      "category": "국내 행사",
+      "title": "2023 ITS 추계학술발표회 참석",
+      "eventYear": "2023",
+      "postedDate": "2023-12-20",
+      "listedImageCount": 2,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=170",
+      "note": "",
+      "description": "2023 ITS 추계학술발표회에 참석하였습니다.\n참석자: 오철 교수님, 조영, 정아람, 김호선, 지정훈, 진현석",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-170-01.webp",
+          "caption": "",
+          "width": 4032,
+          "height": 3024,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/KakaoTalk_20231118_085642549.jpg",
+          "sha256": "65c0d38379612bd993891bd7e86e3f83aac9c8a781f09ce4fdb5469c6e433fe4",
+          "bytes": 2784351
+        },
+        {
+          "path": "/album-photos/legacy-album-170-02.webp",
+          "caption": "",
+          "width": 4000,
+          "height": 3000,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/KakaoTalk_20231117_113042238_06.jpg",
+          "sha256": "0744b8c2cf2356d7a9419aedbf346fe6c0c5476d097842882b10edf2effcd2c1",
+          "bytes": 3598348
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-169",
+      "sourceId": "169",
+      "category": "국내 행사",
+      "title": "2023 대한교통학회 추계학술대회 참석",
+      "eventYear": "2023",
+      "postedDate": "2023-12-20",
+      "listedImageCount": 4,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=169",
+      "note": "",
+      "description": "2023 대한교통학회 추계학술대회에 참석하였습니다.\n참석자: 오철교수님, 조은솔, 정아람, 구예서, 김민경",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-169-01.webp",
+          "caption": "",
+          "width": 1280,
+          "height": 961,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/KakaoTalk_20231220_134643432.jpg",
+          "sha256": "c4fcacf9cddd831a6b38218933ec5682ace9cbb9da80f24044beb29cb064a6de",
+          "bytes": 437323
+        },
+        {
+          "path": "/album-photos/legacy-album-169-02.webp",
+          "caption": "",
+          "width": 4000,
+          "height": 3000,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/KakaoTalk_20231220_134722726.jpg",
+          "sha256": "e1b77b280ba832fbda1556477a433fdc1778af952f54d3cee1cadb376511287e",
+          "bytes": 3135498
+        },
+        {
+          "path": "/album-photos/legacy-album-169-03.webp",
+          "caption": "",
+          "width": 1280,
+          "height": 961,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/KakaoTalk_20231220_134711382.jpg",
+          "sha256": "af857d3f09d366fd523d42b0cf2efaad3f4fd9338edbe76f27bb58559526af59",
+          "bytes": 280817
+        },
+        {
+          "path": "/album-photos/legacy-album-169-04.webp",
+          "caption": "",
+          "width": 4032,
+          "height": 3024,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/KakaoTalk_20231220_134845609.jpg",
+          "sha256": "03e7731b099eef3415be42101de03f034b2a6b2e62d46dc96bc382bbce0658b1",
+          "bytes": 2922731
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-168",
+      "sourceId": "168",
+      "category": "국제 행사",
+      "title": "알래스카 IEEE Intelligent Vehicles Symposium (IVS) 2023 참석",
+      "eventYear": "2023",
+      "postedDate": "2023-07-24",
+      "listedImageCount": 4,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=168",
+      "note": "",
+      "description": "23년 6월 알래스카에서 개최된 IEEE Intelligent Vehicles Symposium (IVS) 2023 학회에 참석하였습니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-168-01.webp",
+          "caption": "",
+          "width": 600,
+          "height": 800,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/학회장 단체사진_2.jpg",
+          "sha256": "56746275b1b32ed28ab621cd70b14886532d28b5e66fce3a2a4a641cb36fd885",
+          "bytes": 157790
+        },
+        {
+          "path": "/album-photos/legacy-album-168-02.webp",
+          "caption": "",
+          "width": 800,
+          "height": 600,
+          "sourceUrl": "http://tris.hanyang.ac.kr/upload/board_photo/%ED%95%99%ED%9A%8C%EC%9E%A5%20%EB%82%B4%EB%B6%80%EB%AA%A8%EC%8A%B5_4.jpg",
+          "sha256": "91901f25343bd447c5186268d7aed57add6e2e84da7dc14cfee5d483e65131f2",
+          "bytes": 224645
+        },
+        {
+          "path": "/album-photos/legacy-album-168-03.webp",
+          "caption": "",
+          "width": 748,
+          "height": 748,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/알래스카 외부풍경_2.jpg",
+          "sha256": "d2c82f437e983e7dac1bbae16a6a931f3bede37383b21fb524febdc4484ffd05",
+          "bytes": 240766
+        },
+        {
+          "path": "/album-photos/legacy-album-168-04.webp",
+          "caption": "",
+          "width": 768,
+          "height": 576,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/학회장 단체사진_1.png",
+          "sha256": "ef8ae7c88544feb187223d12d5445e493d1ae9ee10f56ffe148f0d862f3763c8",
+          "bytes": 797896
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-164",
+      "sourceId": "164",
+      "category": "국내 행사",
+      "title": "2023 ITS 춘계학술대회 참석",
+      "eventYear": "2023",
+      "postedDate": "2023-04-25",
+      "listedImageCount": 3,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=164",
+      "note": "",
+      "description": "2023  ITS 춘계학술대회 참석하였습니다.\n참석자: 오철 교수님, 연구실 전 인원\n\"ITS와 한양교통\" 이라는 주제를 가지고 한양대 특별세션을 진행하였습니다.\n저의 학교 명예교수님이신 강경우 교수님이 참석해주셨고, 다른 동문 선배님들도 참석하여 자리를 빛내주셨습니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-164-01.webp",
+          "caption": "",
+          "width": 4000,
+          "height": 3000,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/KakaoTalk_20230425_102000444_08.jpg",
+          "sha256": "991f751ed74030400768c4235c9069d7f6efb1dfa2ab0c40329da6994fe1e323",
+          "bytes": 7941519
+        },
+        {
+          "path": "/album-photos/legacy-album-164-02.webp",
+          "caption": "",
+          "width": 1440,
+          "height": 1081,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/KakaoTalk_20230425_101634692_05.jpg",
+          "sha256": "0c47d921a762d68aeca98591646f049341a061f3c062ca793ebe89fc2c588cb7",
+          "bytes": 705367
+        },
+        {
+          "path": "/album-photos/legacy-album-164-03.webp",
+          "caption": "",
+          "width": 2560,
+          "height": 1920,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/KakaoTalk_20230425_101319380_07.jpg",
+          "sha256": "a0679ea86dddd6535256deda771448efe9453be92b8d3f1c350ffaa8e13126af",
+          "bytes": 3013492
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-162",
+      "sourceId": "162",
+      "category": "국내 행사",
+      "title": "2023 대한교통학회 제88회 학술발표회 참석",
+      "eventYear": "2023",
+      "postedDate": "2023-03-27",
+      "listedImageCount": 5,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=162",
+      "note": "제목은 2023년 제88회이나 본문 첫 문장은 2022년 제87회로 표기되어 있음. 제목을 기준으로 임시 정리; 게시 전 확인 필요.",
+      "description": "2022 대한교통학회 제87회 학술발표회에 참석하였습니다.\n참석자: 오철 교수님, 고지은 박사과정, 정아람 박사과정, 조은솔 박사과정, 구예서 석사과정\n(참석자: 오철교수님, 고지은·정아람\n·\n조은솔 박사과정, 구예서 석사과정)\n(발표자: 고지은 박사과정)\n(발표자: 정아람 박사과정)\n(발표자: 조은솔 박사과정)\n(발표자: 구예서 석사과정)",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-162-01.webp",
+          "caption": "",
+          "width": 1120,
+          "height": 666,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/230323-24 KORST(1).jpg",
+          "sha256": "2349aa6b43b93a9e4b6813c1e965dcb35a3dd882e9b98e073e2dc217e7a0a2da",
+          "bytes": 266109
+        },
+        {
+          "path": "/album-photos/legacy-album-162-02.webp",
+          "caption": "",
+          "width": 999,
+          "height": 662,
+          "sourceUrl": "http://tris.hanyang.ac.kr/upload/board_photo/230323-24%20KORST(2).jpg",
+          "sha256": "9bb48a571161072ba9eeb8cd60da5813cc4841a35f3e86d5f8bd88129330bf69",
+          "bytes": 140206
+        },
+        {
+          "path": "/album-photos/legacy-album-162-03.webp",
+          "caption": "",
+          "width": 1114,
+          "height": 702,
+          "sourceUrl": "http://tris.hanyang.ac.kr/upload/board_photo/230323-24%20KORST(3).jpg",
+          "sha256": "28a1b5d978e3d80d09767d4f47073ff3a63e7efde61991e216329c38106227c3",
+          "bytes": 246420
+        },
+        {
+          "path": "/album-photos/legacy-album-162-04.webp",
+          "caption": "",
+          "width": 1081,
+          "height": 667,
+          "sourceUrl": "http://tris.hanyang.ac.kr/upload/board_photo/230323-24%20KORST(4).jpg",
+          "sha256": "78b41c1a4c9de0e899f04ea172be807001c55fa6a61022f5b477064b40183fac",
+          "bytes": 267146
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-161",
+      "sourceId": "161",
+      "category": "졸업",
+      "title": "♣축졸업♣ 2023년 2월 조영 박사 졸업",
+      "eventYear": "2023",
+      "postedDate": "2023-03-27",
+      "listedImageCount": 2,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=161",
+      "note": "",
+      "description": "♣축졸업♣ 2023년 2월 조영 박사 졸업 기념 사진입니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-161-01.webp",
+          "caption": "",
+          "width": 720,
+          "height": 540,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/230327 JO YOUNG(1).jpg",
+          "sha256": "b2910e52901e9059d62fbb4fc1c3e952d9a72b03c5a5bc81b509b294c23efc1b",
+          "bytes": 174840
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-160",
+      "sourceId": "160",
+      "category": "국제 행사",
+      "title": "2023 Transportation Research Board",
+      "eventYear": "2023",
+      "postedDate": "2023-02-21",
+      "listedImageCount": 7,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=160",
+      "note": "",
+      "description": "2023 Transportation Research Board에 참석하였습니다.\n참석자: 오철 교수님, 정아람 박사과정, 김호선 박사과정, 구예서 석박사통합과정\n(Oral presentation session: 오철 교수님/장지용 박사 논문)\n(Oral presentation session: 이상재 석박사통합과정(한양대학교 교통공학연구실))\n(Poster presentation session: 정아람 박사과정)\n(Poster presentation session: 구예서 석박사통합과정/조은솔 박사과정 논문)",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-160-01.webp",
+          "caption": "",
+          "width": 4000,
+          "height": 3000,
+          "sourceUrl": "http://tris.hanyang.ac.kr/upload/board_photo/230108-12%202023%20TRB(4).jpg",
+          "sha256": "06641115c63f4de5f580acd2eb382797661291e9438b7437d8a14e27438d191a",
+          "bytes": 8250057
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-159",
+      "sourceId": "159",
+      "category": "국내 행사",
+      "title": "2022 한국ITS학회 추계학술대회",
+      "eventYear": "2022",
+      "postedDate": "2023-02-21",
+      "listedImageCount": 4,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=159",
+      "note": "",
+      "description": "2022년 11월 3일-4일 제주한라대학교 한라컨벤션센터에서 개최된 2022 한국ITS학회 추계학술대회에 참석하였습니다.\n참석자: 오철 교수님, 조영 박사과정, 정아람 박사과정\n(발표자: 오철 교수님)\n(발표자: 조영 박사과정)\n(발표자: 정아람 박사과정)",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-159-01.webp",
+          "caption": "",
+          "width": 1037,
+          "height": 778,
+          "sourceUrl": "http://tris.hanyang.ac.kr/upload/board_photo/221103-04%20KITS(1).jpg",
+          "sha256": "2f9861092fe47cb9bcd78594e8f47332915cd90a17a7c26397c982bf4a5d8a42",
+          "bytes": 262943
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-158",
+      "sourceId": "158",
+      "category": "국내 행사",
+      "title": "2022 대한교통학회 제87회 학술발표회에 참석하였습니다.",
+      "eventYear": "2022",
+      "postedDate": "2023-02-21",
+      "listedImageCount": 4,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=158",
+      "note": "",
+      "description": "2022 대한교통학회 제87회 학술발표회에 참석하였습니다.\n참석자: 오철 교수님, 조영 박사과정, 조은솔 박사과정, 김민경 학부연구생\n(토론자: 오철 교수님)\n(발표자: 조영 박사과정)\n(발표자: 조영 박사과정)\n(발표자: 김민경 학부연구생)",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-158-01.webp",
+          "caption": "",
+          "width": 767,
+          "height": 767,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/220928-30 KITS(4).jpg",
+          "sha256": "fbf557f488c92339c5d90e4dc883687f5746de03d09f1b9e62ba83519ea70c1d",
+          "bytes": 209443
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-157",
+      "sourceId": "157",
+      "category": "졸업",
+      "title": "♣축졸업♣ 2022년 8월 김윤종 박사 졸업",
+      "eventYear": "2022",
+      "postedDate": "2023-02-21",
+      "listedImageCount": 2,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=157",
+      "note": "",
+      "description": "♣축졸업♣ 2022년 8월 김윤종 박사 졸업 기념 사진입니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-157-01.webp",
+          "caption": "",
+          "width": 670,
+          "height": 897,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/220831 Dr.KIM(1).jpg",
+          "sha256": "051830e195b450b773e05129be905373b9ad751bbb48db60f41c02c8db7a9c93",
+          "bytes": 180070
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-156",
+      "sourceId": "156",
+      "category": "국제 행사",
+      "title": "28th ITS World Congress 2022 in Los Angeles",
+      "eventYear": "2022",
+      "postedDate": "2023-02-21",
+      "listedImageCount": 2,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=156",
+      "note": "",
+      "description": "Los Angeles에서 열린 28th ITS World Congress 2022에 참석하였습니다.\n참석자: 오철 교수님, 조영 박사과정, 조은솔 박사과정\n(발표자: 조영 박사과정)",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-156-01.webp",
+          "caption": "",
+          "width": 595,
+          "height": 445,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/220916-20 2022 ITSWC(2).jpg",
+          "sha256": "56b3a0fba235b8d85b9163ededd7bf624ed6a9f360076d3dfb738e5826946eed",
+          "bytes": 60398
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-155",
+      "sourceId": "155",
+      "category": "국제 행사",
+      "title": "한국ITS학회 2022년 국제학술대회",
+      "eventYear": "2022",
+      "postedDate": "2023-02-21",
+      "listedImageCount": 3,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=155",
+      "note": "한국ITS학회 행사이지만 국제학술대회이므로 국제 행사로 제안.",
+      "description": "한국ITS학회 2022년 국제학술대회에 참석하였습니다.\n참석자: 오철 교수님, 고지은 박사과정, 정아람 박사과정, 김호선 박사과정, 구예서 석박사통합과정\n(발표자: 정아람 박사과정)\n(발표자: 김호선 박사과정)\n(발표자: 구예서 석박사통합과정)",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-155-01.webp",
+          "caption": "",
+          "width": 2488,
+          "height": 1701,
+          "sourceUrl": "http://tris.hanyang.ac.kr/upload/board_photo/220615-18%20KITS(1).JPG",
+          "sha256": "c504710a8c4e7824e989e575a4f792e938a3b5565e72fb6bdfe83d89fbff9502",
+          "bytes": 952601
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-154",
+      "sourceId": "154",
+      "category": "국내 행사",
+      "title": "2022 대한교통학회 제86회 학술발표회",
+      "eventYear": "2022",
+      "postedDate": "2023-02-21",
+      "listedImageCount": 1,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=154",
+      "note": "",
+      "description": "2022 대한교통학회 제86회 학술발표회에 참석하였습니다.\n참석자: 오철교수님, 김윤종 박사과정, 조영 박사과정, 박지원 박사과정, 조은솔 박사과정, 김민경 학부연구생",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-154-01.webp",
+          "caption": "",
+          "width": 1018,
+          "height": 764,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/220421-22 2022-1 KORST.jpg",
+          "sha256": "a6ef1723a3651b0150e572138d8fd03abbe48d04292732864272d04b630bc37f",
+          "bytes": 343718
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-153",
+      "sourceId": "153",
+      "category": "국제 행사",
+      "title": "2022 Transportation Research Board",
+      "eventYear": "2022",
+      "postedDate": "2023-02-20",
+      "listedImageCount": 1,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=153",
+      "note": "",
+      "description": "2022 Transportation Research Board에 참석하였습니다.\n참석자: 고지은 박사과정, 정아람 박사과정, 조은솔 박사과정\n(발표자: 조은솔 박사과정)",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-153-01.webp",
+          "caption": "",
+          "width": 3765,
+          "height": 1961,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/220109-13 2022 TRB.jpg",
+          "sha256": "c6728c0e0a47368e5f612c6fc35cc446f5d63608bcfb64a49d42d2ae3d999916",
+          "bytes": 817084
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-150",
+      "sourceId": "150",
+      "category": "졸업",
+      "title": "♣축졸업♣ 2022년 2월 박수빈 박사 졸업",
+      "eventYear": "2022",
+      "postedDate": "2022-01-03",
+      "listedImageCount": 1,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=150",
+      "note": "제목의 졸업 시점은 2022년 2월이나 게시일은 2022-01-03. 행사일과 게시일을 구분해 보존.",
+      "description": "♣축졸업♣ 2022년 2월 박수빈 박사 졸업 기념 사진입니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-150-01.webp",
+          "caption": "",
+          "width": 1914,
+          "height": 2199,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/KakaoTalk_20220103_125801540.jpg",
+          "sha256": "942ec86c20f8b647e84f1622d6fa30992a94f923c7068a141132354ca94a6123",
+          "bytes": 2219778
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-149",
+      "sourceId": "149",
+      "category": "국내 행사",
+      "title": "2021 대한교통학회 제85회 학술발표회",
+      "eventYear": "2021",
+      "postedDate": "2022-01-03",
+      "listedImageCount": 2,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=149",
+      "note": "",
+      "description": "2021 대한교통학회 제85회 학술발표회에 참석하였습니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-149-01.webp",
+          "caption": "",
+          "width": 1280,
+          "height": 960,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/KakaoTalk_20220103_103456338_02.jpg",
+          "sha256": "5966b83fbdcbdf0e6beed0e4e33d273dea8032a56d8fb900a1322d3311ed841f",
+          "bytes": 367530
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-148",
+      "sourceId": "148",
+      "category": "졸업",
+      "title": "♣축졸업♣ 2021년 8월 장지용 박사 졸업",
+      "eventYear": "2021",
+      "postedDate": "2022-01-03",
+      "listedImageCount": 2,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=148",
+      "note": "",
+      "description": "♣축졸업♣ 2021년 8월 장지용 박사 졸업 기념 사진입니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-148-01.webp",
+          "caption": "",
+          "width": 611,
+          "height": 814,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/JIYONG_1.jpg",
+          "sha256": "73fe5fbc4530845bc39cd8edd4773ade52ca155327bb5d9755ca5d41fe79c294",
+          "bytes": 1259944
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-146",
+      "sourceId": "146",
+      "category": "국내 행사",
+      "title": "2021년 한국ITS학회 춘계학술대회",
+      "eventYear": "2021",
+      "postedDate": "2021-05-28",
+      "listedImageCount": 1,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=146",
+      "note": "",
+      "description": "2021년 한국ITS학회 춘계학술대회에 참석하였습니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-146-01.webp",
+          "caption": "",
+          "width": 1079,
+          "height": 720,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/2020_ITS_spring_conference.jpg",
+          "sha256": "e859d751f669bbd66376dc3dba8c02a26dc934f7d03f02ae94f3c864cbdacdfe",
+          "bytes": 309716
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-145",
+      "sourceId": "145",
+      "category": "국내 행사",
+      "title": "2021 대한교통학회 제84회 학술발표회",
+      "eventYear": "2021",
+      "postedDate": "2021-05-28",
+      "listedImageCount": 1,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=145",
+      "note": "",
+      "description": "2021 대한교통학회 제84회 학술발표회에 참석하였습니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-145-01.webp",
+          "caption": "",
+          "width": 4032,
+          "height": 3024,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/2021_84th.jpg",
+          "sha256": "93b8cec481b019ba6cdb2c0007ae41af72baddd0629bfded22ae7eb333843fe9",
+          "bytes": 2587381
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-144",
+      "sourceId": "144",
+      "category": "국내 행사",
+      "title": "2020년 한국ITS학회 추계학술대회",
+      "eventYear": "2020",
+      "postedDate": "2021-05-28",
+      "listedImageCount": 1,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=144",
+      "note": "",
+      "description": "2020년 한국ITS학회 추계학술대회에 참석하였습니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-144-01.webp",
+          "caption": "",
+          "width": 1440,
+          "height": 700,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/2020_ITS_conference.jpg",
+          "sha256": "3406c5a420ca871882cf69fda17f106e20ce8e5828d0481c64a7641c67ecc9aa",
+          "bytes": 415818
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-140",
+      "sourceId": "140",
+      "category": "국내 행사",
+      "title": "2020년도 대한교통학회 제 83회 추계 학술발표회",
+      "eventYear": "2020",
+      "postedDate": "2020-11-02",
+      "listedImageCount": 2,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=140",
+      "note": "",
+      "description": "2020년도 대한교통학회 제 83회 추계 학술발표회 참석하였습니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-140-01.webp",
+          "caption": "",
+          "width": 945,
+          "height": 710,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/201029-30 2020-1 KORST(1).jpg",
+          "sha256": "df89bcee0ca057feaeb50302c3edf6d51b0d6c83a7407f23598eb60188f50f89",
+          "bytes": 242845
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-136",
+      "sourceId": "136",
+      "category": "졸업",
+      "title": "♣축졸업♣ 2020년 2월 이설영 박사 졸업식",
+      "eventYear": "2020",
+      "postedDate": "2020-03-31",
+      "listedImageCount": 3,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=136",
+      "note": "",
+      "description": "♣축졸업♣\n2020년 2월 이설영 박사 졸업식 사진입니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-136-01.webp",
+          "caption": "",
+          "width": 2928,
+          "height": 4392,
+          "sourceUrl": "http://tris.hanyang.ac.kr/upload/board_photo/LSY_1.jpg",
+          "sha256": "d5de55e120bd509839bdd45bcbe1667180876904444cbbb62260f29b37c0fb9e",
+          "bytes": 1773195
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-132",
+      "sourceId": "132",
+      "category": "국제 행사",
+      "title": "2020 Transportation Research Board",
+      "eventYear": "2020",
+      "postedDate": "2020-02-12",
+      "listedImageCount": 3,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=132",
+      "note": "",
+      "description": "2020 Transportation Research Board에 참석하였습니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-132-01.webp",
+          "caption": "",
+          "width": 762,
+          "height": 487,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/KakaoTalk_20200212_143804047.jpg",
+          "sha256": "d8653c09c118b983c8d6613c87060794ff412e192153ea52a27562c1479b4aed",
+          "bytes": 154889
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-131",
+      "sourceId": "131",
+      "category": "국제 행사",
+      "title": "2020 CES(Cosumer Electronics Show) in Las Vegas",
+      "eventYear": "2020",
+      "postedDate": "2020-02-12",
+      "listedImageCount": 3,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=131",
+      "note": "원문 제목의 Cosumer 표기 유지. 화면용 제목 확정 시 Consumer로 정리 가능.",
+      "description": "2020 CES(Cosumer Electronics Show) in Las Vegas에 참석하였습니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-131-01.webp",
+          "caption": "",
+          "width": 1008,
+          "height": 490,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/KakaoTalk_20200212_152335839.jpg",
+          "sha256": "9f886617d1ef4fd5af2fdede9cd7bff9165827a86e3e49dc5a3c8bad517ba492",
+          "bytes": 188717
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-130",
+      "sourceId": "130",
+      "category": "국내 행사",
+      "title": "2019 한국ITS학회 추계학술대회",
+      "eventYear": "2019",
+      "postedDate": "2020-02-12",
+      "listedImageCount": 1,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=130",
+      "note": "",
+      "description": "2019 한국ITS학회 추계학술대회(C-ITS 기술과 그 미래를 위한 새로운 패러다임) 참석하였습니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-130-01.webp",
+          "caption": "",
+          "width": 4032,
+          "height": 2268,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/KakaoTalk_20200212_150658368.jpg",
+          "sha256": "f84070b5e2824f196ca186a4a70bd8499d4cc1242175b1eb94f1e83a770660e8",
+          "bytes": 2705184
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-126",
+      "sourceId": "126",
+      "category": "국내 행사",
+      "title": "2019년도 추계학술대회 대한교통학회 제 81회 학술발표회",
+      "eventYear": "2019",
+      "postedDate": "2019-11-27",
+      "listedImageCount": 1,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=126",
+      "note": "",
+      "description": "2019년도 추계학술대회 대한교통학회 제 81회 학술발표회 참석하였습니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-126-01.webp",
+          "caption": "",
+          "width": 1008,
+          "height": 756,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/KakaoTalk_20191127_160057810_01.jpg",
+          "sha256": "a905b69d4634b0fd1cbf846e3a59a1a51a6b970dada7b68915c234a8c93ae135",
+          "bytes": 374325
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-121",
+      "sourceId": "121",
+      "category": "국제 행사",
+      "title": "2019 Tashkent Institute of Design, Construction & Maintenance of Automotive Roads",
+      "eventYear": "2019",
+      "postedDate": "2019-11-27",
+      "listedImageCount": 5,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=121",
+      "note": "",
+      "description": "2019 Tashkent Institute of Design, Construction & Maintenance of Automotive Roads에 참석하였습니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-121-01.webp",
+          "caption": "",
+          "width": 960,
+          "height": 540,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/KakaoTalk_20191127_153142365_01.jpg",
+          "sha256": "eb69354315bf3714ac9bb8338b01e7b5a2113bfc7d803e0b2da6aa20f3bff848",
+          "bytes": 50965
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-120",
+      "sourceId": "120",
+      "category": "국제 행사",
+      "title": "2019 26th ITS World Congress(Singapore)",
+      "eventYear": "2019",
+      "postedDate": "2019-11-27",
+      "listedImageCount": 2,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=120",
+      "note": "",
+      "description": "2019 26th ITS World Congress(Singapore)에 참석하였습니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-120-01.webp",
+          "caption": "",
+          "width": 960,
+          "height": 454,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/KakaoTalk_20191127_151050575.jpg",
+          "sha256": "4ff444656d924fa5a977150c0f1b1cf73c22411d8528a07b4566968de3e87670",
+          "bytes": 42772
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-119",
+      "sourceId": "119",
+      "category": "국제 행사",
+      "title": "2019 32nd US-Korea Conference (UKC)",
+      "eventYear": "2019",
+      "postedDate": "2019-09-05",
+      "listedImageCount": 2,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=119",
+      "note": "",
+      "description": "2019 32nd US-Korea Conference (UKC) 참석하였습니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-119-01.webp",
+          "caption": "",
+          "width": 4032,
+          "height": 1908,
+          "sourceUrl": "http://tris.hanyang.ac.kr/upload/board_photo/KakaoTalk_20190905_151207591_02.jpg",
+          "sha256": "eda7554284bad0abeafd26c2060c19f0774e163fa43baf4f35b3f0f482edc000",
+          "bytes": 1946741
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-118",
+      "sourceId": "118",
+      "category": "국내 행사",
+      "title": "2019 한국ITS학회 춘계학술대회",
+      "eventYear": "2019",
+      "postedDate": "2019-05-25",
+      "listedImageCount": 1,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=118",
+      "note": "",
+      "description": "2019 한국ITS학회 춘계학술대회에 참석하였습니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-118-01.webp",
+          "caption": "",
+          "width": 1000,
+          "height": 472,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/2019ITS.jpg",
+          "sha256": "39d084f3eeb4b1bcf337f0ca001d16764f396077031bac3036b8451031405651",
+          "bytes": 270309
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-114",
+      "sourceId": "114",
+      "category": "국제 행사",
+      "title": "2019 Transportation Research Board",
+      "eventYear": "2019",
+      "postedDate": "2019-02-27",
+      "listedImageCount": 1,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=114",
+      "note": "",
+      "description": "2019 Transportation Research Board에 참석하였습니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-114-01.webp",
+          "caption": "",
+          "width": 4032,
+          "height": 3024,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/2019_TRB.jpg",
+          "sha256": "ab39d451e303c1d68dcd56d5e778cbf2785bed58d2c9c6ae2cbe70ea860f4afa",
+          "bytes": 2901012
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-110",
+      "sourceId": "110",
+      "category": "국제 행사",
+      "title": "The 25th ITS World Congress 2018",
+      "eventYear": "2018",
+      "postedDate": "2018-10-08",
+      "listedImageCount": 1,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=110",
+      "note": "",
+      "description": "코펜하겐에서 개최된 ITS World Congress 2018에 참석하였습니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-110-01.webp",
+          "caption": "",
+          "width": 4032,
+          "height": 3024,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/1537517280121.jpg",
+          "sha256": "76eb82b1c751753abf991506b82cc8061811df3bdf9f535e9d53c8663c488839",
+          "bytes": 2662533
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-108",
+      "sourceId": "108",
+      "category": "국제 행사",
+      "title": "2018 Road Safety on Five Continents 참석",
+      "eventYear": "2018",
+      "postedDate": "2018-05-23",
+      "listedImageCount": 1,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=108",
+      "note": "제주 개최 RS5C 학술행사. 개최 장소와 별개로 국제 행사로 분류 제안.",
+      "description": "제주도에서 개최된 RS5C Conference에 참여하였습니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-108-01.webp",
+          "caption": "",
+          "width": 5472,
+          "height": 3648,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/KakaoTalk_20180521_165602310.jpg",
+          "sha256": "694914e0943d59b6a32c552b4b2051faaf19359b2e8192c796fc9505d623019b",
+          "bytes": 8511603
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-106",
+      "sourceId": "106",
+      "category": "국제 행사",
+      "title": "2018 Transport Research Arena(TRA)",
+      "eventYear": "2018",
+      "postedDate": "2018-04-24",
+      "listedImageCount": 2,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=106",
+      "note": "",
+      "description": "오스트리아 비엔나에서 개최된 2018 Transport Research Arena(TRA)에 참석하였습니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-106-01.webp",
+          "caption": "",
+          "width": 444,
+          "height": 212,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/TRA2.PNG",
+          "sha256": "ccaa1537cd25ac5cdf698c1e8f49f239b7eaf3e22f907d51ed3b065f5ef8d945",
+          "bytes": 251776
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-104",
+      "sourceId": "104",
+      "category": "국제 행사",
+      "title": "2018 Transportation Research Board",
+      "eventYear": "2018",
+      "postedDate": "2018-01-15",
+      "listedImageCount": 2,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=104",
+      "note": "",
+      "description": "2018년 TRB에 참석하였습니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-104-01.webp",
+          "caption": "",
+          "width": 4032,
+          "height": 3024,
+          "sourceUrl": "http://tris.hanyang.ac.kr/upload/board_photo/2018TRB2.jpg",
+          "sha256": "7066fbd3a05a9e285b083f10e48102de4838e2c3913db7c32e86c9c16a8ead20",
+          "bytes": 4075691
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-99",
+      "sourceId": "99",
+      "category": "국제 행사",
+      "title": "2017 ITS WORLD CONGRESS",
+      "eventYear": "2017",
+      "postedDate": "2017-12-22",
+      "listedImageCount": 1,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=99",
+      "note": "",
+      "description": "ITS WORLD CONGRESS 2017에 참석하였습니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-99-01.webp",
+          "caption": "",
+          "width": 1440,
+          "height": 810,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/KakaoTalk_Moim_6FC4S38IaCkD8FwE1Bxxcl7JVB0KBz.jpg",
+          "sha256": "de8fda3b092d59794cea72bb7692302d87ba922130cfbd99e955942b242c6753",
+          "bytes": 393451
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-98",
+      "sourceId": "98",
+      "category": "국제 행사",
+      "title": "2017 EASTS 참석",
+      "eventYear": "2017",
+      "postedDate": "2017-12-22",
+      "listedImageCount": 1,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=98",
+      "note": "",
+      "description": "2017년 9월 18~21일 열린 EASTS 컨퍼런스에 참가하였습니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-98-01.webp",
+          "caption": "",
+          "width": 4032,
+          "height": 3024,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/20170918_113146.jpg",
+          "sha256": "3f251ac0c684c8cfc74bffe87d107453aa72bd0336004e5cf0bf0e0b0bbe0b9d",
+          "bytes": 3204005
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-94",
+      "sourceId": "94",
+      "category": "국제 행사",
+      "title": "2017 Transportation Research Board",
+      "eventYear": "2017",
+      "postedDate": "2017-02-09",
+      "listedImageCount": 2,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=94",
+      "note": "",
+      "description": "2017년 TRB 학회 참석하였습니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-94-01.webp",
+          "caption": "",
+          "width": 5472,
+          "height": 3648,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/a.jpg",
+          "sha256": "ee3cac4d475165b137f0ac2183a80d2478a1d16498cd6fff3ac2717300acec71",
+          "bytes": 8369087
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-92",
+      "sourceId": "92",
+      "category": "국제 행사",
+      "title": "23nd ITS World Congress, 10-14 October 2016",
+      "eventYear": "2016",
+      "postedDate": "2016-12-07",
+      "listedImageCount": 3,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=92",
+      "note": "원문 제목의 23nd 표기 유지. 화면용 제목 확정 시 23rd로 정리 가능.",
+      "description": "2016년 10월 10~14일 5일간 호주 멜버른에서 23nd ITS World Congress가 개최되었습니다.\nITS World Congress는 ITS와 첨단교통기술 등 미래 자동차 기술 관련 학회이고 교수님, 박현진, 윤석민이 참석하였습니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-92-01.webp",
+          "caption": "",
+          "width": 4032,
+          "height": 2268,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/20161013_130433.jpg",
+          "sha256": "6261d4230e74980435a2193639b991dd8eef9d41265375a28c0ca287330328c3",
+          "bytes": 2729371
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-91",
+      "sourceId": "91",
+      "category": "국제 행사",
+      "title": "2016 Intertraffic Amsterdam",
+      "eventYear": "2016",
+      "postedDate": "2016-05-16",
+      "listedImageCount": 4,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=91",
+      "note": "",
+      "description": "2016년 4월 5일~ 8일에 개최된 Intertraffic Amsterdam 전시회에 참석하였습니다.\nIntertraffic 전시회는 세계 최대의 교통전문 전시회로써 도로교통분야 전반에 관련된 다양한 제품, 기술이 소개되는 자리입니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-91-01.webp",
+          "caption": "",
+          "width": 4032,
+          "height": 3024,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/20160407_095624.jpg",
+          "sha256": "1feeeec0dda8b542737640c8a429bdb65ee04511c90ffae9abc64a82901935b9",
+          "bytes": 2436046
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-89",
+      "sourceId": "89",
+      "category": "국제 행사",
+      "title": "2016 Transportation Research Board",
+      "eventYear": "2016",
+      "postedDate": "2016-02-02",
+      "listedImageCount": 8,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=89",
+      "note": "",
+      "description": "2016년 1월에 개최된 TRB 학회에 참석하였습니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-89-01.webp",
+          "caption": "",
+          "width": 960,
+          "height": 540,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/1.JPG",
+          "sha256": "80ea118e4a10d5c567010634cc2037a1797a01f2bdbfc843268c98ab4e6fdaac",
+          "bytes": 132084
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-85",
+      "sourceId": "85",
+      "category": "국제 행사",
+      "title": "22nd ITS World Congress, 5-9 October 2015",
+      "eventYear": "2015",
+      "postedDate": "2015-11-16",
+      "listedImageCount": 5,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=85",
+      "note": "",
+      "description": "2015년 10월 5~9일 5일간 프랑스 보르도에서 22nd ITS World Congress가 개최되었습니다.\nITS World Congress는\nITS와 첨단교통기술 등 미래 자동차 기술 관련 학회이고\n교수님, 주신혜, 정은비 박사가 참석하였습니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-85-01.webp",
+          "caption": "",
+          "width": 960,
+          "height": 720,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/1444316211937.jpeg",
+          "sha256": "08544618ac7d3593bf1fe6634a4b3611f0c0bbd79e3fe01158b1c1965c222326",
+          "bytes": 123256
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-81",
+      "sourceId": "81",
+      "category": "국제 행사",
+      "title": "2015 Transportation Research Board",
+      "eventYear": "2015",
+      "postedDate": "2015-01-27",
+      "listedImageCount": 8,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=81",
+      "note": "",
+      "description": "2015년 TRB 학회 참석하였습니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-81-01.webp",
+          "caption": "",
+          "width": 960,
+          "height": 540,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/2.jpeg",
+          "sha256": "28787905a50da014afcf8f00e7dbf625d515dd1f556cb6541af7bbc88451dbce",
+          "bytes": 107185
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-69",
+      "sourceId": "69",
+      "category": "국제 행사",
+      "title": "2014 Transportation Research Board",
+      "eventYear": "2014",
+      "postedDate": "2014-03-24",
+      "listedImageCount": 3,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=69",
+      "note": "",
+      "description": "2014년 TRB 학회에 참석하여 4개의 논문을 발표하였습니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-69-01.webp",
+          "caption": "",
+          "width": 5472,
+          "height": 3648,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/a.jpg",
+          "sha256": "ee3cac4d475165b137f0ac2183a80d2478a1d16498cd6fff3ac2717300acec71",
+          "bytes": 8369087
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-60",
+      "sourceId": "60",
+      "category": "국제 행사",
+      "title": "2013 International Conference of Eastern Asia Society for Transportation Studies (EASTS)",
+      "eventYear": "2013",
+      "postedDate": "2014-03-24",
+      "listedImageCount": 3,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=60",
+      "note": "",
+      "description": "2013년 9월 9~12일 4일간 대만에서 개최된 EASTS학회는 동아시아 국제 교통학회입니다.\nEASTS학회는 교수님과 최새로나, 주신혜 학생이 함께 참석하였으며, 많은 대학원생들이 함께 참석을 하여 많은 것을 배우고 왔습니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-60-01.webp",
+          "caption": "",
+          "width": 2592,
+          "height": 1936,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/a.JPG",
+          "sha256": "f8186db16dd0db4f878f95c6bf14e4567dac27f3ef296cf570f9f260816345fb",
+          "bytes": 1504248
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-57",
+      "sourceId": "57",
+      "category": "국제 행사",
+      "title": "Enhanced Safety of Vehicles (국제자동차 안전기술회의)",
+      "eventYear": null,
+      "postedDate": "2014-03-24",
+      "listedImageCount": 1,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=57",
+      "note": "국제 자동차 안전기술회의. 행사 연도는 제목·본문에서 확인되지 않아 미기재.",
+      "description": "International Technical Conference on the Enhanced Safety of Vehicles (ESV) 학회입니다.\nESV 학회는 국제 자동차 안전기술 관련 회의, 학술발표로 자동차 안전기술에 관심이 있으신 분께 좋은 학회입니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-57-01.webp",
+          "caption": "",
+          "width": 3264,
+          "height": 2448,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/20130530_083308.jpg",
+          "sha256": "da1528975a8a42da6635e14be1a439e0b2a2f558c95bb98480d4c7a07d6bda14",
+          "bytes": 1231122
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-48",
+      "sourceId": "48",
+      "category": "국제 행사",
+      "title": "2013년 ITS World Congress",
+      "eventYear": "2013",
+      "postedDate": "2014-03-24",
+      "listedImageCount": 2,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=48",
+      "note": "",
+      "description": "ITS기술과 첨단교통기술 등 미래 자동차 기술 관련 학회입니다.\n2013년에는 일본 도쿄에서 개최하였으며, 교수님과 정은비, 김미정 학생이 함께 참석하였습니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-48-01.webp",
+          "caption": "",
+          "width": 3264,
+          "height": 2448,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/ab.jpg",
+          "sha256": "48ca8773c81d7dd695939eab5bcbfb98a43481daa7caf22be7328d227180cec8",
+          "bytes": 2241795
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-47",
+      "sourceId": "47",
+      "category": "국내 행사",
+      "title": "2013년 대한교통학회 제69회 학술발표회",
+      "eventYear": "2013",
+      "postedDate": "2014-03-24",
+      "listedImageCount": 1,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=47",
+      "note": "",
+      "description": "2013년 대한교통학회 추계 학술발표대회에 참석하였습니다.\n공주대학교에서 개최하였으며, 교수님, 대학원생뿐만 아니라 학부생까지도 참석하여 많은것을 보고, 배우고 왔습니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-47-01.webp",
+          "caption": "",
+          "width": 3264,
+          "height": 2448,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/bbb.jpg",
+          "sha256": "6c5ce13276e56ceded2640fda7c2187b292a9c586f159e067bd3423ff1ff1220",
+          "bytes": 3393317
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-46",
+      "sourceId": "46",
+      "category": "국제 행사",
+      "title": "2013 Transportation Research Board",
+      "eventYear": "2013",
+      "postedDate": "2014-03-24",
+      "listedImageCount": 3,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=46",
+      "note": "",
+      "description": "미국 교통학회인 Transportation Research Board에 참석하여 5개의 논문을 발표하였습니다.",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-46-01.webp",
+          "caption": "",
+          "width": 2048,
+          "height": 1536,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/20130116_094350.jpg",
+          "sha256": "1c721ad3d1b55a067abe0af482295ed1bad8a351611a3f1f3cc2573037806027",
+          "bytes": 626327
+        }
+      ]
+    },
+    {
+      "id": "legacy-album-44",
+      "sourceId": "44",
+      "category": "연구실 행사",
+      "title": "2013년 연구실신년회",
+      "eventYear": "2013",
+      "postedDate": "2014-03-24",
+      "listedImageCount": 1,
+      "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/view_hi.php?num=44",
+      "note": "",
+      "description": "연구실과 함께했던, 함께하고있는, 함께하게될 좋은 분들과 좋은시간 보냈습니다~^^",
+      "images": [
+        {
+          "path": "/album-photos/legacy-album-44-01.webp",
+          "caption": "",
+          "width": 3264,
+          "height": 2448,
+          "sourceUrl": "https://tris.hanyang.ac.kr/upload/board_photo/20130215_223516.jpg",
+          "sha256": "43147c3967025bbbbd00ca6664f40dfc537bd7538e97ef5cfcd093210035616f",
+          "bytes": 1507819
+        }
+      ]
+    }
+  ],
+  "photoCount": 161
+}
