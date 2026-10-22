@@ -6,8 +6,8 @@
      <홈페이지 자료>/
        통합 실적 관리자료_YYYYMMDD.xlsx      ← 가장 최근에 수정된 파일 사용 (구글 스프레드시트도 가능)
        사진 앨범/
-         국제 행사 | 국내 행사 | 졸업 | 연구실 행사/
-           2026-05-20 앨범 제목/   ← 폴더 이름 앞 날짜 = 게시일, 뒤 = 앨범 제목
+         <분류 폴더>/
+           260520 앨범 제목/   ← 폴더 이름 앞 날짜(yymmdd 등) = 게시일·연도, 뒤 = 앨범 제목 (연도 폴더는 있어도 되고 없어도 됨)
              사진들 (jpg, png, heic 제외)                                          */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -43,6 +43,14 @@ async function download(file) {
 const readJson = f => JSON.parse(fs.readFileSync(path.join(PUB, f), 'utf8'));
 const writeJson = (f, d) => { const p = path.join(PUB, f), s = JSON.stringify(d, null, 2) + '\n'; if (!fs.existsSync(p) || fs.readFileSync(p, 'utf8') !== s) { fs.writeFileSync(p, s); console.log('갱신:', f); } };
 const isFolder = f => f.mimeType === 'application/vnd.google-apps.folder';
+/* 앨범 폴더 이름에서 날짜·제목 추출: '260112 TRB 참석', '20260112 …', '2026-01-12 …', '2026.1.12 …' 모두 인식 (없으면 폴더 수정일) */
+function parseName(name, fallback) {
+  const n = name.trim();
+  let m = n.match(/^(\d{4})[-._](\d{1,2})[-._](\d{1,2})[\s_-]*(.*)$/) || n.match(/^(\d{4})(\d{2})(\d{2})[\s_-]*(.*)$/);
+  if (!m) { const s = n.match(/^(\d{2})(\d{2})(\d{2})[\s_-]*(.*)$/); if (s) m = [s[0], '20' + s[1], s[2], s[3], s[4]]; }
+  if (m && +m[2] >= 1 && +m[2] <= 12 && +m[3] >= 1 && +m[3] <= 31) return {posted: `${m[1]}-${String(m[2]).padStart(2, '0')}-${String(m[3]).padStart(2, '0')}`, title: m[4].trim() || n};
+  return {posted: fallback.slice(0, 10), title: n};
+}
 
 const files = await list(root);
 
@@ -63,11 +71,12 @@ if (albumRoot) {
   const albums = readJson('albums.json');
   const seen = new Set();
   for (const cat of (await list(albumRoot.id)).filter(isFolder)) {
-    for (const folder of (await list(cat.id)).filter(isFolder)) {
+    const children = (await list(cat.id)).filter(isFolder);
+    const folders = [];
+    for (const ch of children) { if (/^\d{4}$/.test(ch.name.trim())) folders.push(...(await list(ch.id)).filter(isFolder)); else folders.push(ch); }
+    for (const folder of folders) {
       const id = 'drive-' + folder.id; seen.add(id);
-      const m = folder.name.match(/^(\d{4})[-.](\d{1,2})[-.](\d{1,2})\s*(.*)$/);
-      const posted = m ? `${m[1]}-${m[2].padStart(2, '0')}-${m[3].padStart(2, '0')}` : folder.modifiedTime.slice(0, 10);
-      const title = (m ? m[4] : folder.name).trim();
+      const {posted, title} = parseName(folder.name, folder.modifiedTime);
       const photos = (await list(folder.id)).filter(f => /^image\/(jpeg|png|webp)$/.test(f.mimeType)).sort((a, b) => a.name.localeCompare(b.name, 'ko'));
       const stamp = photos.map(p => p.id + p.modifiedTime).join('|');
       const old = albums.items.find(a => a.id === id);
