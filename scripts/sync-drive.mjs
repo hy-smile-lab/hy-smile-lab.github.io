@@ -1,7 +1,7 @@
 /* 공유드라이브 → 홈페이지 데이터 동기화 (GitHub Actions에서 실행)
    필요 환경변수
      GDRIVE_SA_KEY   : 구글 서비스 계정 키(JSON 전체)
-     DRIVE_FOLDER_ID : 홈페이지 자료 폴더 ID (서비스 계정 이메일에 '뷰어'로 공유)
+     DRIVE_FOLDER_ID : 연동할 폴더 ID. 여러 개면 쉼표로 구분 (예: 실적 폴더ID,앨범 폴더ID). 각 폴더를 서비스 계정 이메일에 '뷰어'로 공유
    폴더 구조
      <홈페이지 자료>/
        통합 실적 관리자료_YYYYMMDD.xlsx      ← 가장 최근에 수정된 파일 사용 (구글 스프레드시트도 가능)
@@ -52,7 +52,13 @@ function parseName(name, fallback) {
   return {posted: fallback.slice(0, 10), title: n};
 }
 
-const files = await list(root);
+/* 연동 폴더: 쉼표로 여러 개 지정 가능. 지정한 폴더 자체가 '앨범' 폴더여도 되고, 그 안에 '앨범' 폴더가 있어도 됨 */
+const roots = root.split(',').map(s => s.trim()).filter(Boolean);
+const files = [];
+for (const id of roots) {
+  const meta = (await auth.request({url: `${API}/files/${id}?fields=id,name,mimeType,modifiedTime&${common}`})).data;
+  files.push(meta, ...(await list(id)));
+}
 
 /* 1) 실적 엑셀 */
 const sheet = files.filter(f => /통합\s*실적/.test(f.name) && (/\.xlsx$/i.test(f.name) || f.mimeType === 'application/vnd.google-apps.spreadsheet'))
