@@ -1,16 +1,14 @@
 'use client';
 import {withBase} from './base';
 import {useEffect,useRef,useState} from 'react';
-import seed from '../public/albums.json';
-import overrides from '../public/overrides.json';
+import {visibleAlbums} from './albums';
 
 type Photo={path:string;caption:string;width:number;height:number};
 type Album={id:string;category:string;title:string;eventYear:string|null;postedDate:string;description:string;images:Photo[]};
 const categories=['전체','국제 학술활동','국내 학술활동','연구 및 대외활동','연구실 생활'];
 export function photoSource(path:string){const g=globalThis as typeof globalThis&{HY_ALBUMS?:Record<string,string>};return g.HY_ALBUMS?.[path]||withBase(path)}
 export default function Gallery({query}:{query:string}){
- /* overrides.json의 hideLegacyAlbums가 true면 전 홈페이지(tris) 이관 앨범은 숨기고 드라이브 앨범만 표시 */
- const albums=(seed.items as Album[]).filter(a=>!((overrides as {hideLegacyAlbums?:boolean}).hideLegacyAlbums&&a.id.startsWith('legacy-')));
+ const albums=visibleAlbums as Album[];
  const [category,setCategory]=useState('전체');
  const [year,setYear]=useState('전체');
  const [active,setActive]=useState<Album|null>(null);

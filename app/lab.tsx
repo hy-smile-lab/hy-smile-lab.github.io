@@ -11,7 +11,7 @@ import Stats from './stats';
 import scene from '../public/motion-scene.json';
 import {About, Equipment, Location} from './pages';
 import {tiltMove, tiltReset} from './tilt';
-import albums from '../public/albums.json';
+import {visibleAlbums} from './albums';
 
 const orgLogo = (p: string) => (globalThis as typeof globalThis & {HY_ORG_LOGOS?: Record<string, string>}).HY_ORG_LOGOS?.[p] || withBase(p);
 
@@ -33,7 +33,7 @@ const normDate = (d: string) => d.replace(/-/g, '.').slice(0, 10);
 function useNews() {
   const data = useAchievements();
   const awards = data.items.filter(i => i.kind === '수상실적').map(i => ({id: i.id, date: normDate(i.date), tag: '수상', title: `${i.venue} ${i.title} 수상`, page: '수상실적'}));
-  const photos = (albums.items as {id: string; postedDate: string; title: string}[]).map(a => ({id: a.id, date: normDate(a.postedDate), tag: '앨범', title: a.title, page: '사진 앨범'}));
+  const photos = (visibleAlbums as {id: string; postedDate: string; title: string}[]).map(a => ({id: a.id, date: normDate(a.postedDate), tag: '앨범', title: a.title, page: '사진 앨범'}));
   const seen = new Set<string>();
   return [...awards, ...photos].sort((a, b) => b.date.localeCompare(a.date)).filter(n => !seen.has(n.date + n.title) && !!seen.add(n.date + n.title)).slice(0, 6);
 }
