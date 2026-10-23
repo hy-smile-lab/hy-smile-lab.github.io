@@ -4,10 +4,10 @@
   "checkedDate": "2026-10-15",
   "sourceUrl": "https://tris.hanyang.ac.kr/photo_album/list_hi.php",
   "categories": [
-    "졸업",
-    "연구실 행사",
-    "국내 행사",
-    "국제 행사"
+    "국제 학술활동",
+    "국내 학술활동",
+    "연구 및 대외활동",
+    "연구실 생활"
   ],
   "scope": "기존 홈페이지 공개 사진 앨범의 최신 글부터 가장 오래된 글까지 이전글 링크를 따라 확인한 63건. 새 홈페이지에는 미반영.",
   "imageCountNote": "사진 원본을 내려받아 파일 형식과 크기를 검증했습니다. 원본 사진은 편집하지 않고 보관합니다.",
@@ -15,7 +15,7 @@
     {
       "id": "legacy-album-193",
       "sourceId": "193",
-      "category": "국내 행사",
+      "category": "국내 학술활동",
       "title": "2025년 ITS 춘계학술발표회 참석",
       "eventYear": "2025",
       "postedDate": "2025-04-29",
@@ -65,7 +65,7 @@
     {
       "id": "legacy-album-192",
       "sourceId": "192",
-      "category": "국내 행사",
+      "category": "국내 학술활동",
       "title": "2025년 한국도로학회 봄학술발표회 참석",
       "eventYear": "2025",
       "postedDate": "2025-04-29",
@@ -97,7 +97,7 @@
     {
       "id": "legacy-album-191",
       "sourceId": "191",
-      "category": "국내 행사",
+      "category": "국내 학술활동",
       "title": "2025년 대한교통학회 춘계학술대회 참석",
       "eventYear": "2025",
       "postedDate": "2025-04-29",
@@ -147,7 +147,7 @@
     {
       "id": "legacy-album-186",
       "sourceId": "186",
-      "category": "국제 행사",
+      "category": "국제 학술활동",
       "title": "2025 TRB 참석",
       "eventYear": "2025",
       "postedDate": "2025-03-09",
@@ -206,7 +206,7 @@
     {
       "id": "legacy-album-183",
       "sourceId": "183",
-      "category": "졸업",
+      "category": "연구실 생활",
       "title": "♣축졸업♣ 2024년 8월 정아람 박사 졸업",
       "eventYear": "2024",
       "postedDate": "2024-11-25",
@@ -229,7 +229,7 @@
     {
       "id": "legacy-album-182",
       "sourceId": "182",
-      "category": "국제 행사",
+      "category": "국제 학술활동",
       "title": "Dubai ITS World Congress 참석",
       "eventYear": "2024",
       "postedDate": "2024-11-25",
@@ -279,7 +279,7 @@
     {
       "id": "legacy-album-181",
       "sourceId": "181",
-      "category": "국제 행사",
+      "category": "국제 학술활동",
       "title": "The 2024 TRB Annual Automated Road Transportation Symposium 참석",
       "eventYear": "2024",
       "postedDate": "2024-11-25",
@@ -311,7 +311,7 @@
     {
       "id": "legacy-album-179",
       "sourceId": "179",
-      "category": "졸업",
+      "category": "연구실 생활",
       "title": "♣축졸업♣ 2024년 2월 조은솔 박사 졸업",
       "eventYear": "2024",
       "postedDate": "2024-03-27",
@@ -334,7 +334,7 @@
     {
       "id": "legacy-album-178",
       "sourceId": "178",
-      "category": "졸업",
+      "category": "연구실 생활",
       "title": "♣축졸업♣ 2024년 2월 고지은 박사 졸업",
       "eventYear": "2024",
       "postedDate": "2024-03-27",
@@ -357,7 +357,7 @@
     {
       "id": "legacy-album-177",
       "sourceId": "177",
-      "category": "졸업",
+      "category": "연구실 생활",
       "title": "♣축졸업♣ 2024년 2월 박지원 박사 졸업",
       "eventYear": "2024",
       "postedDate": "2024-03-27",
@@ -380,7 +380,7 @@
     {
       "id": "legacy-album-176",
       "sourceId": "176",
-      "category": "국제 행사",
+      "category": "국제 학술활동",
       "title": "New Jersey Institute of Technology (뉴저지공과대학교), NJIT 연수",
       "eventYear": null,
       "postedDate": "2024-01-30",
@@ -421,7 +421,7 @@
     {
       "id": "legacy-album-175",
       "sourceId": "175",
-      "category": "국제 행사",
+      "category": "국제 학술활동",
       "title": "2024 TRB 참석",
       "eventYear": "2024",
       "postedDate": "2024-01-30",
@@ -453,7 +453,7 @@
     {
       "id": "legacy-album-171",
       "sourceId": "171",
-      "category": "연구실 행사",
+      "category": "연구실 생활",
       "title": "2023 연구실 송년회",
       "eventYear": "2023",
       "postedDate": "2023-12-20",
@@ -494,7 +494,7 @@
     {
       "id": "legacy-album-170",
       "sourceId": "170",
-      "category": "국내 행사",
+      "category": "국내 학술활동",
       "title": "2023 ITS 추계학술발표회 참석",
       "eventYear": "2023",
       "postedDate": "2023-12-20",
@@ -526,7 +526,7 @@
     {
       "id": "legacy-album-169",
       "sourceId": "169",
-      "category": "국내 행사",
+      "category": "국내 학술활동",
       "title": "2023 대한교통학회 추계학술대회 참석",
       "eventYear": "2023",
       "postedDate": "2023-12-20",
@@ -576,7 +576,7 @@
     {
       "id": "legacy-album-168",
       "sourceId": "168",
-      "category": "국제 행사",
+      "category": "국제 학술활동",
       "title": "알래스카 IEEE Intelligent Vehicles Symposium (IVS) 2023 참석",
       "eventYear": "2023",
       "postedDate": "2023-07-24",
@@ -626,7 +626,7 @@
     {
       "id": "legacy-album-164",
       "sourceId": "164",
-      "category": "국내 행사",
+      "category": "국내 학술활동",
       "title": "2023 ITS 춘계학술대회 참석",
       "eventYear": "2023",
       "postedDate": "2023-04-25",
@@ -667,7 +667,7 @@
     {
       "id": "legacy-album-162",
       "sourceId": "162",
-      "category": "국내 행사",
+      "category": "국내 학술활동",
       "title": "2023 대한교통학회 제88회 학술발표회 참석",
       "eventYear": "2023",
       "postedDate": "2023-03-27",
@@ -717,7 +717,7 @@
     {
       "id": "legacy-album-161",
       "sourceId": "161",
-      "category": "졸업",
+      "category": "연구실 생활",
       "title": "♣축졸업♣ 2023년 2월 조영 박사 졸업",
       "eventYear": "2023",
       "postedDate": "2023-03-27",
@@ -740,7 +740,7 @@
     {
       "id": "legacy-album-160",
       "sourceId": "160",
-      "category": "국제 행사",
+      "category": "국제 학술활동",
       "title": "2023 Transportation Research Board",
       "eventYear": "2023",
       "postedDate": "2023-02-21",
@@ -763,7 +763,7 @@
     {
       "id": "legacy-album-159",
       "sourceId": "159",
-      "category": "국내 행사",
+      "category": "국내 학술활동",
       "title": "2022 한국ITS학회 추계학술대회",
       "eventYear": "2022",
       "postedDate": "2023-02-21",
@@ -786,7 +786,7 @@
     {
       "id": "legacy-album-158",
       "sourceId": "158",
-      "category": "국내 행사",
+      "category": "국내 학술활동",
       "title": "2022 대한교통학회 제87회 학술발표회에 참석하였습니다.",
       "eventYear": "2022",
       "postedDate": "2023-02-21",
@@ -809,7 +809,7 @@
     {
       "id": "legacy-album-157",
       "sourceId": "157",
-      "category": "졸업",
+      "category": "연구실 생활",
       "title": "♣축졸업♣ 2022년 8월 김윤종 박사 졸업",
       "eventYear": "2022",
       "postedDate": "2023-02-21",
@@ -832,7 +832,7 @@
     {
       "id": "legacy-album-156",
       "sourceId": "156",
-      "category": "국제 행사",
+      "category": "국제 학술활동",
       "title": "28th ITS World Congress 2022 in Los Angeles",
       "eventYear": "2022",
       "postedDate": "2023-02-21",
@@ -855,7 +855,7 @@
     {
       "id": "legacy-album-155",
       "sourceId": "155",
-      "category": "국제 행사",
+      "category": "국제 학술활동",
       "title": "한국ITS학회 2022년 국제학술대회",
       "eventYear": "2022",
       "postedDate": "2023-02-21",
@@ -878,7 +878,7 @@
     {
       "id": "legacy-album-154",
       "sourceId": "154",
-      "category": "국내 행사",
+      "category": "국내 학술활동",
       "title": "2022 대한교통학회 제86회 학술발표회",
       "eventYear": "2022",
       "postedDate": "2023-02-21",
@@ -901,7 +901,7 @@
     {
       "id": "legacy-album-153",
       "sourceId": "153",
-      "category": "국제 행사",
+      "category": "국제 학술활동",
       "title": "2022 Transportation Research Board",
       "eventYear": "2022",
       "postedDate": "2023-02-20",
@@ -924,7 +924,7 @@
     {
       "id": "legacy-album-150",
       "sourceId": "150",
-      "category": "졸업",
+      "category": "연구실 생활",
       "title": "♣축졸업♣ 2022년 2월 박수빈 박사 졸업",
       "eventYear": "2022",
       "postedDate": "2022-01-03",
@@ -947,7 +947,7 @@
     {
       "id": "legacy-album-149",
       "sourceId": "149",
-      "category": "국내 행사",
+      "category": "국내 학술활동",
       "title": "2021 대한교통학회 제85회 학술발표회",
       "eventYear": "2021",
       "postedDate": "2022-01-03",
@@ -970,7 +970,7 @@
     {
       "id": "legacy-album-148",
       "sourceId": "148",
-      "category": "졸업",
+      "category": "연구실 생활",
       "title": "♣축졸업♣ 2021년 8월 장지용 박사 졸업",
       "eventYear": "2021",
       "postedDate": "2022-01-03",
@@ -993,7 +993,7 @@
     {
       "id": "legacy-album-146",
       "sourceId": "146",
-      "category": "국내 행사",
+      "category": "국내 학술활동",
       "title": "2021년 한국ITS학회 춘계학술대회",
       "eventYear": "2021",
       "postedDate": "2021-05-28",
@@ -1016,7 +1016,7 @@
     {
       "id": "legacy-album-145",
       "sourceId": "145",
-      "category": "국내 행사",
+      "category": "국내 학술활동",
       "title": "2021 대한교통학회 제84회 학술발표회",
       "eventYear": "2021",
       "postedDate": "2021-05-28",
@@ -1039,7 +1039,7 @@
     {
       "id": "legacy-album-144",
       "sourceId": "144",
-      "category": "국내 행사",
+      "category": "국내 학술활동",
       "title": "2020년 한국ITS학회 추계학술대회",
       "eventYear": "2020",
       "postedDate": "2021-05-28",
@@ -1062,7 +1062,7 @@
     {
       "id": "legacy-album-140",
       "sourceId": "140",
-      "category": "국내 행사",
+      "category": "국내 학술활동",
       "title": "2020년도 대한교통학회 제 83회 추계 학술발표회",
       "eventYear": "2020",
       "postedDate": "2020-11-02",
@@ -1085,7 +1085,7 @@
     {
       "id": "legacy-album-136",
       "sourceId": "136",
-      "category": "졸업",
+      "category": "연구실 생활",
       "title": "♣축졸업♣ 2020년 2월 이설영 박사 졸업식",
       "eventYear": "2020",
       "postedDate": "2020-03-31",
@@ -1108,7 +1108,7 @@
     {
       "id": "legacy-album-132",
       "sourceId": "132",
-      "category": "국제 행사",
+      "category": "국제 학술활동",
       "title": "2020 Transportation Research Board",
       "eventYear": "2020",
       "postedDate": "2020-02-12",
@@ -1131,7 +1131,7 @@
     {
       "id": "legacy-album-131",
       "sourceId": "131",
-      "category": "국제 행사",
+      "category": "국제 학술활동",
       "title": "2020 CES(Cosumer Electronics Show) in Las Vegas",
       "eventYear": "2020",
       "postedDate": "2020-02-12",
@@ -1154,7 +1154,7 @@
     {
       "id": "legacy-album-130",
       "sourceId": "130",
-      "category": "국내 행사",
+      "category": "국내 학술활동",
       "title": "2019 한국ITS학회 추계학술대회",
       "eventYear": "2019",
       "postedDate": "2020-02-12",
@@ -1177,7 +1177,7 @@
     {
       "id": "legacy-album-126",
       "sourceId": "126",
-      "category": "국내 행사",
+      "category": "국내 학술활동",
       "title": "2019년도 추계학술대회 대한교통학회 제 81회 학술발표회",
       "eventYear": "2019",
       "postedDate": "2019-11-27",
@@ -1200,7 +1200,7 @@
     {
       "id": "legacy-album-121",
       "sourceId": "121",
-      "category": "국제 행사",
+      "category": "국제 학술활동",
       "title": "2019 Tashkent Institute of Design, Construction & Maintenance of Automotive Roads",
       "eventYear": "2019",
       "postedDate": "2019-11-27",
@@ -1223,7 +1223,7 @@
     {
       "id": "legacy-album-120",
       "sourceId": "120",
-      "category": "국제 행사",
+      "category": "국제 학술활동",
       "title": "2019 26th ITS World Congress(Singapore)",
       "eventYear": "2019",
       "postedDate": "2019-11-27",
@@ -1246,7 +1246,7 @@
     {
       "id": "legacy-album-119",
       "sourceId": "119",
-      "category": "국제 행사",
+      "category": "국제 학술활동",
       "title": "2019 32nd US-Korea Conference (UKC)",
       "eventYear": "2019",
       "postedDate": "2019-09-05",
@@ -1269,7 +1269,7 @@
     {
       "id": "legacy-album-118",
       "sourceId": "118",
-      "category": "국내 행사",
+      "category": "국내 학술활동",
       "title": "2019 한국ITS학회 춘계학술대회",
       "eventYear": "2019",
       "postedDate": "2019-05-25",
@@ -1292,7 +1292,7 @@
     {
       "id": "legacy-album-114",
       "sourceId": "114",
-      "category": "국제 행사",
+      "category": "국제 학술활동",
       "title": "2019 Transportation Research Board",
       "eventYear": "2019",
       "postedDate": "2019-02-27",
@@ -1315,7 +1315,7 @@
     {
       "id": "legacy-album-110",
       "sourceId": "110",
-      "category": "국제 행사",
+      "category": "국제 학술활동",
       "title": "The 25th ITS World Congress 2018",
       "eventYear": "2018",
       "postedDate": "2018-10-08",
@@ -1338,7 +1338,7 @@
     {
       "id": "legacy-album-108",
       "sourceId": "108",
-      "category": "국제 행사",
+      "category": "국제 학술활동",
       "title": "2018 Road Safety on Five Continents 참석",
       "eventYear": "2018",
       "postedDate": "2018-05-23",
@@ -1361,7 +1361,7 @@
     {
       "id": "legacy-album-106",
       "sourceId": "106",
-      "category": "국제 행사",
+      "category": "국제 학술활동",
       "title": "2018 Transport Research Arena(TRA)",
       "eventYear": "2018",
       "postedDate": "2018-04-24",
@@ -1384,7 +1384,7 @@
     {
       "id": "legacy-album-104",
       "sourceId": "104",
-      "category": "국제 행사",
+      "category": "국제 학술활동",
       "title": "2018 Transportation Research Board",
       "eventYear": "2018",
       "postedDate": "2018-01-15",
@@ -1407,7 +1407,7 @@
     {
       "id": "legacy-album-99",
       "sourceId": "99",
-      "category": "국제 행사",
+      "category": "국제 학술활동",
       "title": "2017 ITS WORLD CONGRESS",
       "eventYear": "2017",
       "postedDate": "2017-12-22",
@@ -1430,7 +1430,7 @@
     {
       "id": "legacy-album-98",
       "sourceId": "98",
-      "category": "국제 행사",
+      "category": "국제 학술활동",
       "title": "2017 EASTS 참석",
       "eventYear": "2017",
       "postedDate": "2017-12-22",
@@ -1453,7 +1453,7 @@
     {
       "id": "legacy-album-94",
       "sourceId": "94",
-      "category": "국제 행사",
+      "category": "국제 학술활동",
       "title": "2017 Transportation Research Board",
       "eventYear": "2017",
       "postedDate": "2017-02-09",
@@ -1476,7 +1476,7 @@
     {
       "id": "legacy-album-92",
       "sourceId": "92",
-      "category": "국제 행사",
+      "category": "국제 학술활동",
       "title": "23nd ITS World Congress, 10-14 October 2016",
       "eventYear": "2016",
       "postedDate": "2016-12-07",
@@ -1499,7 +1499,7 @@
     {
       "id": "legacy-album-91",
       "sourceId": "91",
-      "category": "국제 행사",
+      "category": "국제 학술활동",
       "title": "2016 Intertraffic Amsterdam",
       "eventYear": "2016",
       "postedDate": "2016-05-16",
@@ -1522,7 +1522,7 @@
     {
       "id": "legacy-album-89",
       "sourceId": "89",
-      "category": "국제 행사",
+      "category": "국제 학술활동",
       "title": "2016 Transportation Research Board",
       "eventYear": "2016",
       "postedDate": "2016-02-02",
@@ -1545,7 +1545,7 @@
     {
       "id": "legacy-album-85",
       "sourceId": "85",
-      "category": "국제 행사",
+      "category": "국제 학술활동",
       "title": "22nd ITS World Congress, 5-9 October 2015",
       "eventYear": "2015",
       "postedDate": "2015-11-16",
@@ -1568,7 +1568,7 @@
     {
       "id": "legacy-album-81",
       "sourceId": "81",
-      "category": "국제 행사",
+      "category": "국제 학술활동",
       "title": "2015 Transportation Research Board",
       "eventYear": "2015",
       "postedDate": "2015-01-27",
@@ -1591,7 +1591,7 @@
     {
       "id": "legacy-album-69",
       "sourceId": "69",
-      "category": "국제 행사",
+      "category": "국제 학술활동",
       "title": "2014 Transportation Research Board",
       "eventYear": "2014",
       "postedDate": "2014-03-24",
@@ -1614,7 +1614,7 @@
     {
       "id": "legacy-album-60",
       "sourceId": "60",
-      "category": "국제 행사",
+      "category": "국제 학술활동",
       "title": "2013 International Conference of Eastern Asia Society for Transportation Studies (EASTS)",
       "eventYear": "2013",
       "postedDate": "2014-03-24",
@@ -1637,7 +1637,7 @@
     {
       "id": "legacy-album-57",
       "sourceId": "57",
-      "category": "국제 행사",
+      "category": "국제 학술활동",
       "title": "Enhanced Safety of Vehicles (국제자동차 안전기술회의)",
       "eventYear": null,
       "postedDate": "2014-03-24",
@@ -1660,7 +1660,7 @@
     {
       "id": "legacy-album-48",
       "sourceId": "48",
-      "category": "국제 행사",
+      "category": "국제 학술활동",
       "title": "2013년 ITS World Congress",
       "eventYear": "2013",
       "postedDate": "2014-03-24",
@@ -1683,7 +1683,7 @@
     {
       "id": "legacy-album-47",
       "sourceId": "47",
-      "category": "국내 행사",
+      "category": "국내 학술활동",
       "title": "2013년 대한교통학회 제69회 학술발표회",
       "eventYear": "2013",
       "postedDate": "2014-03-24",
@@ -1706,7 +1706,7 @@
     {
       "id": "legacy-album-46",
       "sourceId": "46",
-      "category": "국제 행사",
+      "category": "국제 학술활동",
       "title": "2013 Transportation Research Board",
       "eventYear": "2013",
       "postedDate": "2014-03-24",
@@ -1729,7 +1729,7 @@
     {
       "id": "legacy-album-44",
       "sourceId": "44",
-      "category": "연구실 행사",
+      "category": "연구실 생활",
       "title": "2013년 연구실신년회",
       "eventYear": "2013",
       "postedDate": "2014-03-24",

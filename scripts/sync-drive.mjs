@@ -5,10 +5,10 @@
    폴더 구조
      <홈페이지 자료>/
        통합 실적 관리자료_YYYYMMDD.xlsx      ← 가장 최근에 수정된 파일 사용 (구글 스프레드시트도 가능)
-       사진 앨범/
-         <분류 폴더>/
-           260520 앨범 제목/   ← 폴더 이름 앞 날짜(yymmdd 등) = 게시일·연도, 뒤 = 앨범 제목 (연도 폴더는 있어도 되고 없어도 됨)
-             사진들 (jpg, png, heic 제외)                                          */
+       3. 연구실 앨범/                         ← 이름에 '앨범'이 들어간 폴더 (예: 사진 앨범, 3. 연구실 앨범)
+         <분류 폴더>/                         ← 국제 학술활동 · 국내 학술활동 · 연구 및 대외활동 · 연구실 생활
+           260520 앨범 제목/                  ← 폴더 이름 앞 날짜(yymmdd, 261022-23 등) = 행사일·연도, 뒤 = 앨범 제목
+             사진들 (jpg, png, webp. heic·동영상·pdf는 제외)                        */
 import fs from 'node:fs';
 import path from 'node:path';
 import {JWT} from 'google-auth-library';
@@ -47,7 +47,7 @@ const isFolder = f => f.mimeType === 'application/vnd.google-apps.folder';
 function parseName(name, fallback) {
   const n = name.trim();
   let m = n.match(/^(\d{4})[-._](\d{1,2})[-._](\d{1,2})[\s_-]*(.*)$/) || n.match(/^(\d{4})(\d{2})(\d{2})[\s_-]*(.*)$/);
-  if (!m) { const s = n.match(/^(\d{2})(\d{2})(\d{2})[\s_-]*(.*)$/); if (s) m = [s[0], '20' + s[1], s[2], s[3], s[4]]; }
+  if (!m) { const s = n.match(/^(\d{2})(\d{2})(\d{2})(?:-\d{1,2})?[\s_-]*(.*)$/); if (s) m = [s[0], '20' + s[1], s[2], s[3], s[4]]; }
   if (m && +m[2] >= 1 && +m[2] <= 12 && +m[3] >= 1 && +m[3] <= 31) return {posted: `${m[1]}-${String(m[2]).padStart(2, '0')}-${String(m[3]).padStart(2, '0')}`, title: m[4].trim() || n};
   return {posted: fallback.slice(0, 10), title: n};
 }
@@ -66,7 +66,7 @@ if (sheet) {
 } else console.log('실적 엑셀을 찾지 못함');
 
 /* 2) 사진 앨범 */
-const albumRoot = files.find(f => isFolder(f) && f.name.trim() === '사진 앨범');
+const albumRoot = files.find(f => isFolder(f) && /앨범/.test(f.name));
 if (albumRoot) {
   const albums = readJson('albums.json');
   const seen = new Set();
@@ -95,9 +95,9 @@ if (albumRoot) {
       console.log((old ? '앨범 갱신: ' : '앨범 추가: ') + title);
     }
   }
-  /* 드라이브에서 지운 앨범은 홈페이지에서도 제거 (기존 홈페이지 이관 앨범은 유지) */
+  /* 드라이브에서 지운 앨범은 홈페이지에서도 제거 (전 홈페이지 이관 앨범은 데이터에 유지, 표시 여부는 overrides.json의 hideLegacyAlbums) */
   albums.items = albums.items.filter(a => !a.id.startsWith('drive-') || seen.has(a.id));
   for (const f of fs.readdirSync(path.join(PUB, 'album-photos'))) if (f.startsWith('drive-') && !seen.has(f.replace(/-\d+\.webp$/, ''))) fs.unlinkSync(path.join(PUB, 'album-photos', f));
   albums.items.sort((a, b) => b.postedDate.localeCompare(a.postedDate));
   writeJson('albums.json', albums);
-} else console.log("'사진 앨범' 폴더를 찾지 못함");
+} else console.log("'앨범' 폴더를 찾지 못함");

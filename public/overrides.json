@@ -1,5 +1,5 @@
 {
-  "note": "exclude: 홈페이지에서 숨길 실적 제목. add: 엑셀에 아직 없는 실적을 직접 추가(엑셀에 같은 제목이 생기면 엑셀 내용이 우선).",
+  "note": "exclude: 홈페이지에서 숨길 실적 제목. add: 엑셀에 아직 없는 실적을 직접 추가(엑셀에 같은 제목이 생기면 엑셀 내용이 우선). hideLegacyAlbums: true로 바꾸면 전 홈페이지(tris)에서 옮겨온 앨범을 숨기고 드라이브 앨범만 표시.",
   "exclude": [
     "2024 KOTAA Travel Grant Award",
     "2023 Best young researcher paper award road user measurement and evaluation"
@@ -29,5 +29,6 @@
         "type": "doi"
       }
     }
-  ]
+  ],
+  "hideLegacyAlbums": false
 }
