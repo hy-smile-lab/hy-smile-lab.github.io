@@ -133,12 +133,6 @@ export function Equipment() {
           </article>
         ))}
       </div>
-      <section className="collect">
-        <h2 className="block-title">수집 데이터</h2>
-        <div className="chips large">
-          {['운전자 주행행태', '선행 차량 주행행태', '영상 기반 주행행태', '운전자 시각 행태', '자전거·PV 주행행태'].map(t => <span key={t}>{t}</span>)}
-        </div>
-      </section>
     </div>
   );
 }

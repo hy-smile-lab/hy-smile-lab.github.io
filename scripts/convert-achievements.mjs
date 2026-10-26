@@ -82,7 +82,7 @@ export function convert(raw, {previous, overrides = {}, sourceFile, sourceDate})
   for (const {titleIncludes, venue} of overrides.setVenue || []) for (const i of out) if (i.title.includes(titleIncludes)) i.venue = venue;
   /* 수상자: 같은 날짜·기관·상 이름의 수상 실적에 순서대로 배정 */
   for (const r of overrides.awardWinners || []) out.filter(i => i.kind === '수상실적' && i.date === r.date && i.venue === r.venue && i.title === r.title).sort((a, b) => a.id.localeCompare(b.id)).forEach((i, k) => { if (r.winners[k]) i.fields = [...i.fields.filter(f => f.label !== '수상자'), {label: '수상자', value: r.winners[k]}]; });
-  for (const a of overrides.add || []) if (!out.some(i => i.kind === a.kind && norm(i.title) === norm(a.title))) out.push(a);
+  for (const a of overrides.add || []) if (!out.some(i => i.kind === a.kind && norm(i.title) === norm(a.title) && (a.kind !== '수상실적' || (i.date === a.date && i.venue === a.venue)))) out.push(a);
 
   out.sort((a, b) => b.year.localeCompare(a.year) || b.date.localeCompare(a.date) || a.id.localeCompare(b.id));
   return {version: 1, updated: new Date().toISOString().slice(0, 10), sourceFile, sourceDate, items: out};

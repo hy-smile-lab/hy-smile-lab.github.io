@@ -58,8 +58,8 @@
         "range": "수동 추가"
       },
       "paperLink": {
-        "url": "https://doi.org/10.12815/kits.2026.25.4.1",
-        "type": "doi"
+        "url": "http://journal.kits.or.kr/journal/article.php?code=100150",
+        "type": "publisher"
       }
     },
     {
@@ -1265,6 +1265,34 @@
         "checked": "2026-10-15",
         "matchedTitle": "Analysis of Traffic Management Strategies for Merging Area on Underground Road",
         "verification": "출판사 국문 제목 및 Crossref 연도·권·호·쪽·저자 대조"
+      }
+    },
+    {
+      "id": "achievement-6-manual-1",
+      "kind": "수상실적",
+      "title": "우수논문상",
+      "date": "2025.09.26",
+      "year": "2025",
+      "authors": "",
+      "venue": "대한교통학회",
+      "fields": [
+        {
+          "label": "국내/국제",
+          "value": "국내"
+        },
+        {
+          "label": "수상내용",
+          "value": "상장"
+        },
+        {
+          "label": "수상자",
+          "value": "최원명, 이호윤, 오철"
+        }
+      ],
+      "source": {
+        "sheet": "5. 수상실적",
+        "rows": [],
+        "range": "수동 추가"
       }
     },
     {
