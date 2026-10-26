@@ -75,6 +75,7 @@ if (sheet) {
 const albumRoot = files.find(f => isFolder(f) && /앨범/.test(f.name));
 if (albumRoot) {
   const albums = readJson('albums.json');
+  const rotateExtra = (fs.existsSync(path.join(PUB, 'overrides.json')) ? readJson('overrides.json') : {}).rotatePhotos || {};
   const seen = new Set();
   for (const cat of (await list(albumRoot.id)).filter(isFolder)) {
     const children = (await list(cat.id)).filter(isFolder);
@@ -90,7 +91,9 @@ if (albumRoot) {
       const images = [];
       for (const [i, p] of photos.entries()) {
         const rel = `/album-photos/${id}-${String(i + 1).padStart(2, '0')}.webp`;
-        const buf = await sharp(await download(p), {failOn: 'none'}).rotate().resize({width: 1600, height: 1600, fit: 'inside', withoutEnlargement: true}).webp({quality: 80}).toBuffer();
+        let src = await sharp(await download(p), {failOn: 'none'}).rotate().toBuffer();
+        if (rotateExtra[p.id]) src = await sharp(src).rotate(rotateExtra[p.id]).toBuffer();
+        const buf = await sharp(src).resize({width: 1600, height: 1600, fit: 'inside', withoutEnlargement: true}).webp({quality: 80}).toBuffer();
         fs.writeFileSync(path.join(PUB, rel), buf);
         const meta = await sharp(buf).metadata();
         images.push({path: rel, caption: '', width: meta.width, height: meta.height});
