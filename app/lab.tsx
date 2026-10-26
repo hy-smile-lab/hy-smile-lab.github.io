@@ -12,6 +12,7 @@ import scene from '../public/motion-scene.json';
 import {About, Equipment, Location} from './pages';
 import {tiltMove, tiltReset} from './tilt';
 import {visibleAlbums} from './albums';
+import {useLang, LangToggle} from './i18n';
 
 const orgLogo = (p: string) => (globalThis as typeof globalThis & {HY_ORG_LOGOS?: Record<string, string>}).HY_ORG_LOGOS?.[p] || withBase(p);
 
@@ -119,6 +120,7 @@ function Home({navigate}: {navigate: (p: string) => void}) {
 export default function Lab() {
   const [page, setPage] = useState('Home');
   const [query, setQuery] = useState('');
+  const [lang, setLang] = useLang();
   useEffect(() => {
     const read = () => { const p = decodeURIComponent(location.hash.slice(1)); setPage(pages.includes(p) ? p : 'Home'); };
     read();
@@ -148,6 +150,7 @@ export default function Lab() {
               </div>
             ))}
           </nav>
+          <LangToggle lang={lang} onChange={setLang} />
         </div>
       </header>
 
