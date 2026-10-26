@@ -18,8 +18,8 @@ const orgLogo = (p: string) => (globalThis as typeof globalThis & {HY_ORG_LOGOS?
 const groups: [string, string[]][] = [
   ['ABOUT', ['연구실 소개', '교수 소개', '구성원', '졸업생', '오시는 길']],
   ['RESEARCH', ['연구 분야', '프로젝트', '특허', '기술이전', '연구 장비']],
-  ['PUBLICATIONS', ['논문', '학술대회 참여', '저서']],
-  ['LIFE', ['수상실적', '사진 앨범']],
+  ['PUBLICATIONS', ['논문', '학술대회 참여', '저서', '수상실적']],
+  ['LIFE', ['사진 앨범']],
 ];
 const pages = groups.flatMap(g => g[1]);
 
