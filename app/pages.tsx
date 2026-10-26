@@ -95,11 +95,11 @@ export function Location() {
 /* 연구 장비 (사진: 기존 연구실 홈페이지 장비 게시판) */
 const EQUIPMENT = [
   {img: '/equipment/mads.webp', name: 'Multi-Agent Driving Simulator', en: 'MADS', desc: '여러 운전자가 같은 가상 도로에서 동시에 주행하며, 운전 조작과 차량 운동 정보를 수집하는 다중 주행 시뮬레이터'},
-  {pos: 'center 35%', img: '/equipment/vr.webp', name: 'VR 헤드셋·컨트롤러', en: 'VR', desc: '가상환경과 상호작용하며 인적 요인 정보를 수집하는 사용자 인터페이스 장치'},
-  {pos: 'center 18%', img: '/equipment/eeg.webp', name: '뇌파 수집 장비', en: 'EEG', desc: '주행 중 운전자의 뇌파를 측정하고 수집하는 장치'},
-  {pos: 'center 30%', img: '/equipment/eyeglass.webp', name: '아이트래커', en: 'Eye Tracker', desc: '시선 데이터를 실시간으로 추적·수집하는 안경형 장치'},
+  {fit: 'contain', img: '/equipment/vr.webp', name: 'VR 헤드셋·컨트롤러', en: 'VR', desc: '가상환경과 상호작용하며 인적 요인 정보를 수집하는 사용자 인터페이스 장치'},
+  {fit: 'contain', img: '/equipment/eeg.webp', name: '뇌파 수집 장비', en: 'EEG', desc: '주행 중 운전자의 뇌파를 측정하고 수집하는 장치'},
+  {img: '/equipment/eyeglass.webp', name: '아이트래커', en: 'Eye Tracker', desc: '시선 데이터를 실시간으로 추적·수집하는 안경형 장치'},
   {img: '/equipment/kinect.webp', name: 'Kinect', en: 'Motion Sensor', desc: '별도 컨트롤러 없이 사람의 신체와 음성을 감지하는 3차원 동작인식 카메라'},
-  {img: '/equipment/drone.webp', name: '드론', en: 'Drone', desc: '교통정보 자료 수집에 활용하는 무인 항공기'},
+  {fit: 'contain', img: '/equipment/drone.webp', name: '드론', en: 'Drone', desc: '교통정보 자료 수집에 활용하는 무인 항공기'},
 ];
 const SENSORS = [
   {img: '/equipment/biopac.webp', name: 'Biopac MP100 System', desc: '생체신호 측정 시스템'},
@@ -117,12 +117,11 @@ export function Equipment() {
       <div className="equip-grid">
         {EQUIPMENT.map(e => (
           <article key={e.name} className={'equip-card' + ((e as {wide?: boolean}).wide ? ' wide' : '')}>
-            <div className="equip-photo"><img src={asset(e.img)} alt={e.name} loading="lazy" style={{objectPosition: (e as {pos?: string}).pos}} /></div>
+            <div className={'equip-photo' + ((e as {fit?: string}).fit ? ' contain' : '')}><img src={asset(e.img)} alt={e.name} loading="lazy" style={{objectPosition: (e as {pos?: string}).pos}} /></div>
             <div className="equip-body"><p className="eyebrow">{e.en}</p><h3>{e.name}</h3><p>{e.desc}</p></div>
           </article>
         ))}
       </div>
-      <h2 className="block-title">측정 장비</h2>
       <div className="sensor-grid">
         {SENSORS.map(e => (
           <article key={e.name} className="sensor-card">
@@ -132,7 +131,6 @@ export function Equipment() {
           </article>
         ))}
       </div>
-      <p className="note">이 밖에 LiDAR, m-HTS, 휘도계 등을 보유하고 있습니다.</p>
       <section className="collect">
         <h2 className="block-title">수집 데이터</h2>
         <div className="chips large">

@@ -98,7 +98,7 @@ function SharedMobility() {
           <circle r="22" fill={`url(#${id}glow)`} />
           <path d="M0 -10 V-38" stroke={S} strokeWidth="3" />
           <rect x="-16" y="-54" width="32" height="18" rx="6" fill={i === 1 ? O : B} />
-          <text y="-41" textAnchor="middle" fontSize="10" fontWeight="700" fill="#fff">{String(t).slice(-1)}</text>
+          <text y="-41" textAnchor="middle" fontSize="13" fontWeight="700" fill="#fff">{String(t).slice(-1)}</text>
           <circle r="7" fill="#fff" stroke={B} strokeWidth="3" />
         </g>
       ))}
@@ -106,9 +106,9 @@ function SharedMobility() {
       <g><animateMotion dur="11s" repeatCount="indefinite" rotate="auto" path={route} /><Car id={id} av /></g>
       <g><animateMotion dur="11s" begin="-5.5s" repeatCount="indefinite" rotate="auto" path={route} /><Car id={id} /></g>
       {/* 자율주행 스트레스 패널 */}
-      <g transform="translate(436 22)" filter={`url(#${id}sh)`}>
-        <rect width="184" height="92" rx="16" fill="#fff" />
-        <text x="16" y="24" fontSize="11" fontWeight="700" fill={B}>자율주행 스트레스</text>
+      <g transform="translate(424 22)" filter={`url(#${id}sh)`}>
+        <rect width="196" height="92" rx="16" fill="#fff" />
+        <text x="16" y="27" fontSize="17" fontWeight="700" fill={B}>자율주행 스트레스</text>
         <path d="M16 56 H40 L48 40 L58 70 L66 46 L74 56 H168" fill="none" stroke={O} strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round" strokeDasharray="170" strokeDashoffset="170">
           <animate attributeName="stroke-dashoffset" values="170;0;0;170" keyTimes="0;.45;.85;1" dur="3.4s" repeatCount="indefinite" />
         </path>
@@ -161,9 +161,9 @@ function RoadInfra() {
           <g fill="none" stroke={GD} strokeWidth="2.6" strokeLinecap="round"><path d="M38 -64a12 12 0 0 1 8 10" /><path d="M42 -76a24 24 0 0 1 16 22" /></g>
         </g>
       ))}
-      <g transform="translate(24 300)" filter={`url(#${id}sh)`}>
-        <rect width="150" height="40" rx="12" fill="#fff" />
-        <circle cx="20" cy="20" r="7" fill={O} /><text x="34" y="24" fontSize="11" fontWeight="700" fill={B}>자율주행 취약구간</text>
+      <g transform="translate(24 296)" filter={`url(#${id}sh)`}>
+        <rect width="186" height="44" rx="12" fill="#fff" />
+        <circle cx="20" cy="22" r="7" fill={O} /><text x="34" y="28" fontSize="17" fontWeight="700" fill={B}>자율주행 취약구간</text>
       </g>
     </svg>
   );
@@ -219,16 +219,16 @@ function DrivingPerformance() {
       {/* 측정 패널 */}
       <g transform="translate(470 30)" filter={`url(#${id}sh)`}>
         <rect width="150" height="196" rx="16" fill="#fff" />
-        <text x="16" y="26" fontSize="11" fontWeight="700" fill={B}>EEG</text>
+        <text x="16" y="28" fontSize="17" fontWeight="700" fill={B}>EEG</text>
         <path d="M16 50 h16 l6 -12 l8 24 l6 -18 l6 10 l8 -6 h74" fill="none" stroke={B} strokeWidth="2.4" strokeLinejoin="round" strokeDasharray="150" strokeDashoffset="150">
           <animate attributeName="stroke-dashoffset" values="150;0;0" keyTimes="0;.6;1" dur="2.6s" repeatCount="indefinite" />
         </path>
-        <text x="16" y="88" fontSize="11" fontWeight="700" fill={B}>운전 능력 지표</text>
+        <text x="16" y="88" fontSize="17" fontWeight="700" fill={B}>운전 능력 지표</text>
         {[[102, G, '반응'], [128, B, '주시'], [154, GO, '부하']].map(([y, c, t], i) => (
           <g key={i}>
-            <text x="16" y={(y as number) + 9} fontSize="9" fill={S}>{t}</text>
-            <rect x="44" y={y as number} width="92" height="10" rx="5" fill="#eef2f6" />
-            <rect x="44" y={y as number} width="40" height="10" rx="5" fill={c as string}>
+            <text x="16" y={(y as number) + 9} fontSize="13.5" fill={S}>{t}</text>
+            <rect x="52" y={y as number} width="84" height="10" rx="5" fill="#eef2f6" />
+            <rect x="52" y={y as number} width="40" height="10" rx="5" fill={c as string}>
               <animate attributeName="width" values={`${30 + i * 14};${86 - i * 10};${50 + i * 8};${30 + i * 14}`} dur={`${4 + i}s`} repeatCount="indefinite" />
             </rect>
           </g>
@@ -285,9 +285,9 @@ function Cooperative() {
       <g transform="translate(150 246) rotate(-11)"><Car id={id} av /></g>
       <g transform="translate(486 236) rotate(5)"><Car id={id} /></g>
       <g transform="translate(318 250) rotate(-2)"><g><animateTransform attributeName="transform" type="translate" values="-34 4;40 -3;-34 4" dur="8s" repeatCount="indefinite" /><Car id={id} av /></g></g>
-      <g transform="translate(470 300)" filter={`url(#${id}sh)`}>
-        <rect width="150" height="40" rx="12" fill="#fff" />
-        <circle cx="20" cy="20" r="6" fill={O} /><text x="34" y="24" fontSize="11" fontWeight="700" fill={B}>V2X 안전정보 공유</text>
+      <g transform="translate(434 296)" filter={`url(#${id}sh)`}>
+        <rect width="186" height="44" rx="12" fill="#fff" />
+        <circle cx="20" cy="22" r="6" fill={O} /><text x="34" y="28" fontSize="17" fontWeight="700" fill={B}>V2X 안전정보 공유</text>
       </g>
     </svg>
   );

@@ -82,7 +82,7 @@ img{max-width:100%;display:block}
 .head-row{display:flex;align-items:center;gap:28px;min-height:84px}
 .brands{display:flex;align-items:center;gap:18px}
 .uni-logo img{height:46px;width:auto}
-.lab-logo{border-left:1px solid var(--line);padding-left:18px}
+.lab-logo{border-left:0;padding-left:0}
 .lab-logo img{height:44px;width:auto}
 nav{display:flex;gap:6px;margin-left:auto}
 .nav-group{position:relative}
@@ -466,7 +466,7 @@ footer{background:var(--blue-deep);color:#c9d6e2}
   .head-map{opacity:.22;width:90%}
   .uni-logo img{height:38px}.lab-logo img{height:36px}
   .nav-group>button{padding:12px 9px;letter-spacing:.04em}
-  .brands{gap:12px}.lab-logo{padding-left:12px}
+  .brands{gap:12px}.lab-logo{padding-left:0}
   .research-grid,.people-grid,.people-grid.alumni,.equip-grid,.tile-grid,.gallery-grid,.org-grid,.about-axis,.about-topics{grid-template-columns:1fr}
   .equip-card.wide{grid-column:auto;flex-direction:column}
   .stat-grid{grid-template-columns:1fr 1fr}
@@ -623,9 +623,9 @@ footer{background:var(--blue-deep);color:#c9d6e2}
 .area-body{padding:28px 32px 30px;display:flex;flex-direction:column;gap:10px;flex:1}
 .area-body .eyebrow{color:var(--tone);letter-spacing:.06em}
 .area-card.tone-green .area-body .eyebrow{color:var(--green-deep)}
-.area-items{list-style:none;margin:6px 0 0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:8px 18px}
+.area-items{list-style:none;margin:6px 0 0;padding:0;display:grid;grid-template-columns:1fr;gap:6px}
 .area-items li{position:relative;padding-left:16px;color:var(--gray);line-height:1.5}
-.area-items li::before{content:"";position:absolute;left:0;top:.62em;width:7px;height:7px;border-radius:50%;background:var(--tone)}
+.area-items li::before{content:"";position:absolute;left:0;top:calc(.75em - 3.5px);width:7px;height:7px;border-radius:50%;background:var(--tone)}
 .area-body .link{margin-top:auto;padding-top:10px;align-self:flex-start}
 /* 수행 중인 과제 */
 .ongoing .block-title:first-child{margin-top:8px}
@@ -661,3 +661,7 @@ footer{background:var(--blue-deep);color:#c9d6e2}
 .stats.compact .stat-icon{width:44px;height:44px;border-radius:14px}
 .stats.compact .stat-icon svg{width:22px;height:22px}
 .people-grid.members .person-body .research{white-space:nowrap;text-overflow:ellipsis;display:block;min-height:1.5em}
+
+.stat-tile.linked{cursor:pointer;transition:transform .2s,box-shadow .2s}.stat-tile.linked:hover,.stat-tile.linked:focus-visible{transform:translateY(-3px);box-shadow:0 14px 30px rgba(0,40,90,.12)}.stat-go{opacity:.6}
+.equip-photo.contain{background:#fff}.equip-photo.contain img{object-fit:contain;padding:14px}
+.equip-grid+.sensor-grid{margin-top:24px}

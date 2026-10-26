@@ -1,7 +1,7 @@
 /* 통합 실적 관리자료(xlsx) → public/achievements.json 변환
    - 시트 구성(1-1 국내논문, 1-2 국외논문, 2. 연구과제, 3. 경력, 4-1 기술이전, 4-2 특허, 5. 수상, 6. 학술대회, 7. 저서)은 기존 엑셀 양식 기준
    - 홈페이지에서 따로 보강한 정보(논문 링크, 색인 등)는 기존 achievements.json에서 제목 기준으로 이어받음
-   - public/overrides.json: exclude(숨길 실적 제목), add(엑셀에 없는 실적 직접 추가) */
+   - public/overrides.json: exclude(숨길 실적 제목), excludeFund(숨길 사업구분, 예: 교비지원연구), replace(오탈자 치환 [{from,to}]), setVenue(제목에 특정 문구가 든 실적의 발주처 지정), add(엑셀에 없는 실적 직접 추가) */
 import XLSX from 'xlsx';
 
 const clean = v => String(v ?? '').replace(/ /g, ' ').replace(/[\t\r\n]+/g, ' ').replace(/ +/g, ' ').trim();
@@ -76,7 +76,10 @@ export function convert(raw, {previous, overrides = {}, sourceFile, sourceDate})
 
   /* 수동 설정: 숨김·추가 */
   const hide = new Set((overrides.exclude || []).map(norm));
-  let out = items.filter(i => !hide.has(norm(i.title)) && !hide.has(norm(i.venue + ' ' + i.title)));
+  const hideFund = new Set(overrides.excludeFund || []);
+  let out = items.filter(i => !hide.has(norm(i.title)) && !hide.has(norm(i.venue + ' ' + i.title)) && !i.fields.some(f => f.label === '사업구분' && hideFund.has(f.value)));
+  for (const {from, to} of overrides.replace || []) for (const i of out) { i.title = i.title.split(from).join(to); i.venue = i.venue.split(from).join(to); for (const f of i.fields) f.value = f.value.split(from).join(to); }
+  for (const {titleIncludes, venue} of overrides.setVenue || []) for (const i of out) if (i.title.includes(titleIncludes)) i.venue = venue;
   for (const a of overrides.add || []) if (!out.some(i => i.kind === a.kind && norm(i.title) === norm(a.title))) out.push(a);
 
   out.sort((a, b) => b.year.localeCompare(a.year) || b.date.localeCompare(a.date) || a.id.localeCompare(b.id));

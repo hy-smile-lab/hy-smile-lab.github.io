@@ -62,7 +62,7 @@ function Home({navigate}: {navigate: (p: string) => void}) {
         </section>
       </div>
 
-      <section className="section stats-section"><div className="wrap"><Stats /></div></section>
+      <section className="section stats-section"><div className="wrap"><Stats onNavigate={navigate} /></div></section>
 
       <section className="section research-section">
         <div className="wrap">
@@ -138,7 +138,6 @@ export default function Lab() {
       <header className="site-head">
         <div className="wrap head-row">
           <div className="brands">
-            <span className="uni-logo"><img src={orgLogo('/organizations/hanyang.png')} alt="한양대학교" /></span>
             <button className="lab-logo" onClick={() => navigate('Home')}><img src={withBase('/hy-smile-logo.png')} alt="HY-SMILE 홈" /></button>
           </div>
           <nav aria-label="주 메뉴">

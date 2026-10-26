@@ -2,7 +2,8 @@
   "note": "exclude: 홈페이지에서 숨길 실적 제목. add: 엑셀에 아직 없는 실적을 직접 추가(엑셀에 같은 제목이 생기면 엑셀 내용이 우선). hideLegacyAlbums: true로 바꾸면 전 홈페이지(tris)에서 옮겨온 앨범을 숨기고 드라이브 앨범만 표시. hideLegacyAlbumIds: 같은 사진이 드라이브 앨범으로 올라와 중복되는 전 홈페이지 앨범.",
   "exclude": [
     "2024 KOTAA Travel Grant Award",
-    "2023 Best young researcher paper award road user measurement and evaluation"
+    "2023 Best young researcher paper award road user measurement and evaluation",
+    "첨단기술을 활용한 공사장 교통안전성 평가 및 향상 기술개발에 관한 연구(1차)"
   ],
   "add": [
     {
@@ -83,5 +84,24 @@
     "legacy-album-191",
     "legacy-album-192",
     "legacy-album-193"
+  ],
+  "excludeFund": [
+    "교비지원연구"
+  ],
+  "replace": [
+    {
+      "from": "도하엔지니어링",
+      "to": "도화엔지니어링"
+    },
+    {
+      "from": "(본: 자율협력주행을 위한 미래도로 설계 및 실증 기술 개발)",
+      "to": ""
+    }
+  ],
+  "setVenue": [
+    {
+      "titleIncludes": "실도로 기반 Lv.4 자율주행차량 운전능력 평가기술 개발",
+      "venue": "과학치안진흥센터"
+    }
   ]
 }

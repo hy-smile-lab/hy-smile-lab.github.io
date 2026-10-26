@@ -1,5 +1,5 @@
 'use client';
-import {useEffect, useRef, useState} from 'react';
+import React, {useEffect, useRef, useState} from 'react';
 import {useAchievements} from './achievements';
 import {usePeople} from './people';
 
@@ -42,17 +42,17 @@ function StatIcon({name}: {name: string}) {
 }
 
 /* 연구실 주요 실적 수치 — achievements.json·people.json에서 자동 집계 */
-export default function Stats({compact = false}: {compact?: boolean}) {
+export default function Stats({compact = false, onNavigate}: {compact?: boolean; onNavigate?: (page: string) => void}) {
   const data = useAchievements();
   const people = usePeople();
   const by = (k: string) => data.items.filter(i => i.kind === k);
   const sci = by('국외논문').filter(i => /SCI|SSCI/i.test(i.fields.find(f => f.label === '색인')?.value || '')).length;
   const firstYear = Math.min(...data.items.filter(i => ['국내논문', '국외논문'].includes(i.kind)).map(i => +i.year).filter(Boolean));
   const cards = [
-    {label: '졸업생', value: people.alumni.length, unit: '명', note: '연구기관·대학·기업으로 진출', tone: 'blue', icon: 'cap'},
-    {label: 'SCI·SSCI 논문', value: sci, unit: '편', note: 'SCI·SCIE·SSCI 등재 학술지', tone: 'orange', icon: 'globe'},
-    {label: '국내 학술지 논문', value: by('국내논문').length, unit: '편', note: `${firstYear}년부터 누적`, tone: 'green', icon: 'book'},
-    {label: '학술대회 발표', value: by('학술대회 참여').length, unit: '건', note: '국내외 학술대회', tone: 'gold', icon: 'mic'},
+    {label: '졸업생', value: people.alumni.length, unit: '명', note: '연구기관·대학·기업으로 진출', tone: 'blue', icon: 'cap', page: '졸업생'},
+    {label: 'SCI·SSCI 논문', value: sci, unit: '편', note: 'SCI·SCIE·SSCI 등재 학술지', tone: 'orange', icon: 'globe', page: '논문'},
+    {label: '국내 학술지 논문', value: by('국내논문').length, unit: '편', note: `${firstYear}년부터 누적`, tone: 'green', icon: 'book', page: '논문'},
+    {label: '학술대회 발표', value: by('학술대회 참여').length, unit: '건', note: '국내외 학술대회', tone: 'gold', icon: 'mic', page: '학술대회 참여'},
   ];
   return (
     <section className={'stats' + (compact ? ' compact' : '')} aria-label="연구실 주요 실적">
@@ -64,11 +64,11 @@ export default function Stats({compact = false}: {compact?: boolean}) {
       )}
       <div className="stats-grid">
         {cards.map(c => (
-          <div key={c.label} className={'stat-tile tone-' + c.tone}>
+          <div key={c.label} className={'stat-tile tone-' + c.tone + (onNavigate ? ' linked' : '')} {...(onNavigate ? {role: 'link', tabIndex: 0, onClick: () => onNavigate(c.page), onKeyDown: (e: React.KeyboardEvent) => { if (e.key === 'Enter') onNavigate(c.page); }} : {})}>
             <span className="stat-icon" aria-hidden="true"><StatIcon name={c.icon} /></span>
             <p className="stat-label">{c.label}</p>
             <p className="stat-number"><CountUp value={c.value} /><small>{c.unit}</small></p>
-            <p className="stat-note">{c.note}</p>
+            <p className="stat-note">{c.note}{onNavigate && <span className="stat-go" aria-hidden="true"> ↗</span>}</p>
           </div>
         ))}
       </div>
