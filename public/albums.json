@@ -208,7 +208,7 @@
       "title": "연구실 워크샵 세미나",
       "eventYear": "2026",
       "postedDate": "2026-08-24",
-      "listedImageCount": 2,
+      "listedImageCount": 5,
       "sourceUrl": "",
       "note": "공유드라이브 동기화",
       "description": "",
@@ -224,9 +224,27 @@
           "caption": "",
           "width": 1600,
           "height": 900
+        },
+        {
+          "path": "/album-photos/drive-1xCt3GSYmoDwrWnpHqpvq98CmK4T5cd-a-03.webp",
+          "caption": "",
+          "width": 1200,
+          "height": 1600
+        },
+        {
+          "path": "/album-photos/drive-1xCt3GSYmoDwrWnpHqpvq98CmK4T5cd-a-04.webp",
+          "caption": "",
+          "width": 1200,
+          "height": 1600
+        },
+        {
+          "path": "/album-photos/drive-1xCt3GSYmoDwrWnpHqpvq98CmK4T5cd-a-05.webp",
+          "caption": "",
+          "width": 1600,
+          "height": 1200
         }
       ],
-      "driveStamp": "16m6GCb2WWJEjtgDEMVgwuulbvA4kwbQv2026-09-08T05:23:43.331Z|10p4YJgTvO3wdOUMmvnmKiBXe5hqf3s2x2026-09-08T05:23:22.629Z"
+      "driveStamp": "16m6GCb2WWJEjtgDEMVgwuulbvA4kwbQv2026-09-08T05:23:43.331Z|10p4YJgTvO3wdOUMmvnmKiBXe5hqf3s2x2026-09-08T05:23:22.629Z|1KtYtJpvKgXrxyh45rf2ql_MTI4ldrJMH2026-10-22T08:52:24.579Z|1akM3lBz_d_JaDbuhySIBcSPt2sbULvez2026-10-22T08:52:30.298Z|1Lmo9Hj8ET7uoJVMVdk3xN9i8G3jRR-uA2026-10-22T08:52:19.157Z"
     },
     {
       "id": "drive-1AnJlPS5NuusabEVe96bu9ErIbVSr8ras",
@@ -577,7 +595,7 @@
       "title": "한국ITS학회 춘계학술대회",
       "eventYear": "2026",
       "postedDate": "2026-04-23",
-      "listedImageCount": 11,
+      "listedImageCount": 12,
       "sourceUrl": "",
       "note": "공유드라이브 동기화",
       "description": "",
@@ -639,17 +657,23 @@
         {
           "path": "/album-photos/drive-1NtV__61o9hyTlRqdOq-QEm01YTisMgAp-10.webp",
           "caption": "",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "path": "/album-photos/drive-1NtV__61o9hyTlRqdOq-QEm01YTisMgAp-11.webp",
+          "caption": "",
           "width": 1200,
           "height": 1600
         },
         {
-          "path": "/album-photos/drive-1NtV__61o9hyTlRqdOq-QEm01YTisMgAp-11.webp",
+          "path": "/album-photos/drive-1NtV__61o9hyTlRqdOq-QEm01YTisMgAp-12.webp",
           "caption": "",
           "width": 1600,
           "height": 900
         }
       ],
-      "driveStamp": "1u8l_WVmyT9Q-xqbH-assin9-KuWhinUn2026-09-08T05:13:29.192Z|1uRs-qDf0bG0qnnc0dQ85dldxi6H-4rOt2026-09-08T05:13:56.064Z|16iyIJPAMzSIp9ZQQN91YyP6o5nqNH_902026-09-08T05:14:28.744Z|1OfV27Wn2NySNJDKTgam3DMDJ-PBGAh1U2026-09-08T05:13:43.812Z|1NwyjfB9OYBuigVWx1r94pKiozjRPVSky2026-09-08T05:13:49.709Z|1dBjBmHOFxkqZxnj6co017deaVttazAUp2026-09-08T05:14:20.515Z|1fbh_0wN8KOvSGi_rf-py7Y3OLrEP7X622026-09-08T05:14:09.867Z|1QrU1qawQand_ovl6a8DGodUoxYFc_6u92026-09-08T05:14:42.590Z|1t2yetzs2NVZsU6E240xbK4UeeoNpPu0o2026-09-08T05:13:35.220Z|1rn5FMw3mDhRnEW-fp4y4XJe83XWIk0fb2026-09-08T05:14:34.546Z|13rN6FGcb2XjAoNntw-0oDBobx13xxCs82026-09-08T05:14:14.069Z"
+      "driveStamp": "1u8l_WVmyT9Q-xqbH-assin9-KuWhinUn2026-09-08T05:13:29.192Z|1uRs-qDf0bG0qnnc0dQ85dldxi6H-4rOt2026-09-08T05:13:56.064Z|16iyIJPAMzSIp9ZQQN91YyP6o5nqNH_902026-09-08T05:14:28.744Z|1OfV27Wn2NySNJDKTgam3DMDJ-PBGAh1U2026-09-08T05:13:43.812Z|1NwyjfB9OYBuigVWx1r94pKiozjRPVSky2026-09-08T05:13:49.709Z|1dBjBmHOFxkqZxnj6co017deaVttazAUp2026-09-08T05:14:20.515Z|1fbh_0wN8KOvSGi_rf-py7Y3OLrEP7X622026-09-08T05:14:09.867Z|1QrU1qawQand_ovl6a8DGodUoxYFc_6u92026-09-08T05:14:42.590Z|1t2yetzs2NVZsU6E240xbK4UeeoNpPu0o2026-09-08T05:13:35.220Z|1rGqQ_KAUxRjWvFsqYF0j9amsXAI2FRFQ2026-09-08T05:14:02.432Z|1rn5FMw3mDhRnEW-fp4y4XJe83XWIk0fb2026-09-08T05:14:34.546Z|13rN6FGcb2XjAoNntw-0oDBobx13xxCs82026-09-08T05:14:14.069Z"
     },
     {
       "id": "drive-1smyEgByy8ELX58FiXddOvuK1DQ108LeX",
