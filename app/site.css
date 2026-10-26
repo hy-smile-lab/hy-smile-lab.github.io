@@ -668,3 +668,4 @@ footer{background:var(--blue-deep);color:#c9d6e2}
 .award-item .award-winners{display:block;color:var(--blue);font-weight:600;margin-top:2px}
 .lang-toggle{display:flex;align-items:center;gap:4px;margin-left:18px;font-size:12px;font-weight:700;letter-spacing:.04em;color:var(--muted);flex:none}.lang-toggle button{background:none;border:0;padding:4px 2px;font:inherit;color:inherit;cursor:pointer}.lang-toggle button[aria-pressed=true]{color:var(--blue)}.lang-toggle button:hover{color:var(--blue)}
 @media(max-width:900px){.lang-toggle{order:1;margin-left:auto}nav{order:2}}
+@media(min-width:641px){html[lang=en] .row-card{grid-template-columns:116px 1fr auto}}
