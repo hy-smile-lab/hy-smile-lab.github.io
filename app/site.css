@@ -665,3 +665,4 @@ footer{background:var(--blue-deep);color:#c9d6e2}
 .stat-tile.linked{cursor:pointer;transition:transform .2s,box-shadow .2s}.stat-tile.linked:hover,.stat-tile.linked:focus-visible{transform:translateY(-3px);box-shadow:0 14px 30px rgba(0,40,90,.12)}.stat-go{opacity:.6}
 .equip-photo.contain{background:#fff}.equip-photo.contain img{object-fit:contain;padding:14px}
 .equip-grid+.sensor-grid{margin-top:24px}
+.award-item .award-winners{display:block;color:var(--blue);font-weight:600;margin-top:2px}

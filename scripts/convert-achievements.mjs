@@ -66,7 +66,7 @@ export function convert(raw, {previous, overrides = {}, sourceFile, sourceDate})
   }
 
   /* 기존 데이터에서 보강 정보 이어받기 (논문 링크·추가 필드) */
-  const prevByKey = new Map((previous?.items || []).map(i => [i.kind + '|' + norm(i.title), i]));
+  const prevByKey = new Map((previous?.items || []).filter(i => i.kind !== '수상실적').map(i => [i.kind + '|' + norm(i.title), i]));
   for (const it of items) {
     const p = prevByKey.get(it.kind + '|' + norm(it.title));
     if (!p) continue;
@@ -80,6 +80,8 @@ export function convert(raw, {previous, overrides = {}, sourceFile, sourceDate})
   let out = items.filter(i => !hide.has(norm(i.title)) && !hide.has(norm(i.venue + ' ' + i.title)) && !i.fields.some(f => f.label === '사업구분' && hideFund.has(f.value)));
   for (const {from, to} of overrides.replace || []) for (const i of out) { i.title = i.title.split(from).join(to); i.venue = i.venue.split(from).join(to); for (const f of i.fields) f.value = f.value.split(from).join(to); }
   for (const {titleIncludes, venue} of overrides.setVenue || []) for (const i of out) if (i.title.includes(titleIncludes)) i.venue = venue;
+  /* 수상자: 같은 날짜·기관·상 이름의 수상 실적에 순서대로 배정 */
+  for (const r of overrides.awardWinners || []) out.filter(i => i.kind === '수상실적' && i.date === r.date && i.venue === r.venue && i.title === r.title).sort((a, b) => a.id.localeCompare(b.id)).forEach((i, k) => { if (r.winners[k]) i.fields = [...i.fields.filter(f => f.label !== '수상자'), {label: '수상자', value: r.winners[k]}]; });
   for (const a of overrides.add || []) if (!out.some(i => i.kind === a.kind && norm(i.title) === norm(a.title))) out.push(a);
 
   out.sort((a, b) => b.year.localeCompare(a.year) || b.date.localeCompare(a.date) || a.id.localeCompare(b.id));

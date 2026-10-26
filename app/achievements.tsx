@@ -116,7 +116,7 @@ function AwardTimeline({items}: {items: Achievement[]}) {
       <p className="award-legend"><span className="tone-major">학술상·특별상</span><span className="tone-intl">국제 수상</span><span className="tone-paper">우수논문상</span></p>
       {years.map(y => {
         const list = items.filter(i => i.year === y);
-        const groups = list.reduce<{i: Achievement; n: number}[]>((g, i) => { const f = g.find(x => x.i.title === i.title && x.i.venue === i.venue && x.i.date === i.date); if (f) f.n++; else g.push({i, n: 1}); return g; }, []);
+        const groups = list.reduce<{i: Achievement; n: number}[]>((g, i) => { const f = g.find(x => x.i.title === i.title && x.i.venue === i.venue && x.i.date === i.date && field(x.i, '수상자') === field(i, '수상자')); if (f) f.n++; else g.push({i, n: 1}); return g; }, []);
         return (
           <section key={y} className="award-year">
             <h3 className="award-y">{y}</h3>
@@ -124,7 +124,7 @@ function AwardTimeline({items}: {items: Achievement[]}) {
               {groups.map(({i, n}) => (
                 <li key={i.id} className={'award-item ' + awardTone(i)}>
                   <svg className="medal" viewBox="0 0 48 48" aria-hidden="true"><path d="M14 4h8l4 12-8 2zM34 4h-8l-4 12 8 2z" /><circle cx="24" cy="30" r="14" /><circle cx="24" cy="30" r="9" fill="none" stroke="#fff" strokeWidth="2" /></svg>
-                  <div><b>{i.title}</b><span>{i.venue === '미국' ? 'TRB (미국)' : i.venue} · {i.date.slice(5)}</span></div>
+                  <div><b>{i.title}</b><span>{i.venue === '미국' ? 'TRB (미국)' : i.venue} · {i.date.slice(5)}</span>{field(i, '수상자') && <span className="award-winners">{field(i, '수상자')}</span>}</div>
                   {n > 1 && <em>×{n}</em>}
                 </li>
               ))}
