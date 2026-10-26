@@ -110,6 +110,8 @@ const SENSORS = [
   {img: '/equipment/pvms.webp', name: 'PVMS', desc: '이동형 도로전광표지'},
   {img: '/equipment/mesh.webp', name: 'MESH 장비', desc: ''},
   {img: '/equipment/mr5010a.webp', name: 'MR-5010A', desc: ''},
+  {img: '/equipment/speedgun.webp', name: '스피드건', desc: '차량 주행속도 측정'},
+  {img: '/equipment/lidar.webp', name: 'LiDAR', desc: '주변 차량·객체 3차원 인지'},
 ];
 export function Equipment() {
   return (
