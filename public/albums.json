@@ -2181,7 +2181,7 @@
       "title": "TRB 2025",
       "eventYear": "2025",
       "postedDate": "2025-01-03",
-      "listedImageCount": 2,
+      "listedImageCount": 5,
       "sourceUrl": "",
       "note": "공유드라이브 동기화",
       "description": "",
@@ -2197,6 +2197,24 @@
           "caption": "",
           "width": 1600,
           "height": 1200
+        },
+        {
+          "path": "/album-photos/drive-1OYk83EuuqgQOczpOVci0jHWC0rvL_raV-03.webp",
+          "caption": "",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "path": "/album-photos/drive-1OYk83EuuqgQOczpOVci0jHWC0rvL_raV-04.webp",
+          "caption": "",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "path": "/album-photos/drive-1OYk83EuuqgQOczpOVci0jHWC0rvL_raV-05.webp",
+          "caption": "",
+          "width": 1200,
+          "height": 1600
         }
       ],
       "driveStamp": "1ezt_8qgITZfI_KE9RhEncKU9Nqr5Ux5L2026-10-23T10:30:39.744Z|1tytiQbTsItRlothISAdBRS8gDwoBlSgm2026-10-23T10:30:35.076Z"
