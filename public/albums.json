@@ -202,6 +202,33 @@
       "driveStamp": "1S4HQzSCb0CEGWleH08T8KLvRsgBFybYE2026-10-23T11:29:26.061Z|1GsOS9fdUEFvBZVEN79njpC-lhN-59ev92026-10-23T11:30:57.982Z|1QrtVTpmIic1cF-28vDrwTKKgnaHpI7zP2026-10-23T11:31:43.801Z|1UBzrF09nP5Z7CFm_F_1zv6Z3Jcv7sIav2026-10-23T11:34:58.096Z"
     },
     {
+      "id": "drive-1_3bQabJ3147IO6i2h6D6TAW3_ArjKeZi",
+      "sourceId": "1_3bQabJ3147IO6i2h6D6TAW3_ArjKeZi",
+      "category": "국제 학술활동",
+      "title": "글로벌 모빌리티 컨퍼런스",
+      "eventYear": "2026",
+      "postedDate": "2026-09-08",
+      "listedImageCount": 2,
+      "sourceUrl": "",
+      "note": "공유드라이브 동기화",
+      "description": "",
+      "images": [
+        {
+          "path": "/album-photos/drive-1_3bQabJ3147IO6i2h6D6TAW3_ArjKeZi-01.webp",
+          "caption": "",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "path": "/album-photos/drive-1_3bQabJ3147IO6i2h6D6TAW3_ArjKeZi-02.webp",
+          "caption": "",
+          "width": 1200,
+          "height": 1600
+        }
+      ],
+      "driveStamp": "1ie3OfDIpQu4LFE_j-ftXJ7n6TCrZqBWB2026-11-06|1RhIAU-Ktb3CTaumbtIO-O6X5yjCuP4052026-11-06"
+    },
+    {
       "id": "drive-1xCt3GSYmoDwrWnpHqpvq98CmK4T5cd-a",
       "sourceId": "1xCt3GSYmoDwrWnpHqpvq98CmK4T5cd-a",
       "category": "연구 및 대외활동",
@@ -2131,6 +2158,39 @@
         }
       ],
       "driveStamp": "1RTjYL52XVSN_zTSl6g6_DV3Uzd1wBMzF2026-10-23T10:39:55.040Z|1OXvJqdJQdFYKV8UdwsmnP84B7MHMgZlp2026-10-23T10:40:04.130Z|1_qiNcxvA8wNkAovB-XsNexFiA1ZhBXN-2026-10-23T11:04:52.941Z"
+    },
+    {
+      "id": "drive-1uwV1UKsvPtJkr_0QbE291zdf9AWp7Llc",
+      "sourceId": "1uwV1UKsvPtJkr_0QbE291zdf9AWp7Llc",
+      "category": "국내 학술활동",
+      "title": "한국ITS학회 추계학술대회 (강릉)",
+      "eventYear": "2024",
+      "postedDate": "2024-10-23",
+      "listedImageCount": 3,
+      "sourceUrl": "",
+      "note": "공유드라이브 동기화",
+      "description": "",
+      "images": [
+        {
+          "path": "/album-photos/drive-1uwV1UKsvPtJkr_0QbE291zdf9AWp7Llc-01.webp",
+          "caption": "",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "path": "/album-photos/drive-1uwV1UKsvPtJkr_0QbE291zdf9AWp7Llc-02.webp",
+          "caption": "",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "path": "/album-photos/drive-1uwV1UKsvPtJkr_0QbE291zdf9AWp7Llc-03.webp",
+          "caption": "",
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "driveStamp": "1YenjhyTyw2wnv12aT12h8ydHK0pAIeiO2026-11-06|1GHYqTqO3qEfGkgsWd56TnH9rcZQyT7Vz2026-11-06|19rFXHgQpAlXbtIIe1HV_e7g5ogpaDEw02026-11-06"
     },
     {
       "id": "drive-1v1fWYwpYDqfsNuG1HB8PkQ_BZTav0ITT",
