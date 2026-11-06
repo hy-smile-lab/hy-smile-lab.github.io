@@ -89,11 +89,18 @@ if (albumRoot) {
       const old = albums.items.find(a => a.id === id);
       if (old && old.driveStamp === stamp && old.title === title && old.category === cat.name.trim()) continue;
       const images = [];
-      for (const [i, p] of photos.entries()) {
-        const rel = `/album-photos/${id}-${String(i + 1).padStart(2, '0')}.webp`;
-        let src = await sharp(await download(p), {failOn: 'none'}).rotate().toBuffer();
-        if (rotateExtra[p.id]) src = await sharp(src).rotate(rotateExtra[p.id]).toBuffer();
-        const buf = await sharp(src).resize({width: 1600, height: 1600, fit: 'inside', withoutEnlargement: true}).webp({quality: 80}).toBuffer();
+      for (const p of photos) {
+        const rel = `/album-photos/${id}-${String(images.length + 1).padStart(2, '0')}.webp`;
+        let buf;
+        try {
+          let src = await sharp(await download(p), {failOn: 'none'}).rotate().toBuffer();
+          if (rotateExtra[p.id]) src = await sharp(src).rotate(rotateExtra[p.id]).toBuffer();
+          buf = await sharp(src).resize({width: 1600, height: 1600, fit: 'inside', withoutEnlargement: true}).webp({quality: 80}).toBuffer();
+        } catch (e) {
+          /* 손상된 사진 1장 때문에 전체 동기화가 멈추지 않도록 건너뜀 */
+          console.warn(`사진 건너뜀 (파일 손상): ${folder.name} / ${p.name} — ${String(e.message).split('\n')[0]}`);
+          continue;
+        }
         fs.writeFileSync(path.join(PUB, rel), buf);
         const meta = await sharp(buf).metadata();
         images.push({path: rel, caption: '', width: meta.width, height: meta.height});
