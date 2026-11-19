@@ -669,3 +669,12 @@ footer{background:var(--blue-deep);color:#c9d6e2}
 .lang-toggle{display:flex;align-items:center;gap:4px;margin-left:18px;font-size:12px;font-weight:700;letter-spacing:.04em;color:var(--muted);flex:none}.lang-toggle button{background:none;border:0;padding:4px 2px;font:inherit;color:inherit;cursor:pointer}.lang-toggle button[aria-pressed=true]{color:var(--blue)}.lang-toggle button:hover{color:var(--blue)}
 @media(max-width:900px){.lang-toggle{order:1;margin-left:auto}nav{order:2}}
 @media(min-width:641px){html[lang=en] .row-card{grid-template-columns:116px 1fr auto}}
+/* 영문 모드: 번역문이 칸을 넘지 않도록 줄바꿈 허용 (글자 크기 유지) */
+html[lang=en] .people-grid.members .person-body .research{white-space:normal;display:block;min-height:3em}
+html[lang=en] .people-grid.alumni .person-body .meta{-webkit-line-clamp:unset;display:block}
+html[lang=en] .project .line-org{white-space:normal}
+@media(min-width:901px){html[lang=en] .project{grid-template-columns:150px minmax(0,1fr) minmax(0,240px) auto}
+html[lang=en] .patent{grid-template-columns:100px minmax(0,1fr) 150px 100px}
+html[lang=en] .transfer{grid-template-columns:170px minmax(0,1fr) 220px 100px}}
+@media(max-width:900px){html[lang=en] .transfer{grid-template-columns:170px 1fr}html[lang=en] .patent{grid-template-columns:100px 1fr}}
+html[lang=en] .research-body h3{white-space:normal;overflow:visible}
