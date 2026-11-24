@@ -55,7 +55,7 @@ export function About({navigate}: {navigate: (p: string) => void}) {
             <img src={photoSrc(prof.photo)} alt={prof.name + ' 교수 사진'} />
             <div>
               <p className="eyebrow">PROFESSOR</p>
-              <h3>{prof.name} 교수</h3>
+              <h3>{`${prof.name} 교수`}</h3>
               <p>{prof.affiliation}</p>
               <button className="link" onClick={() => navigate('교수 소개')}>교수 소개 ↗</button>
             </div>

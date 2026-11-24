@@ -44,13 +44,13 @@ export function makeTranslator(dict: Dict, names: Dict, miss?: Set<string>) {
     [/^사진 (\d+) 보기$/, m => 'View photo ' + m[1]],
     [/^(.+) 공식 홈페이지 \(새 창\)$/, m => t(m[1]) + ' official website (new window)'],
     [/^(.+) 로고$/, m => t(m[1]) + ' logo'],
-    [/^(.+) 교수 사진$/, m => 'Prof. ' + nm(m[1]) + ' photo'],
+    [/^([가-힣](?: ?[가-힣]){1,4}) 교수 사진$/, m => 'Prof. ' + nm(m[1].replace(/\s/g, '')) + ' photo'],
     [/^(.+) 사진$/, m => t(m[1]) + ' photo'],
-    [/^(.+) 교수$/, m => 'Prof. ' + nm(m[1])],
+    [/^([가-힣](?: ?[가-힣]){1,4}) 교수$/, m => 'Prof. ' + nm(m[1].replace(/\s/g, ''))],
     [/^(.+) 검색$/, m => 'Search ' + t(m[1])],
     [/^♣축졸업♣\s*(.+)$/, m => t(m[1])],
-    [/^(.+) 박사 졸업식?$/, m => 'Ph.D. Graduation of ' + nm(m[1])],
-    [/^(.+) 석사 졸업식?$/, m => 'M.S. Graduation of ' + nm(m[1])],
+    [/^([가-힣]{2,5}) 박사 졸업식?$/, m => 'Ph.D. Graduation of ' + nm(m[1])],
+    [/^([가-힣]{2,5}) 석사 졸업식?$/, m => 'M.S. Graduation of ' + nm(m[1])],
     /* APA: 저자. (연도). 제목. 학술지, 권(호), 쪽. */
     [/^(.+?)\. \((\d{4}[a-z]?)\)\. (.+)\. ([^.]+?)((?:, [^.]*)?\.?)$/, m => {
       const authors = m[1].split(/,\s*(?:&\s*)?|\s*&\s*/).filter(Boolean).map(nm);
@@ -67,9 +67,9 @@ export function makeTranslator(dict: Dict, names: Dict, miss?: Set<string>) {
     let m = s.match(/^([\d.\s~\-]*\d[\d.\s~\-]*?\s)(\S.*)$/);
     if (m) return m[1] + t(m[2]);
     m = s.match(/^(.+?)(\s*\([\d\-]+\))$/);
-    if (m) return t(m[1]) + m[2];
+    if (m) return t(m[1]) + ' ' + m[2].trim();
     m = s.match(/^(.+?)(\s*\(\d+차\))$/);
-    if (m) return t(m[1]) + m[2].replace(/\((\d+)차\)/, (_, n) => `(Phase ${n})`);
+    if (m) return t(m[1]) + ' ' + m[2].trim().replace(/\((\d+)차\)/, (_, n) => `(Phase ${n})`);
     miss?.add(s);
     return s;
   }

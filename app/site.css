@@ -673,7 +673,9 @@ footer{background:var(--blue-deep);color:#c9d6e2}
 html[lang=en] .people-grid.members .person-body .research{white-space:normal;display:block;min-height:3em}
 html[lang=en] .people-grid.alumni .person-body .meta{-webkit-line-clamp:unset;display:block}
 html[lang=en] .project .line-org{white-space:normal}
-@media(min-width:901px){html[lang=en] .project{grid-template-columns:150px minmax(0,1fr) minmax(0,240px) auto}
+@media(min-width:1200px){html[lang=en] .project{grid-template-columns:150px minmax(0,1fr) 230px 250px}}
+@media(min-width:901px) and (max-width:1199px){html[lang=en] .project{grid-template-columns:130px minmax(0,1fr) 270px;row-gap:6px}html[lang=en] .project .line-tags{grid-column:3;justify-content:flex-start;flex-wrap:wrap}}
+@media(min-width:901px){
 html[lang=en] .patent{grid-template-columns:100px minmax(0,1fr) 150px 100px}
 html[lang=en] .transfer{grid-template-columns:170px minmax(0,1fr) 220px 100px}}
 @media(max-width:900px){html[lang=en] .transfer{grid-template-columns:170px 1fr}html[lang=en] .patent{grid-template-columns:100px 1fr}}

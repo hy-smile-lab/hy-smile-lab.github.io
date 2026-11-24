@@ -756,7 +756,7 @@
 "자율-비자율차 혼재상황을 고려한 멀티에이전트 주행시뮬레이션 기반 고속도로 위험구간 선정 기법": "A Methodology of Identifying Hazardous Freeway Segment based on Multi-agent Driving Simulations for the Mixed Situation of Autonomous and Manual Vehicles",
 "자율-비자율차량 혼재교통상황의 자율주행차 혼입률에 따른 통합평가지표 산출 방법론": "Integrated Evaluation Indicators by AV Penetration Rate in Mixed AV-MV Traffic",
 "자율주행": "Autonomous Driving",
-"자율주행 Lv.4/4+ 공유차(Car-Sharing) 서비스 기술 개발": "Level 4/4+ Automated Car-Sharing Service Technology",
+"자율주행 Lv.4/4+ 공유차(Car-Sharing) 서비스 기술 개발": "Level 4/4+ Automated Car‑Sharing Service Technology",
 "자율주행 공유차 경로계획 의사결정 지원정보 개발: 미시교통시뮬레이션 기반 실시간 자율주행 스트레스 정보 산출": "Route Planning Decision Support for Shared AVs: Real-Time Autonomous Driving Stress Based on Microscopic Traffic Simulation",
 "자율주행 공유차 주행 경로 지원 전략 개발": "Route Support Strategies for Shared Autonomous Vehicles",
 "자율주행 기반 대중교통 평가지표": "Evaluation Indicators for Autonomous Driving-Based Public Transit",
@@ -1004,7 +1004,7 @@
 "한국도로학회지": "Journal of the Korean Society of Road Engineers",
 "한국생산기술연구원": "Korea Institute of Industrial Technology (KITECH)",
 "한국수출입은행": "Export-Import Bank of Korea",
-"한국운수산업연구원": "Korea Transport Research Institute",
+"한국운수산업연구원": "Korea Research Institute of Transportation Industries (KRITI)",
 "한국의류산업학회지": "Journal of the Korean Society for Clothing Industry",
 "한국의류산업학회지 pISSN": "Journal of the Korean Society for Clothing Industry (pISSN)",
 "한국자동차공학회논문집": "Transactions of the Korean Society of Automotive Engineers",
@@ -1111,5 +1111,6 @@
 "감사중": "Under Audit",
 "감사완료": "Audited",
 "과제작성중": "In Preparation",
-"정산완료": "Settled"
+"정산완료": "Settled",
+"2006.03.01 ~ 현재 한양대학교 · 교수": "2006.03.01 ~ Present Hanyang University · Professor"
 }
