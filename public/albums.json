@@ -13,6 +13,96 @@
   "imageCountNote": "사진 원본을 내려받아 파일 형식과 크기를 검증했습니다. 원본 사진은 편집하지 않고 보관합니다.",
   "items": [
     {
+      "id": "drive-1_R_9ItTAImSRZhWQCfV5CgFOvoM5KkuQ",
+      "sourceId": "1_R_9ItTAImSRZhWQCfV5CgFOvoM5KkuQ",
+      "category": "연구 및 대외활동",
+      "title": "박지원 박사 특강",
+      "eventYear": "2026",
+      "postedDate": "2026-11-25",
+      "listedImageCount": 4,
+      "sourceUrl": "",
+      "note": "공유드라이브 동기화",
+      "description": "",
+      "images": [
+        {
+          "path": "/album-photos/drive-1_R_9ItTAImSRZhWQCfV5CgFOvoM5KkuQ-01.webp",
+          "caption": "",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "path": "/album-photos/drive-1_R_9ItTAImSRZhWQCfV5CgFOvoM5KkuQ-02.webp",
+          "caption": "",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "path": "/album-photos/drive-1_R_9ItTAImSRZhWQCfV5CgFOvoM5KkuQ-03.webp",
+          "caption": "",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "path": "/album-photos/drive-1_R_9ItTAImSRZhWQCfV5CgFOvoM5KkuQ-04.webp",
+          "caption": "",
+          "width": 1600,
+          "height": 900
+        }
+      ],
+      "driveStamp": "1rfKGHMA7t2-kcwpFz9di8augaKgJvL0k2026-11-25T06:17:49.645Z|1RdqM4G3cnbizAzjJ0f9LD2XASz-Q675x2026-11-25T06:17:49.663Z|1kw-W2zOuLwb-2LWn7p8MOptBPkd51c_y2026-11-25T06:17:50.579Z|1QxvDX3HrRzi-NzkXoGQIi5WJjJ8i2kY02026-11-25T06:17:48.570Z"
+    },
+    {
+      "id": "drive-1BQFK7sfjLSDlNJNBYUlqarzmdyElGsqc",
+      "sourceId": "1BQFK7sfjLSDlNJNBYUlqarzmdyElGsqc",
+      "category": "연구 및 대외활동",
+      "title": "김형수 박사 특강",
+      "eventYear": "2026",
+      "postedDate": "2026-11-24",
+      "listedImageCount": 6,
+      "sourceUrl": "",
+      "note": "공유드라이브 동기화",
+      "description": "",
+      "images": [
+        {
+          "path": "/album-photos/drive-1BQFK7sfjLSDlNJNBYUlqarzmdyElGsqc-01.webp",
+          "caption": "",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "path": "/album-photos/drive-1BQFK7sfjLSDlNJNBYUlqarzmdyElGsqc-02.webp",
+          "caption": "",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "path": "/album-photos/drive-1BQFK7sfjLSDlNJNBYUlqarzmdyElGsqc-03.webp",
+          "caption": "",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "path": "/album-photos/drive-1BQFK7sfjLSDlNJNBYUlqarzmdyElGsqc-04.webp",
+          "caption": "",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "path": "/album-photos/drive-1BQFK7sfjLSDlNJNBYUlqarzmdyElGsqc-05.webp",
+          "caption": "",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "path": "/album-photos/drive-1BQFK7sfjLSDlNJNBYUlqarzmdyElGsqc-06.webp",
+          "caption": "",
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "driveStamp": "1LbFfstDkqUWRgJCmAZXs-e1nL0tPMu972026-11-25T06:18:54.774Z|1C_beHHyn5UKUgUgLI36DS0ydvLdSViL92026-11-25T06:18:55.533Z|1OppZoZ3Ko1y9jgP0ceFWN1oPjJv1AXId2026-11-25T06:18:55.552Z|1bMGOKExC1q1X1tWG6ZPZCbJGaQA3gUZq2026-11-25T06:18:58.345Z|1SheI0aHx5YMeFU4Wq7raN0luRq5X_Wux2026-11-25T06:18:58.364Z|12neSvZ789JMH-_tGwpIjEZzkFo0kKbED2026-11-25T06:18:54.754Z"
+    },
+    {
       "id": "drive-1xuIm2D6xo8BAegFZ7fncYB2s1INWx6k3",
       "sourceId": "1xuIm2D6xo8BAegFZ7fncYB2s1INWx6k3",
       "category": "국제 학술활동",
